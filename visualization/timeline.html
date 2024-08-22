@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Interactive Movie Timeline</title>
+    <link rel="stylesheet" href="../assets/styles/styles_timeline.css" />
+    <script src="https://d3js.org/d3.v6.min.js"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400..800&family=Syne:wght@700..800&display=swap" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="../index.html">Main thesis page</a></li>
+          <li><a href="./visualization.html">Home</a></li>
+          <li><a href="./directors.html">Directors</a></li>
+          <li><a href="./network_graph.html">Network graph</a></li>
+          <li><a class="nav_li_active" href="./timeline.html">Timeline</a></li>
+          <li><a href="./treemap.html">Treemap</a></li>
+        </ul>
+      </nav>
+    </header>
+    <h3>Films Timeline</h3>
+    <div id="timeline"></div>
+    <script>
+      const margin = { top: 20, right: 30, bottom: 100, left: 50 };
+
+      // Adjust height to account for header and h3 element
+      let width = window.innerWidth - margin.left - margin.right;
+      let height = window.innerHeight - margin.top - margin.bottom - document.querySelector('header').offsetHeight - document.querySelector('h3').offsetHeight;
+
+      const svg = d3
+        .select('#timeline')
+        .append('svg')
+        .attr('width', width + margin.left + margin.right)
+        .attr('height', height + margin.top + margin.bottom)
+        .append('g')
+        .attr('transform', 'translate(' + margin.left + ',' + margin.top + ')');
+
+      const tooltip = d3.select('body').append('div').attr('class', 'tooltip');
+
+      d3.csv('../source/timeline.csv').then(function (data) {
+        const parseDate = d3.timeParse('%Y');
+        data.forEach((d) => {
+          d.datePublished = parseDate(d.datePublished);
+        });
+
+        const x = d3
+          .scaleTime()
+          .domain(d3.extent(data, (d) => d.datePublished))
+          .range([0, width]);
+
+        // Calculate the spacing between dots to avoid overlap
+        const ySpacing = height / data.length;
+
+        const y = d3
+          .scaleLinear()
+          .domain([0, data.length])
+          .range([height - ySpacing, 0 + ySpacing]); // Adjusted range to add spacing
+
+        const xAxis = svg
+          .append('g')
+          .attr('class', 'x axis')
+          .attr('transform', 'translate(0,' + height + ')')
+          .call(d3.axisBottom(x).ticks(d3.timeYear.every(1)))
+          .selectAll('text')
+          .attr('transform', 'rotate(-45)')
+          .style('text-anchor', 'end')
+          .attr('class', 'axis-label');
+
+        const yAxis = svg
+          .append('g')
+          .attr('class', 'y axis')
+          .call(d3.axisLeft(y).ticks(10))
+          .selectAll('text')
+          .attr('class', 'axis-label');
+
+        const circles = svg
+          .selectAll('circle')
+          .data(data)
+          .enter()
+          .append('circle')
+          .attr('cx', (d) => x(d.datePublished))
+          .attr('cy', (d, i) => y(i)) // Distribute along the y-axis stretching upwards with spacing
+          .attr('r', 6) // Smaller radius for smaller dots
+          .attr('class', 'movie-circle')
+          .on('mouseover', function (event, d) {
+            tooltip.transition().duration(200).style('opacity', 0.9);
+            tooltip
+              .html(
+                `<p class="p_timeline">${d.name}</p>${d3.timeFormat('%Y')(d.datePublished)}<br/><img class="poster" src="${d.image ? d.image : 'No Image Available'}" alt="No Image Available"/>`
+              )
+              .style('left', event.pageX + 15 + 'px')
+              .style('top', event.pageY - 28 + 'px');
+          })
+          .on('mouseout', function () {
+            tooltip.transition().duration(500).style('opacity', 0);
+          });
+
+        d3.select(window).on('resize', resize);
+
+        function resize() {
+          width = window.innerWidth - margin.left - margin.right;
+          height = window.innerHeight - margin.top - margin.bottom - document.querySelector('header').offsetHeight - document.querySelector('h3').offsetHeight;
+
+          svg
+            .attr('width', width + margin.left + margin.right)
+            .attr('height', height + margin.top + margin.bottom);
+
+          x.range([0, width]);
+          y.range([height - ySpacing, 0 + ySpacing]); // Adjusted range to add spacing
+
+          svg
+            .select('.x.axis')
+            .attr('transform', 'translate(0,' + height + ')')
+            .call(d3.axisBottom(x).ticks(d3.timeYear.every(1)))
+            .selectAll('text')
+            .attr('transform', 'rotate(-45)')
+            .style('text-anchor', 'end');
+
+          svg.select('.y.axis').call(d3.axisLeft(y).ticks(10));
+
+          circles
+            .attr('cx', (d) => x(d.datePublished))
+            .attr('cy', (d, i) => y(i)); // Distribute along the y-axis stretching upwards with spacing
+        }
+      });
+    </script>
+  </body>
+</html>

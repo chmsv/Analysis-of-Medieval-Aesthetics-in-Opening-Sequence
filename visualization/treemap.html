@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Medieval Films Adaptation Sources Treemap</title>
+    <link rel="stylesheet" href="../assets/styles/styles_treemap.css" />
+    <script src="https://d3js.org/d3.v6.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400..800&family=Syne:wght@700..800&display=swap"
+    />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="../index.html">Main thesis page</a></li>
+          <li><a href="./visualization.html">Home</a></li>
+          <li><a href="./directors.html">Directors</a></li>
+          <li><a href="./network_graph.html">Network graph</a></li>
+          <li><a href="./timeline.html">Timeline</a></li>
+          <li><a class="nav_li_active" href="./treemap.html">Treemap</a></li>
+        </ul>
+      </nav>
+    </header>
+    <h3>Medieval Films Adaptation Sources</h3>
+    <div id="chart"></div>
+    <script>
+      // Load the data
+      d3.json(
+        'https://raw.githubusercontent.com/chmsv/Analysis-of-Medieval-Aesthetics-in-Opening-Sequence/main/source/Medieval_Movies.jsonld'
+      ).then(function (data) {
+        const movies = data['@graph'];
+
+        // Process the data
+        const sourceHierarchy = {
+          name: 'Adaptation Sources',
+          children: [],
+        };
+
+        movies.forEach((movie) => {
+          const source = movie.isBasedOn.name;
+          let category = categorizeSource(source);
+
+          let categoryNode = sourceHierarchy.children.find(
+            (child) => child.name === category
+          );
+          if (!categoryNode) {
+            categoryNode = { name: category, children: [] };
+            sourceHierarchy.children.push(categoryNode);
+          }
+
+          let sourceNode = categoryNode.children.find(
+            (child) => child.name === source
+          );
+          if (!sourceNode) {
+            sourceNode = { name: source, value: 0, movies: [] };
+            categoryNode.children.push(sourceNode);
+          }
+          sourceNode.value++;
+          sourceNode.movies.push({
+            name: movie.name,
+            year: new Date(movie.datePublished).getFullYear(),
+          });
+        });
+
+        // Set up dimensions
+        const margin = { top: 10, right: 40, bottom: 10, left: 20 };
+        const width = window.innerWidth - margin.left - margin.right;
+        const height = window.innerHeight - 60 - margin.top - margin.bottom;
+
+        // Create color scale
+        const color = d3
+          .scaleOrdinal()
+          .domain(['Literature', 'Legend/Myth', 'Script', 'Hagiography'])
+          .range(['#242424', '#550000', '#3c3c3c', '#6e2c00']);
+
+        // Create the treemap layout
+        const treemap = d3
+          .treemap()
+          .size([width, height])
+          .padding(1)
+          .round(true);
+
+        // Create the root node
+        const root = d3
+          .hierarchy(sourceHierarchy)
+          .sum((d) => d.value)
+          .sort((a, b) => b.value - a.value);
+
+        // Generate the treemap data
+        treemap(root);
+
+        // Create SVG
+        const svg = d3
+          .select('#chart')
+          .append('svg')
+          .attr('width', width + margin.left + margin.right)
+          .attr('height', height + margin.top + margin.bottom)
+          .append('g')
+          .attr('transform', `translate(${margin.left},${margin.top})`);
+
+        // Create tooltip
+        const tooltip = d3
+          .select('body')
+          .append('div')
+          .attr('class', 'tooltip');
+
+        // Add the treemap cells
+        const cell = svg
+          .selectAll('g')
+          .data(root.leaves())
+          .enter()
+          .append('g')
+          .attr('transform', (d) => `translate(${d.x0},${d.y0})`);
+
+        cell
+          .append('rect')
+          .attr('width', (d) => d.x1 - d.x0)
+          .attr('height', (d) => d.y1 - d.y0)
+          .attr('fill', (d) => color(d.parent.data.name))
+          .attr('class', 'node')
+          .on('mouseover', showTooltip)
+          .on('mousemove', moveTooltip)
+          .on('mouseout', hideTooltip);
+
+        // Add labels
+        cell
+          .append('text')
+          .attr('class', 'node-label')
+          .selectAll('tspan')
+          .data((d) => d.data.name.split(/(?=[A-Z][^A-Z])/g))
+          .enter()
+          .append('tspan')
+          .attr('x', 4)
+          .attr('y', (d, i) => 13 + i * 10)
+          .text((d) => d);
+
+        // Add value labels
+        cell
+          .append('text')
+          .attr('class', 'node-value')
+          .attr('x', 4)
+          .attr('y', (d) => d.y1 - d.y0 - 4)
+          .text((d) => d.value);
+
+        function showTooltip(event, d) {
+          const movies = d.data.movies
+            .sort((a, b) => a.year - b.year)
+            .map((movie) => `${movie.name}, ${movie.year}`)
+            .join('<br>');
+          tooltip
+            .html(`${movies}`)
+            .style('opacity', 1)
+            .style('left', event.pageX + 10 + 'px')
+            .style('top', event.pageY - 10 + 'px');
+        }
+
+        function moveTooltip(event) {
+          tooltip
+            .style('left', event.pageX + 10 + 'px')
+            .style('top', event.pageY - 10 + 'px');
+        }
+
+        function hideTooltip() {
+          tooltip.style('opacity', 0);
+        }
+
+        function categorizeSource(source) {
+          const lowerSource = source.toLowerCase();
+          if (lowerSource.includes('legend') || lowerSource.includes('myth'))
+            return 'Legend/Myth';
+          if (lowerSource.includes('script')) return 'Script';
+          if (lowerSource.includes('hagiography')) return 'Hagiography';
+          return 'Literature';
+        }
+      });
+    </script>
+  </body>
+</html>

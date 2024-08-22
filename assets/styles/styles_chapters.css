@@ -1,0 +1,278 @@
+/* Main elements */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  color: var(--main-text-color);
+  background-color: var(--main-bg-color);
+  font-family: 'EB Garamond', serif;
+  font-weight: 400;
+
+  /* Variables */
+  --main-bg-color: #f1e6d6;
+  --main-text-color: #242424;
+  --main-header-color: #550000;
+  --accent-color: #6e6e6e;
+}
+
+h1,
+h2,
+h3 {
+  font-family: 'Syne', serif;
+  font-weight: 700;
+}
+
+h2 {
+  font-size: 2.2rem;
+  margin: 5% 20%;
+}
+
+h3 {
+  font-size: 1.75rem;
+  padding: 1.5rem;
+}
+
+.header_chapters {
+  color: var(--main-header-color);
+  text-align: center;
+}
+
+.content_chapters {
+  margin: 0 20%;
+  line-height: 2;
+  font-size: 1.2rem;
+  margin-bottom: 3rem;
+  text-align: center;
+}
+
+.content_chapters a {
+  color: var(--main-header-color);
+}
+
+.chapter_img {
+  max-width: 500px;
+}
+
+figure > img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+}
+
+.footnote-ref {
+  color: var(--main-header-color);
+}
+
+a {
+  color: var(--main-header-color);
+}
+
+figcaption {
+  font-size: 1rem;
+  font-style: italic;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  color: var(--accent-color);
+}
+
+figure + p {
+  padding-top: 1.5rem;
+}
+
+figure + figure {
+  padding-top: 1.5rem;
+}
+
+.film_list {
+  line-height: normal;
+  margin: 1.2rem auto;
+  list-style: none;
+  text-align: center;
+}
+
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1000;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.9);
+}
+.modal-content {
+  margin: auto;
+  display: block;
+  max-width: 90%;
+  max-height: 90%;
+}
+.close {
+  position: absolute;
+  top: 15px;
+  right: 35px;
+  color: #f1f1f1;
+  font-size: 40px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+.close:hover,
+.close:focus {
+  color: #bbb;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+section,
+#bibliography {
+  margin: 0 20%;
+  line-height: 1.5;
+  font-size: 1.2rem;
+}
+
+section p {
+  margin-bottom: 1.2rem;
+}
+
+.chapter_end {
+  font-size: 2rem;
+  text-align: center;
+}
+
+.footnotes-end-of-document {
+  margin-top: 5rem;
+  font-size: 1rem;
+  line-height: 1.2;
+}
+
+/* Header */
+
+header {
+  padding: 1rem;
+  text-align: right;
+  border-bottom: 2px solid var(--accent-color);
+  font-size: 1rem;
+  text-transform: uppercase;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 2rem;
+}
+
+nav ul li a {
+  color: var(--main-text-color);
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  color: var(--main-header-color);
+}
+
+.nav_li_active {
+  text-decoration: line-through;
+  color: var(--accent-color);
+  font-weight: bold;
+}
+
+/* Simple diagrams design */
+
+.diagram_gallery_wrap {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.diagram_gallery_wrap > article {
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+  flex-grow: 1;
+}
+
+.diagram_gallery_wrap > img {
+  max-height: 250px;
+  width: 100%;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+
+/* Footer */
+
+footer {
+  margin-top: 3rem;
+  padding: 2rem;
+  background-color: var(--accent-color);
+  color: var(--main-bg-color);
+}
+
+.footer-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+
+#a_footer {
+  color: var(--main-bg-color);
+}
+
+#a_footer:hover {
+  color: var(--main-header-color);
+}
+
+.footer-logo {
+  flex: 0 0 auto;
+  margin-right: 40px;
+}
+
+.footer-logo img {
+  max-height: 100px;
+  width: auto;
+}
+
+#ubfc_logo img {
+  max-width: 100px;
+  height: auto;
+}
+
+.footer-content {
+  flex: 1 1 auto;
+  max-width: 600px;
+}
+
+.footer-content p a:visited {
+  color: var(--main-header-color);
+}
+
+@media (max-width: 1024px) {
+  .footer-container {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .footer-logo {
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+
+  .footer-content {
+    margin-top: 20px;
+  }
+}

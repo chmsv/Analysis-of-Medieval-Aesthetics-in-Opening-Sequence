@@ -1,0 +1,101 @@
+*,
+body,
+html {
+  /* Variables */
+  --main-bg-color: #f1e6d6;
+  --main-text-color: #242424;
+  --main-header-color: #550000;
+  --accent-color: #6e6e6e;
+
+  font-family: 'EB Garamond', serif;
+  background-color: var(--main-bg-color);
+  color: var(--main-text-color);
+  margin: 0;
+  padding: 0;
+  /* Remove overflow: hidden */
+}
+
+h3 {
+  font-family: 'Syne', serif;
+  color: var(--main-header-color);
+  font-size: 1.75rem;
+  font-weight: 700;
+  text-align: center;
+  margin: 20px;
+}
+
+/* Header */
+
+header {
+  padding: 1rem;
+  text-align: right;
+  border-bottom: 2px solid var(--accent-color);
+  font-size: 1rem;
+  text-transform: uppercase;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 2rem;
+}
+
+nav ul li a {
+  color: var(--main-text-color);
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  color: var(--main-header-color);
+}
+
+.nav_li_active {
+  text-decoration: line-through;
+  color: var(--accent-color);
+  font-weight: bold;
+}
+
+/* Treemap */
+#chart {
+  width: 100vw;
+  height: calc(100vh - 60px);
+}
+.node {
+  stroke: #f1e6d6;
+  stroke-width: 1px;
+  cursor: pointer;
+}
+.node-label {
+  font-size: 12px;
+  font-family: 'EB Garamond', serif;
+  fill: #f1e6d6;
+  pointer-events: none;
+}
+.node-value {
+  font-size: 12px;
+  font-family: 'EB Garamond', serif;
+  fill: #f1e6d6;
+  opacity: 0.7;
+  pointer-events: none;
+}
+.tooltip {
+  position: absolute;
+  background-color: #f1e6d6;
+  color: #242424;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 14px;
+  pointer-events: none;
+  opacity: 0;
+  transition: opacity 0.3s;
+  max-width: 300px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.tooltip strong {
+  font-family: 'Syne', sans-serif;
+  font-weight: 800;
+}

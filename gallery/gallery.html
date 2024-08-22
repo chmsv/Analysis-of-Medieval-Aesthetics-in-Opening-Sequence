@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Medieval Movies Database</title>
+    <link rel="stylesheet" href="./gallery_style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;700&family=Syne:wght@700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="../index.html">Home</a></li>
+          <li>
+            <a href="../case-studies.html">Case studies</a>
+          </li>
+          <li><a class="nav_li_active" href="./gallery/gallery.html">Gallery</a></li>
+          <li><a href="../visualization/visualization.html">Data visualization</a></li>
+        </ul>
+      </nav>
+    </header>
+    <h1>Medieval Movies Database</h1>
+    <div class="filters">
+      <div class="filter-group">
+        <div class="custom-dropdown">
+          <div class="dropdown-header">Year</div>
+          <div class="dropdown-list" id="yearFilter"></div>
+        </div>
+        <div class="custom-dropdown">
+          <div class="dropdown-header">Director</div>
+          <input
+            type="text"
+            class="dropdown-search"
+            placeholder="Start typing..."
+          />
+          <div class="dropdown-list" id="directorFilter"></div>
+        </div>
+        <div class="custom-dropdown">
+          <div class="dropdown-header">Production Company</div>
+          <input
+            type="text"
+            class="dropdown-search"
+            placeholder="Start typing..."
+          />
+          <div class="dropdown-list" id="productionCompanyFilter"></div>
+        </div>
+        <div class="custom-dropdown">
+          <div class="dropdown-header">Country, Production</div>
+          <input
+            type="text"
+            class="dropdown-search"
+            placeholder="Start typing..."
+          />
+          <div class="dropdown-list" id="countryProductionFilter"></div>
+        </div>
+        <div class="custom-dropdown">
+          <div class="dropdown-header">Country, Setting</div>
+          <input
+            type="text"
+            class="dropdown-search"
+            placeholder="Start typing..."
+          />
+          <div class="dropdown-list" id="countrySettingFilter"></div>
+        </div>
+        <div class="custom-dropdown">
+          <div class="dropdown-header">Period</div>
+          <div class="dropdown-list" id="periodFilter"></div>
+        </div>
+        <div class="custom-dropdown">
+          <div class="dropdown-header">Genre</div>
+          <div class="dropdown-list" id="genreFilter"></div>
+        </div>
+        <div class="custom-dropdown">
+          <div class="dropdown-header">Literary Source</div>
+          <input
+            type="text"
+            class="dropdown-search"
+            placeholder="Start typing..."
+          />
+          <div class="dropdown-list" id="literarySourceFilter"></div>
+        </div>
+      </div>
+      <div id="selectedFilters" class="selected-filters"></div>
+      <div class="keyword-cloud-container">
+        <h3 class="keyword-cloud-toggle">
+          Keywords
+          <span class="toggle-arrow">▼</span>
+        </h3>
+        <div id="keywordCloud" class="keyword-cloud hidden"></div>
+      </div>
+      <button id="applyFilters">Apply filters</button>
+    </div>
+    <div class="gallery" id="movieGallery"></div>
+    <script src="./gallery_script.js"></script>
+  </body>
+</html>

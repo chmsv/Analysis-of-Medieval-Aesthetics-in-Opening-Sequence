@@ -1,0 +1,85 @@
+*,
+body,
+html {
+  /* Variables */
+  --main-bg-color: #f1e6d6;
+  --main-text-color: #242424;
+  --main-header-color: #550000;
+  --accent-color: #6e6e6e;
+
+  font-family: 'EB Garamond', serif;
+  background-color: var(--main-bg-color);
+  color: var(--main-text-color);
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+h3 {
+  font-family: 'Syne', serif;
+  color: var(--main-header-color);
+  font-size: 1.75rem;
+  font-weight: 700;
+  text-align: center;
+  margin: 20px;
+}
+
+.p_visualizations {
+  font-size: 1rem;
+  text-indent: 1.5rem;
+  text-align: center;
+    margin: 20px;
+}
+
+/* Header */
+
+header {
+  padding: 1rem;
+  text-align: right;
+  border-bottom: 2px solid var(--accent-color);
+  font-size: 1rem;
+  text-transform: uppercase;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 2rem;
+}
+
+nav ul li a {
+  color: var(--main-text-color);
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  color: var(--main-header-color);
+}
+
+.nav_li_active {
+  text-decoration: line-through;
+  color: var(--accent-color);
+  font-weight: bold;
+}
+
+/* Directors */
+#chart {
+  width: 100vw;
+  height: calc(100vh - 50px);
+}
+.links line {
+  stroke: var(--accent-color);
+  stroke-opacity: 0.6;
+}
+.nodes circle {
+  stroke: whitesmoke;
+  stroke-width: 1.5px;
+}
+.node-label {
+  font-size: 14px;
+  pointer-events: none;
+}

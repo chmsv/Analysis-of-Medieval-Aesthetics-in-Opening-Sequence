@@ -1,0 +1,2802 @@
+{
+  "nodes": [
+    {
+      "group": "movie", 
+      "id": "Bluebeard"
+    }, 
+    {
+      "group": "director", 
+      "id": "Georges Méliès"
+    }, 
+    {
+      "group": "productionCompany", 
+      "id": "Star Film"
+    }, 
+    {
+      "group": "genre", 
+      "id": "Fiction"
+    }, 
+    {
+      "group": "movie", 
+      "id": "The Treasures of Satan"
+    }, 
+    {
+      "group": "movie", 
+      "id": "The Witch"
+    }, 
+    {
+      "group": "movie", 
+      "id": "The Hunchback of Notre Dame"
+    }, 
+    {
+      "group": "director", 
+      "id": "Albert Capellani"
+    }, 
+    {
+      "group": "productionCompany", 
+      "id": "Pathé"
+    }, 
+    {
+      "group": "movie", 
+      "id": "Lady Godiva"
+    }, 
+    {
+      "group": "director", 
+      "id": "Charles Kent"
+    }, 
+    {
+      "group": "productionCompany", 
+      "id": "Vitagraph Company of America"
+    }, 
+    {
+      "group": "genre", 
+      "id": "Legend"
+    }, 
+    {
+      "group": "movie", 
+      "id": "The Life and Death of King Richard III"
+    }, 
+    {
+      "group": "director", 
+      "id": "André Calmettes"
+    }, 
+    {
+      "group": "director", 
+      "id": "James Keane"
+    }, 
+    {
+      "group": "productionCompany", 
+      "id": "Sterling Camera and Film Company"
+    }, 
+    {
+      "group": "productionCompany", 
+      "id": "Le Film d'art"
+    }, 
+    {
+      "group": "productionCompany", 
+      "id": "M.B. Dudley Amusement Co."
+    }, 
+    {
+      "group": "genre", 
+      "id": "History"
+    }, 
+    {
+      "group": "movie", 
+      "id": "The Miracle"
+    }, 
+    {
+      "group": "director", 
+      "id": "Michel Carré"
+    }, 
+    {
+      "group": "productionCompany", 
+      "id": "Continental-Kunstfilm"
+    }, 
+    {
+      "group": "movie", 
+      "id": "Hamlet"
+    }, 
+    {
+      "group": "director", 
+      "id": "Heinz Schall"
+    }, 
+    {
+      "group": "productionCompany", 
+      "id": "Società Italiana Cines"
+    }, 
+    {
+      "group": "productionCompany", 
+      "id": "Rodolfifilm"
+    }, 
+    {
+      "group": "movie", 
+      "id": "Jerusalem Liberated "
+    }, 
+    {
+      "group": "director", 
+      "id": "Enrico Guazzoni"
+    }, 
+    {
+      "group": "movie", 
+      "id": "Wilhelm Tell"
+    }, 
+    {
+      "group": "director", 
+      "id": "Rudolf Walther-Fein"
+    }, 
+    {
+      "group": "director", 
+      "id": "Rudolf Dworsky"
+    }, 
+    {
+      "group": "productionCompany", 
+      "id": "Althoff-Ambos-Film"
+    }, 
+    {
+      "group": "movie", 
+      "id": "The Hunchback of Notre Dame"
+    }, 
+    {
+      "group": "director", 
+      "id": "Wallace Worsley"
+    }, 
+    {
+      "group": "productionCompany", 
+      "id": "Universal Pictures"
+    }, 
+    {
+      "group": "movie", 
+      "id": "Miracle of the Wolves"
+    }, 
+    {
+      "group": "director", 
+      "id": "Raymond Bernard"
+    }, 
+    {
+      "group": "productionCompany", 
+      "id": "Société des Films Historiques"
+    }, 
+    {
+      "group": "movie", 
+      "id": "The Nibelungs: Siegfried"
+    }, 
+    {
+      "group": "director", 
+      "id": "Fritz Lang"
+    }, 
+    {
+      "group": "productionCompany", 
+      "id": "UFA"
+    }, 
+    {
+      "group": "productionCompany", 
+      "id": "Decla-Bioscop"
+    }, 
+    {
+      "group": "movie", 
+      "id": "The Nibelungs: Kriemhild's Revenge"
+    }, 
+    {
+      "group": "movie", 
+      "id": "The Devil in the City"
+    }, 
+    {
+      "group": "director", 
+      "id": "Germaine Dulac"
+    }, 
+    {
+      "group": "productionCompany", 
+      "id": "Films de France"
+    }, 
+    {
+      "group": "movie", 
+      "id": "The Beloved Rogue"
+    }, 
+    {
+      "group": "director", 
+      "id": "Alan Crosland"
+    }, 
+    {
+      "group": "productionCompany", 
+      "id": "Feature Productions"
+    }, 
+    {
+      "group": "movie", 
+      "id": "Saint Joan the Maid"
+    }, 
+    {
+      "group": "director", 
+      "id": "Marco de Gastyne"
+    }, 
+    {
+      "group": "productionCompany", 
+      "id": "Rapid Film"
+    }, 
+    {
+      "group": "productionCompany", 
+      "id": "Pathé-Natan"
+    }, 
+    {
+      "group": "movie", 
+      "id": "Anthony of Padua, The Saint of Miracles"
+    }, 
+    {
+      "group": "director", 
+      "id": "Giulio Antamoro"
+    }, 
+    {
+      "group": "productionCompany", 
+      "id": "Società Anonima Cinematografie Religiose Artistiche Sonore (SACRAS)"
+    }, 
+    {
+      "group": "movie", 
+      "id": "Wilhelm Tell"
+    }, 
+    {
+      "group": "director", 
+      "id": "Heinz Paul"
+    }, 
+    {
+      "group": "productionCompany", 
+      "id": "Terra-Filmkunst"
+    }, 
+    {
+      "group": "movie", 
+      "id": "Adémaï in the Middle Ages"
+    }, 
+    {
+      "group": "director", 
+      "id": "Jean de Marguenat"
+    }, 
+    {
+      "group": "productionCompany", 
+      "id": "Lutèce Films"
+    }, 
+    {
+      "group": "movie", 
+      "id": "If I Were King"
+    }, 
+    {
+      "group": "director", 
+      "id": "Frank Lloyd"
+    }, 
+    {
+      "group": "productionCompany", 
+      "id": "Paramount Pictures"
+    }, 
+    {
+      "group": "movie", 
+      "id": "The Adventures of Robin Hood"
+    }, 
+    {
+      "group": "director", 
+      "id": "Michael Curtiz"
+    }, 
+    {
+      "group": "director", 
+      "id": "William Keighley"
+    }, 
+    {
+      "group": "productionCompany", 
+      "id": "Warner Bros. Pictures"
+    }, 
+    {
+      "group": "movie", 
+      "id": "The Adventures of Marco Polo"
+    }, 
+    {
+      "group": "director", 
+      "id": "Archie Mayo"
+    }, 
+    {
+      "group": "productionCompany", 
+      "id": "Samuel Goldwyn Productions"
+    }, 
+    {
+      "group": "movie", 
+      "id": "The Hunchback of Notre Dame"
+    }, 
+    {
+      "group": "director", 
+      "id": "William Dieterle"
+    }, 
+    {
+      "group": "productionCompany", 
+      "id": "RKO Radio Pictures"
+    }, 
+    {
+      "group": "movie", 
+      "id": "The Iron Crown"
+    }, 
+    {
+      "group": "director", 
+      "id": "Alessandro Blasetti"
+    }, 
+    {
+      "group": "productionCompany", 
+      "id": "ENIC"
+    }, 
+    {
+      "group": "productionCompany", 
+      "id": "Lux Film"
+    }, 
+    {
+      "group": "movie", 
+      "id": "The Gorgon"
+    }, 
+    {
+      "group": "director", 
+      "id": "Guido Brignone"
+    }, 
+    {
+      "group": "productionCompany", 
+      "id": "Artisti Associati"
+    }, 
+    {
+      "group": "productionCompany", 
+      "id": "Florentia Film"
+    }, 
+    {
+      "group": "movie", 
+      "id": "The Devil's Envoys"
+    }, 
+    {
+      "group": "director", 
+      "id": "Marcel Carné"
+    }, 
+    {
+      "group": "productionCompany", 
+      "id": "Productions André Paulvé"
+    }, 
+    {
+      "group": "movie", 
+      "id": "Henry V"
+    }, 
+    {
+      "group": "director", 
+      "id": "Laurence Olivier"
+    }, 
+    {
+      "group": "productionCompany", 
+      "id": "Two Cities Films"
+    }, 
+    {
+      "group": "productionCompany", 
+      "id": "J. Arthur Rank Organisation"
+    }, 
+    {
+      "group": "movie", 
+      "id": "Inés de Castro"
+    }, 
+    {
+      "group": "director", 
+      "id": "José Leitão de Barros"
+    }, 
+    {
+      "group": "director", 
+      "id": "Manuel Augusto García Viñolas"
+    }, 
+    {
+      "group": "productionCompany", 
+      "id": "Faro"
+    }, 
+    {
+      "group": "productionCompany", 
+      "id": "Filmes Lumiar"
+    }, 
+    {
+      "group": "movie", 
+      "id": "Kashchey the Immortal"
+    }, 
+    {
+      "group": "director", 
+      "id": "Aleksandr Rou"
+    }, 
+    {
+      "group": "productionCompany", 
+      "id": "Soyuzdetfilm"
+    }, 
+    {
+      "group": "productionCompany", 
+      "id": "Gorky Film Studios"
+    }, 
+    {
+      "group": "movie", 
+      "id": "The Bandit of Sherwood Forest"
+    }, 
+    {
+      "group": "director", 
+      "id": "Henry Levin"
+    }, 
+    {
+      "group": "director", 
+      "id": "George Sherman"
+    }, 
+    {
+      "group": "productionCompany", 
+      "id": "Columbia Pictures"
+    }, 
+    {
+      "group": "movie", 
+      "id": "The Holy Crown"
+    }, 
+    {
+      "group": "director", 
+      "id": "Rafael Gil, Henrique Campos, Aníbal Contreiras"
+    }, 
+    {
+      "group": "productionCompany", 
+      "id": "Filmes Albuquerque"
+    }, 
+    {
+      "group": "productionCompany", 
+      "id": "Cesáreo González"
+    }, 
+    {
+      "group": "movie", 
+      "id": "Warriors of Faith"
+    }, 
+    {
+      "group": "director", 
+      "id": "Vladimír Borský"
+    }, 
+    {
+      "group": "productionCompany", 
+      "id": "Československá filmová společnost"
+    }, 
+    {
+      "group": "movie", 
+      "id": "The Prince Of Thieves"
+    }, 
+    {
+      "group": "director", 
+      "id": "Howard Bretherton"
+    }, 
+    {
+      "group": "movie", 
+      "id": "The Black Arrow"
+    }, 
+    {
+      "group": "director", 
+      "id": "Gordon Douglas"
+    }, 
+    {
+      "group": "productionCompany", 
+      "id": "Edward Small Productions"
+    }, 
+    {
+      "group": "movie", 
+      "id": "Fiddlers Three"
+    }, 
+    {
+      "group": "director", 
+      "id": "Jules White"
+    }, 
+    {
+      "group": "movie", 
+      "id": "The Wind Is My Lover"
+    }, 
+    {
+      "group": "director", 
+      "id": "Christian-Jaque"
+    }, 
+    {
+      "group": "productionCompany", 
+      "id": "Terrafilm"
+    }, 
+    {
+      "group": "productionCompany", 
+      "id": "Roissy Films"
+    }, 
+    {
+      "group": "movie", 
+      "id": "The Adventures of Sir Galahad"
+    }, 
+    {
+      "group": "director", 
+      "id": "Spencer Gordon Bennet"
+    }, 
+    {
+      "group": "productionCompany", 
+      "id": "Sam Katzman Productions"
+    }, 
+    {
+      "group": "movie", 
+      "id": "A Connecticut Yankee in King Arthur's Court"
+    }, 
+    {
+      "group": "director", 
+      "id": "Tay Garnett"
+    }, 
+    {
+      "group": "movie", 
+      "id": "Christopher Columbus"
+    }, 
+    {
+      "group": "director", 
+      "id": "David MacDonald"
+    }, 
+    {
+      "group": "productionCompany", 
+      "id": "Sydney Box Productions"
+    }, 
+    {
+      "group": "productionCompany", 
+      "id": "Gainsborough Pictures"
+    }, 
+    {
+      "group": "movie", 
+      "id": "Sicilian Uprising"
+    }, 
+    {
+      "group": "director", 
+      "id": "Giorgio Pàstina"
+    }, 
+    {
+      "group": "productionCompany", 
+      "id": "Epica Film"
+    }, 
+    {
+      "group": "productionCompany", 
+      "id": "Società Anonima Film Italiani Roma (SAFIR)"
+    }, 
+    {
+      "group": "movie", 
+      "id": "The Iron Swordsman"
+    }, 
+    {
+      "group": "director", 
+      "id": "Riccardo Freda"
+    }, 
+    {
+      "group": "productionCompany", 
+      "id": "Forum Film"
+    }, 
+    {
+      "group": "movie", 
+      "id": "Du Guesclin"
+    }, 
+    {
+      "group": "director", 
+      "id": "Bernard de Latour"
+    }, 
+    {
+      "group": "productionCompany", 
+      "id": "Les Films du Verseau"
+    }, 
+    {
+      "group": "movie", 
+      "id": "The Black Rose"
+    }, 
+    {
+      "group": "director", 
+      "id": "Henry Hathaway"
+    }, 
+    {
+      "group": "productionCompany", 
+      "id": "20th Century Fox"
+    }, 
+    {
+      "group": "movie", 
+      "id": "The Flame and the Arrow"
+    }, 
+    {
+      "group": "director", 
+      "id": "Jacques Tourneur"
+    }, 
+    {
+      "group": "productionCompany", 
+      "id": "Norma-F.R. Productions"
+    }, 
+    {
+      "group": "movie", 
+      "id": "Legend of Love"
+    }, 
+    {
+      "group": "director", 
+      "id": "Raffaello Matarazzo"
+    }, 
+    {
+      "group": "movie", 
+      "id": "Rogues Of Sherwood Forest"
+    }, 
+    {
+      "group": "movie", 
+      "id": "Margaret of Cortona"
+    }, 
+    {
+      "group": "director", 
+      "id": "Mario Bonnard"
+    }, 
+    {
+      "group": "productionCompany", 
+      "id": "Scalera Film"
+    }, 
+    {
+      "group": "productionCompany", 
+      "id": "Secolo Film"
+    }, 
+    {
+      "group": "movie", 
+      "id": "Tales of Robin Hood"
+    }, 
+    {
+      "group": "director", 
+      "id": "James Tinling"
+    }, 
+    {
+      "group": "productionCompany", 
+      "id": "R & L Productions"
+    }, 
+    {
+      "group": "movie", 
+      "id": "Bluebeard"
+    }, 
+    {
+      "group": "productionCompany", 
+      "id": "Alcina"
+    }, 
+    {
+      "group": "movie", 
+      "id": "The Evil Forest "
+    }, 
+    {
+      "group": "director", 
+      "id": "Daniel Mangrané"
+    }, 
+    {
+      "group": "productionCompany", 
+      "id": "Selecciones Huguet"
+    }, 
+    {
+      "group": "movie", 
+      "id": "The Cloister of Martins"
+    }, 
+    {
+      "group": "director", 
+      "id": "Richard Häussler"
+    }, 
+    {
+      "group": "productionCompany", 
+      "id": "Peter Ostermayr Produktion"
+    }, 
+    {
+      "group": "movie", 
+      "id": "Dawn of America"
+    }, 
+    {
+      "group": "director", 
+      "id": "Juan de Orduña"
+    }, 
+    {
+      "group": "productionCompany", 
+      "id": "Compañía Industrial Film Español S.A. (CIFESA)"
+    }, 
+    {
+      "group": "movie", 
+      "id": "Ivanhoe"
+    }, 
+    {
+      "group": "director", 
+      "id": "Richard Thorpe"
+    }, 
+    {
+      "group": "productionCompany", 
+      "id": "Metro-Goldwyn-Mayer"
+    }, 
+    {
+      "group": "productionCompany", 
+      "id": "Loew's Incorporated"
+    }, 
+    {
+      "group": "movie", 
+      "id": "Judgement of God"
+    }, 
+    {
+      "group": "productionCompany", 
+      "id": "B.U.P. Française"
+    }, 
+    {
+      "group": "movie", 
+      "id": "Wonderful Adventures of Guerrin Meschino"
+    }, 
+    {
+      "group": "director", 
+      "id": "Pietro Francisci"
+    }, 
+    {
+      "group": "productionCompany", 
+      "id": "Oro Film"
+    }, 
+    {
+      "group": "productionCompany", 
+      "id": "Unicinematografica"
+    }, 
+    {
+      "group": "movie", 
+      "id": "La Favorita"
+    }, 
+    {
+      "group": "director", 
+      "id": "Cesare Barlacchi"
+    }, 
+    {
+      "group": "productionCompany", 
+      "id": "M.A.S. Film"
+    }, 
+    {
+      "group": "movie", 
+      "id": "The Monastery's Hunter"
+    }, 
+    {
+      "group": "director", 
+      "id": "Harald Reinl"
+    }, 
+    {
+      "group": "movie", 
+      "id": "Old Czech Legends"
+    }, 
+    {
+      "group": "director", 
+      "id": "Jiří Trnka"
+    }, 
+    {
+      "group": "productionCompany", 
+      "id": "Loutkový film Praha"
+    }, 
+    {
+      "group": "genre", 
+      "id": "Animation"
+    }, 
+    {
+      "group": "movie", 
+      "id": "Knights of the Round Table"
+    }, 
+    {
+      "group": "productionCompany", 
+      "id": "Metro-Goldwyn-Mayer British Studios"
+    }, 
+    {
+      "group": "movie", 
+      "id": "Decameron Nights"
+    }, 
+    {
+      "group": "director", 
+      "id": "Hugo Fregonese"
+    }, 
+    {
+      "group": "productionCompany", 
+      "id": "Frankovich Productions"
+    }, 
+    {
+      "group": "movie", 
+      "id": "Prince Valiant"
+    }, 
+    {
+      "group": "movie", 
+      "id": "The Men of Sherwood Forest"
+    }, 
+    {
+      "group": "director", 
+      "id": "Val Guest"
+    }, 
+    {
+      "group": "productionCompany", 
+      "id": "Hammer Film Productions"
+    }, 
+    {
+      "group": "movie", 
+      "id": "The Saracen Blade"
+    }, 
+    {
+      "group": "director", 
+      "id": "William Castle"
+    }, 
+    {
+      "group": "movie", 
+      "id": "Joan of Arc at the Stake"
+    }, 
+    {
+      "group": "director", 
+      "id": "Roberto Rossellini"
+    }, 
+    {
+      "group": "productionCompany", 
+      "id": "Franco London Films"
+    }, 
+    {
+      "group": "productionCompany", 
+      "id": "Produzioni Cinematografiche Associate"
+    }, 
+    {
+      "group": "movie", 
+      "id": "The Black Shield of Falworth"
+    }, 
+    {
+      "group": "director", 
+      "id": "Rudolph Maté"
+    }, 
+    {
+      "group": "productionCompany", 
+      "id": "Universal International Pictures"
+    }, 
+    {
+      "group": "movie", 
+      "id": "King Richard and the Crusaders"
+    }, 
+    {
+      "group": "director", 
+      "id": "David Butler"
+    }, 
+    {
+      "group": "movie", 
+      "id": "The Black Knight"
+    }, 
+    {
+      "group": "productionCompany", 
+      "id": "Warwick Film Productions"
+    }, 
+    {
+      "group": "movie", 
+      "id": "Lady Godiva of Coventry"
+    }, 
+    {
+      "group": "director", 
+      "id": "Arthur Lubin"
+    }, 
+    {
+      "group": "movie", 
+      "id": "Quentin Durward"
+    }, 
+    {
+      "group": "movie", 
+      "id": "Tower of Lust"
+    }, 
+    {
+      "group": "director", 
+      "id": "Abel Gance"
+    }, 
+    {
+      "group": "productionCompany", 
+      "id": "Film Costellazione"
+    }, 
+    {
+      "group": "productionCompany", 
+      "id": "Les Films Fernand Rivers"
+    }, 
+    {
+      "group": "movie", 
+      "id": "Jan Hus"
+    }, 
+    {
+      "group": "director", 
+      "id": "Otakar Vávra"
+    }, 
+    {
+      "group": "productionCompany", 
+      "id": "Studio uměleckého filmu Praha"
+    }, 
+    {
+      "group": "movie", 
+      "id": "The Warrior"
+    }, 
+    {
+      "group": "productionCompany", 
+      "id": "Allied Artists Pictures"
+    }, 
+    {
+      "group": "movie", 
+      "id": "Richard III"
+    }, 
+    {
+      "group": "productionCompany", 
+      "id": "London Films Productions"
+    }, 
+    {
+      "group": "productionCompany", 
+      "id": "L.O.P."
+    }, 
+    {
+      "group": "movie", 
+      "id": "The Sword and the Dragon"
+    }, 
+    {
+      "group": "director", 
+      "id": "Aleksandr Ptushko"
+    }, 
+    {
+      "group": "productionCompany", 
+      "id": "Mosfilm"
+    }, 
+    {
+      "group": "movie", 
+      "id": "Roland the Mighty"
+    }, 
+    {
+      "group": "productionCompany", 
+      "id": "Italgamma"
+    }, 
+    {
+      "group": "movie", 
+      "id": "I am Catherine"
+    }, 
+    {
+      "group": "director", 
+      "id": "Oreste Palella"
+    }, 
+    {
+      "group": "productionCompany", 
+      "id": "Arciere"
+    }, 
+    {
+      "group": "productionCompany", 
+      "id": "Arena Cin.ca"
+    }, 
+    {
+      "group": "movie", 
+      "id": "Saint Joan"
+    }, 
+    {
+      "group": "director", 
+      "id": "Otto Preminger"
+    }, 
+    {
+      "group": "productionCompany", 
+      "id": "Wheel Productions"
+    }, 
+    {
+      "group": "productionCompany", 
+      "id": "United Artists"
+    }, 
+    {
+      "group": "movie", 
+      "id": "The Mighty Crusaders"
+    }, 
+    {
+      "group": "director", 
+      "id": "Carlo Ludovico Bragaglia"
+    }, 
+    {
+      "group": "productionCompany", 
+      "id": "Max Film"
+    }, 
+    {
+      "group": "movie", 
+      "id": "The Pied Piper of Hamelin"
+    }, 
+    {
+      "group": "director", 
+      "id": "Bretaigne Windust"
+    }, 
+    {
+      "group": "productionCompany", 
+      "id": "Hal Stanley Productions"
+    }, 
+    {
+      "group": "movie", 
+      "id": "The Saga of the Viking Women and Their Voyage to the Waters of the Great Sea Serpent"
+    }, 
+    {
+      "group": "director", 
+      "id": "Roger Corman"
+    }, 
+    {
+      "group": "productionCompany", 
+      "id": "Malibu Productions"
+    }, 
+    {
+      "group": "movie", 
+      "id": "The Vikings"
+    }, 
+    {
+      "group": "director", 
+      "id": "Richard Fleischer"
+    }, 
+    {
+      "group": "productionCompany", 
+      "id": "Brynaprod S.A."
+    }, 
+    {
+      "group": "productionCompany", 
+      "id": "Curtleigh Productions"
+    }, 
+    {
+      "group": "movie", 
+      "id": "Son of Robin Hood"
+    }, 
+    {
+      "group": "productionCompany", 
+      "id": "Argo Film Productions"
+    }, 
+    {
+      "group": "movie", 
+      "id": "The Shepherd from Trutzberg"
+    }, 
+    {
+      "group": "director", 
+      "id": "Eduard von Borsody"
+    }, 
+    {
+      "group": "movie", 
+      "id": "Attack of the Moors"
+    }, 
+    {
+      "group": "director", 
+      "id": "Mario Costa"
+    }, 
+    {
+      "group": "productionCompany", 
+      "id": "Schermi Produzione"
+    }, 
+    {
+      "group": "movie", 
+      "id": "Sleeping Beauty"
+    }, 
+    {
+      "group": "director", 
+      "id": "Eric Larson"
+    }, 
+    {
+      "group": "director", 
+      "id": "Wolfgang Reitherman"
+    }, 
+    {
+      "group": "director", 
+      "id": "Clyde Geronimi"
+    }, 
+    {
+      "group": "director", 
+      "id": "Les Clark"
+    }, 
+    {
+      "group": "productionCompany", 
+      "id": "Walt Disney Productions"
+    }, 
+    {
+      "group": "movie", 
+      "id": "Fury of the Pagans"
+    }, 
+    {
+      "group": "director", 
+      "id": "Guido Malatesta"
+    }, 
+    {
+      "group": "productionCompany", 
+      "id": "Arion Film"
+    }, 
+    {
+      "group": "movie", 
+      "id": "Sword of Sherwood Forest"
+    }, 
+    {
+      "group": "director", 
+      "id": "Terence Fisher"
+    }, 
+    {
+      "group": "movie", 
+      "id": "Blood on His Sword"
+    }, 
+    {
+      "group": "director", 
+      "id": "André Hunebelle"
+    }, 
+    {
+      "group": "productionCompany", 
+      "id": "Da.Ma. Cinematografica"
+    }, 
+    {
+      "group": "productionCompany", 
+      "id": "P.A.C. Société"
+    }, 
+    {
+      "group": "productionCompany", 
+      "id": "Nouvelle Pathé Cinéma"
+    }, 
+    {
+      "group": "movie", 
+      "id": "Francis of Assisi"
+    }, 
+    {
+      "group": "productionCompany", 
+      "id": "Perseus Productions"
+    }, 
+    {
+      "group": "movie", 
+      "id": "Charge of the Black Lancers"
+    }, 
+    {
+      "group": "director", 
+      "id": "Giacomo Gentilomo"
+    }, 
+    {
+      "group": "productionCompany", 
+      "id": "C.F.S. Košutnjak"
+    }, 
+    {
+      "group": "productionCompany", 
+      "id": "France Cinéma Productions"
+    }, 
+    {
+      "group": "movie", 
+      "id": "The Magic Sword"
+    }, 
+    {
+      "group": "director", 
+      "id": "Bert I. Gordon"
+    }, 
+    {
+      "group": "productionCompany", 
+      "id": "Bert I. Gordon Productions"
+    }, 
+    {
+      "group": "movie", 
+      "id": "Tower of London"
+    }, 
+    {
+      "group": "productionCompany", 
+      "id": "Admiral Pictures"
+    }, 
+    {
+      "group": "movie", 
+      "id": "Good King Dagobert"
+    }, 
+    {
+      "group": "director", 
+      "id": "Pierre Chevalier"
+    }, 
+    {
+      "group": "productionCompany", 
+      "id": "Cineurop"
+    }, 
+    {
+      "group": "productionCompany", 
+      "id": "Filmerc"
+    }, 
+    {
+      "group": "productionCompany", 
+      "id": "Opening Production"
+    }, 
+    {
+      "group": "movie", 
+      "id": "Kaloyan"
+    }, 
+    {
+      "group": "director", 
+      "id": "Dako Dakovski"
+    }, 
+    {
+      "group": "productionCompany", 
+      "id": "Boyana Film"
+    }, 
+    {
+      "group": "movie", 
+      "id": "Siege of the Saxons"
+    }, 
+    {
+      "group": "director", 
+      "id": "Nathan H. Juran"
+    }, 
+    {
+      "group": "productionCompany", 
+      "id": "Ameran Films"
+    }, 
+    {
+      "group": "movie", 
+      "id": "The Tyrant of Castile"
+    }, 
+    {
+      "group": "director", 
+      "id": "Ferdinando Baldi"
+    }, 
+    {
+      "group": "productionCompany", 
+      "id": "Procinsa"
+    }, 
+    {
+      "group": "productionCompany", 
+      "id": "Alexandra Produzioni Cinematografiche"
+    }, 
+    {
+      "group": "movie", 
+      "id": "Sword of Lancelot"
+    }, 
+    {
+      "group": "director", 
+      "id": "Cornel Wilde"
+    }, 
+    {
+      "group": "productionCompany", 
+      "id": "Emblem Productions"
+    }, 
+    {
+      "group": "movie", 
+      "id": "The Castilian"
+    }, 
+    {
+      "group": "director", 
+      "id": "Javier Setó"
+    }, 
+    {
+      "group": "productionCompany", 
+      "id": "Cinemagic Inc."
+    }, 
+    {
+      "group": "productionCompany", 
+      "id": "M.D. Producciones Cinematográficas"
+    }, 
+    {
+      "group": "movie", 
+      "id": "The Sword in the Stone"
+    }, 
+    {
+      "group": "movie", 
+      "id": "The Revenge of the Crusader"
+    }, 
+    {
+      "group": "director", 
+      "id": "José Luis Monter"
+    }, 
+    {
+      "group": "productionCompany", 
+      "id": "Hispamer Films"
+    }, 
+    {
+      "group": "productionCompany", 
+      "id": "Imprecine"
+    }, 
+    {
+      "group": "movie", 
+      "id": "Ivaylo"
+    }, 
+    {
+      "group": "director", 
+      "id": "Nikola Valchev"
+    }, 
+    {
+      "group": "movie", 
+      "id": "The Long Hair of Death"
+    }, 
+    {
+      "group": "director", 
+      "id": "Antonio Margheriti"
+    }, 
+    {
+      "group": "productionCompany", 
+      "id": "Cinegai"
+    }, 
+    {
+      "group": "movie", 
+      "id": "Hamlet"
+    }, 
+    {
+      "group": "director", 
+      "id": "Grigori Kozintsev"
+    }, 
+    {
+      "group": "productionCompany", 
+      "id": "Lenfilm"
+    }, 
+    {
+      "group": "movie", 
+      "id": "Becket"
+    }, 
+    {
+      "group": "director", 
+      "id": "Peter Glenville"
+    }, 
+    {
+      "group": "productionCompany", 
+      "id": "Keep Films"
+    }, 
+    {
+      "group": "movie", 
+      "id": "Isidore the Laborer"
+    }, 
+    {
+      "group": "director", 
+      "id": "Rafael J. Salvia"
+    }, 
+    {
+      "group": "productionCompany", 
+      "id": "Cooperativa Cinematográfica Walkiria"
+    }, 
+    {
+      "group": "productionCompany", 
+      "id": "Intercinema Internacional Cinematográfica"
+    }
+  ], 
+  "links": [
+    {
+      "source": "Bluebeard", 
+      "target": "Georges Méliès"
+    }, 
+    {
+      "source": "Bluebeard", 
+      "target": "Star Film"
+    }, 
+    {
+      "source": "Bluebeard", 
+      "target": "Fiction"
+    }, 
+    {
+      "source": "The Treasures of Satan", 
+      "target": "Georges Méliès"
+    }, 
+    {
+      "source": "The Treasures of Satan", 
+      "target": "Star Film"
+    }, 
+    {
+      "source": "The Treasures of Satan", 
+      "target": "Fiction"
+    }, 
+    {
+      "source": "The Witch", 
+      "target": "Georges Méliès"
+    }, 
+    {
+      "source": "The Witch", 
+      "target": "Star Film"
+    }, 
+    {
+      "source": "The Witch", 
+      "target": "Fiction"
+    }, 
+    {
+      "source": "The Hunchback of Notre Dame", 
+      "target": "Albert Capellani"
+    }, 
+    {
+      "source": "The Hunchback of Notre Dame", 
+      "target": "Pathé"
+    }, 
+    {
+      "source": "The Hunchback of Notre Dame", 
+      "target": "Fiction"
+    }, 
+    {
+      "source": "Lady Godiva", 
+      "target": "Charles Kent"
+    }, 
+    {
+      "source": "Lady Godiva", 
+      "target": "Vitagraph Company of America"
+    }, 
+    {
+      "source": "Lady Godiva", 
+      "target": "Legend"
+    }, 
+    {
+      "source": "The Life and Death of King Richard III", 
+      "target": "André Calmettes"
+    }, 
+    {
+      "source": "The Life and Death of King Richard III", 
+      "target": "James Keane"
+    }, 
+    {
+      "source": "The Life and Death of King Richard III", 
+      "target": "Sterling Camera and Film Company"
+    }, 
+    {
+      "source": "The Life and Death of King Richard III", 
+      "target": "Le Film d'art"
+    }, 
+    {
+      "source": "The Life and Death of King Richard III", 
+      "target": "M.B. Dudley Amusement Co."
+    }, 
+    {
+      "source": "The Life and Death of King Richard III", 
+      "target": "History"
+    }, 
+    {
+      "source": "The Miracle", 
+      "target": "Michel Carré"
+    }, 
+    {
+      "source": "The Miracle", 
+      "target": "Continental-Kunstfilm"
+    }, 
+    {
+      "source": "The Miracle", 
+      "target": "Fiction"
+    }, 
+    {
+      "source": "Hamlet", 
+      "target": "Heinz Schall"
+    }, 
+    {
+      "source": "Hamlet", 
+      "target": "Società Italiana Cines"
+    }, 
+    {
+      "source": "Hamlet", 
+      "target": "Rodolfifilm"
+    }, 
+    {
+      "source": "Hamlet", 
+      "target": "Fiction"
+    }, 
+    {
+      "source": "Jerusalem Liberated ", 
+      "target": "Enrico Guazzoni"
+    }, 
+    {
+      "source": "Jerusalem Liberated ", 
+      "target": "Pathé"
+    }, 
+    {
+      "source": "Jerusalem Liberated ", 
+      "target": "History"
+    }, 
+    {
+      "source": "Wilhelm Tell", 
+      "target": "Rudolf Walther-Fein"
+    }, 
+    {
+      "source": "Wilhelm Tell", 
+      "target": "Rudolf Dworsky"
+    }, 
+    {
+      "source": "Wilhelm Tell", 
+      "target": "Althoff-Ambos-Film"
+    }, 
+    {
+      "source": "Wilhelm Tell", 
+      "target": "Legend"
+    }, 
+    {
+      "source": "The Hunchback of Notre Dame", 
+      "target": "Wallace Worsley"
+    }, 
+    {
+      "source": "The Hunchback of Notre Dame", 
+      "target": "Universal Pictures"
+    }, 
+    {
+      "source": "The Hunchback of Notre Dame", 
+      "target": "Fiction"
+    }, 
+    {
+      "source": "Miracle of the Wolves", 
+      "target": "Raymond Bernard"
+    }, 
+    {
+      "source": "Miracle of the Wolves", 
+      "target": "Société des Films Historiques"
+    }, 
+    {
+      "source": "Miracle of the Wolves", 
+      "target": "History"
+    }, 
+    {
+      "source": "The Nibelungs: Siegfried", 
+      "target": "Fritz Lang"
+    }, 
+    {
+      "source": "The Nibelungs: Siegfried", 
+      "target": "UFA"
+    }, 
+    {
+      "source": "The Nibelungs: Siegfried", 
+      "target": "Decla-Bioscop"
+    }, 
+    {
+      "source": "The Nibelungs: Siegfried", 
+      "target": "Legend"
+    }, 
+    {
+      "source": "The Nibelungs: Kriemhild's Revenge", 
+      "target": "Fritz Lang"
+    }, 
+    {
+      "source": "The Nibelungs: Kriemhild's Revenge", 
+      "target": "UFA"
+    }, 
+    {
+      "source": "The Nibelungs: Kriemhild's Revenge", 
+      "target": "Decla-Bioscop"
+    }, 
+    {
+      "source": "The Nibelungs: Kriemhild's Revenge", 
+      "target": "Legend"
+    }, 
+    {
+      "source": "The Devil in the City", 
+      "target": "Germaine Dulac"
+    }, 
+    {
+      "source": "The Devil in the City", 
+      "target": "Films de France"
+    }, 
+    {
+      "source": "The Devil in the City", 
+      "target": "Fiction"
+    }, 
+    {
+      "source": "The Beloved Rogue", 
+      "target": "Alan Crosland"
+    }, 
+    {
+      "source": "The Beloved Rogue", 
+      "target": "Feature Productions"
+    }, 
+    {
+      "source": "The Beloved Rogue", 
+      "target": "History"
+    }, 
+    {
+      "source": "Saint Joan the Maid", 
+      "target": "Marco de Gastyne"
+    }, 
+    {
+      "source": "Saint Joan the Maid", 
+      "target": "Rapid Film"
+    }, 
+    {
+      "source": "Saint Joan the Maid", 
+      "target": "Pathé-Natan"
+    }, 
+    {
+      "source": "Saint Joan the Maid", 
+      "target": "History"
+    }, 
+    {
+      "source": "Anthony of Padua, The Saint of Miracles", 
+      "target": "Giulio Antamoro"
+    }, 
+    {
+      "source": "Anthony of Padua, The Saint of Miracles", 
+      "target": "Società Anonima Cinematografie Religiose Artistiche Sonore (SACRAS)"
+    }, 
+    {
+      "source": "Anthony of Padua, The Saint of Miracles", 
+      "target": "History"
+    }, 
+    {
+      "source": "Wilhelm Tell", 
+      "target": "Heinz Paul"
+    }, 
+    {
+      "source": "Wilhelm Tell", 
+      "target": "Terra-Filmkunst"
+    }, 
+    {
+      "source": "Wilhelm Tell", 
+      "target": "Fiction"
+    }, 
+    {
+      "source": "Adémaï in the Middle Ages", 
+      "target": "Jean de Marguenat"
+    }, 
+    {
+      "source": "Adémaï in the Middle Ages", 
+      "target": "Lutèce Films"
+    }, 
+    {
+      "source": "Adémaï in the Middle Ages", 
+      "target": "History"
+    }, 
+    {
+      "source": "If I Were King", 
+      "target": "Frank Lloyd"
+    }, 
+    {
+      "source": "If I Were King", 
+      "target": "Paramount Pictures"
+    }, 
+    {
+      "source": "If I Were King", 
+      "target": "History"
+    }, 
+    {
+      "source": "The Adventures of Robin Hood", 
+      "target": "Michael Curtiz"
+    }, 
+    {
+      "source": "The Adventures of Robin Hood", 
+      "target": "William Keighley"
+    }, 
+    {
+      "source": "The Adventures of Robin Hood", 
+      "target": "Warner Bros. Pictures"
+    }, 
+    {
+      "source": "The Adventures of Robin Hood", 
+      "target": "Fiction"
+    }, 
+    {
+      "source": "The Adventures of Marco Polo", 
+      "target": "Archie Mayo"
+    }, 
+    {
+      "source": "The Adventures of Marco Polo", 
+      "target": "Samuel Goldwyn Productions"
+    }, 
+    {
+      "source": "The Adventures of Marco Polo", 
+      "target": "History"
+    }, 
+    {
+      "source": "The Hunchback of Notre Dame", 
+      "target": "William Dieterle"
+    }, 
+    {
+      "source": "The Hunchback of Notre Dame", 
+      "target": "RKO Radio Pictures"
+    }, 
+    {
+      "source": "The Hunchback of Notre Dame", 
+      "target": "Fiction"
+    }, 
+    {
+      "source": "The Iron Crown", 
+      "target": "Alessandro Blasetti"
+    }, 
+    {
+      "source": "The Iron Crown", 
+      "target": "ENIC"
+    }, 
+    {
+      "source": "The Iron Crown", 
+      "target": "Lux Film"
+    }, 
+    {
+      "source": "The Iron Crown", 
+      "target": "Fiction"
+    }, 
+    {
+      "source": "The Gorgon", 
+      "target": "Guido Brignone"
+    }, 
+    {
+      "source": "The Gorgon", 
+      "target": "Artisti Associati"
+    }, 
+    {
+      "source": "The Gorgon", 
+      "target": "Florentia Film"
+    }, 
+    {
+      "source": "The Gorgon", 
+      "target": "Fiction"
+    }, 
+    {
+      "source": "The Devil's Envoys", 
+      "target": "Marcel Carné"
+    }, 
+    {
+      "source": "The Devil's Envoys", 
+      "target": "Productions André Paulvé"
+    }, 
+    {
+      "source": "The Devil's Envoys", 
+      "target": "Fiction"
+    }, 
+    {
+      "source": "Henry V", 
+      "target": "Laurence Olivier"
+    }, 
+    {
+      "source": "Henry V", 
+      "target": "Two Cities Films"
+    }, 
+    {
+      "source": "Henry V", 
+      "target": "J. Arthur Rank Organisation"
+    }, 
+    {
+      "source": "Henry V", 
+      "target": "History"
+    }, 
+    {
+      "source": "Inés de Castro", 
+      "target": "José Leitão de Barros"
+    }, 
+    {
+      "source": "Inés de Castro", 
+      "target": "Manuel Augusto García Viñolas"
+    }, 
+    {
+      "source": "Inés de Castro", 
+      "target": "Faro"
+    }, 
+    {
+      "source": "Inés de Castro", 
+      "target": "Filmes Lumiar"
+    }, 
+    {
+      "source": "Inés de Castro", 
+      "target": "History"
+    }, 
+    {
+      "source": "Kashchey the Immortal", 
+      "target": "Aleksandr Rou"
+    }, 
+    {
+      "source": "Kashchey the Immortal", 
+      "target": "Soyuzdetfilm"
+    }, 
+    {
+      "source": "Kashchey the Immortal", 
+      "target": "Gorky Film Studios"
+    }, 
+    {
+      "source": "Kashchey the Immortal", 
+      "target": "Legend"
+    }, 
+    {
+      "source": "The Bandit of Sherwood Forest", 
+      "target": "Henry Levin"
+    }, 
+    {
+      "source": "The Bandit of Sherwood Forest", 
+      "target": "George Sherman"
+    }, 
+    {
+      "source": "The Bandit of Sherwood Forest", 
+      "target": "Columbia Pictures"
+    }, 
+    {
+      "source": "The Bandit of Sherwood Forest", 
+      "target": "Fiction"
+    }, 
+    {
+      "source": "The Holy Crown", 
+      "target": "Rafael Gil, Henrique Campos, Aníbal Contreiras"
+    }, 
+    {
+      "source": "The Holy Crown", 
+      "target": "Filmes Albuquerque"
+    }, 
+    {
+      "source": "The Holy Crown", 
+      "target": "Cesáreo González"
+    }, 
+    {
+      "source": "The Holy Crown", 
+      "target": "History"
+    }, 
+    {
+      "source": "Warriors of Faith", 
+      "target": "Vladimír Borský"
+    }, 
+    {
+      "source": "Warriors of Faith", 
+      "target": "Československá filmová společnost"
+    }, 
+    {
+      "source": "Warriors of Faith", 
+      "target": "History"
+    }, 
+    {
+      "source": "The Prince Of Thieves", 
+      "target": "Howard Bretherton"
+    }, 
+    {
+      "source": "The Prince Of Thieves", 
+      "target": "Columbia Pictures"
+    }, 
+    {
+      "source": "The Prince Of Thieves", 
+      "target": "History"
+    }, 
+    {
+      "source": "The Black Arrow", 
+      "target": "Gordon Douglas"
+    }, 
+    {
+      "source": "The Black Arrow", 
+      "target": "Edward Small Productions"
+    }, 
+    {
+      "source": "The Black Arrow", 
+      "target": "Columbia Pictures"
+    }, 
+    {
+      "source": "The Black Arrow", 
+      "target": "History"
+    }, 
+    {
+      "source": "Fiddlers Three", 
+      "target": "Jules White"
+    }, 
+    {
+      "source": "Fiddlers Three", 
+      "target": "Columbia Pictures"
+    }, 
+    {
+      "source": "Fiddlers Three", 
+      "target": "Fiction"
+    }, 
+    {
+      "source": "The Wind Is My Lover", 
+      "target": "Christian-Jaque"
+    }, 
+    {
+      "source": "The Wind Is My Lover", 
+      "target": "Terrafilm"
+    }, 
+    {
+      "source": "The Wind Is My Lover", 
+      "target": "Roissy Films"
+    }, 
+    {
+      "source": "The Wind Is My Lover", 
+      "target": "Legend"
+    }, 
+    {
+      "source": "The Adventures of Sir Galahad", 
+      "target": "Spencer Gordon Bennet"
+    }, 
+    {
+      "source": "The Adventures of Sir Galahad", 
+      "target": "Sam Katzman Productions"
+    }, 
+    {
+      "source": "The Adventures of Sir Galahad", 
+      "target": "Legend"
+    }, 
+    {
+      "source": "A Connecticut Yankee in King Arthur's Court", 
+      "target": "Tay Garnett"
+    }, 
+    {
+      "source": "A Connecticut Yankee in King Arthur's Court", 
+      "target": "Paramount Pictures"
+    }, 
+    {
+      "source": "A Connecticut Yankee in King Arthur's Court", 
+      "target": "Legend"
+    }, 
+    {
+      "source": "Christopher Columbus", 
+      "target": "David MacDonald"
+    }, 
+    {
+      "source": "Christopher Columbus", 
+      "target": "Sydney Box Productions"
+    }, 
+    {
+      "source": "Christopher Columbus", 
+      "target": "Gainsborough Pictures"
+    }, 
+    {
+      "source": "Christopher Columbus", 
+      "target": "J. Arthur Rank Organisation"
+    }, 
+    {
+      "source": "Christopher Columbus", 
+      "target": "History"
+    }, 
+    {
+      "source": "Sicilian Uprising", 
+      "target": "Giorgio Pàstina"
+    }, 
+    {
+      "source": "Sicilian Uprising", 
+      "target": "Epica Film"
+    }, 
+    {
+      "source": "Sicilian Uprising", 
+      "target": "Società Anonima Film Italiani Roma (SAFIR)"
+    }, 
+    {
+      "source": "Sicilian Uprising", 
+      "target": "History"
+    }, 
+    {
+      "source": "The Iron Swordsman", 
+      "target": "Riccardo Freda"
+    }, 
+    {
+      "source": "The Iron Swordsman", 
+      "target": "Forum Film"
+    }, 
+    {
+      "source": "The Iron Swordsman", 
+      "target": "History"
+    }, 
+    {
+      "source": "Du Guesclin", 
+      "target": "Bernard de Latour"
+    }, 
+    {
+      "source": "Du Guesclin", 
+      "target": "Les Films du Verseau"
+    }, 
+    {
+      "source": "Du Guesclin", 
+      "target": "History"
+    }, 
+    {
+      "source": "The Black Rose", 
+      "target": "Henry Hathaway"
+    }, 
+    {
+      "source": "The Black Rose", 
+      "target": "20th Century Fox"
+    }, 
+    {
+      "source": "The Black Rose", 
+      "target": "Fiction"
+    }, 
+    {
+      "source": "The Flame and the Arrow", 
+      "target": "Jacques Tourneur"
+    }, 
+    {
+      "source": "The Flame and the Arrow", 
+      "target": "Norma-F.R. Productions"
+    }, 
+    {
+      "source": "The Flame and the Arrow", 
+      "target": "Warner Bros. Pictures"
+    }, 
+    {
+      "source": "The Flame and the Arrow", 
+      "target": "Fiction"
+    }, 
+    {
+      "source": "Legend of Love", 
+      "target": "Raffaello Matarazzo"
+    }, 
+    {
+      "source": "Legend of Love", 
+      "target": "Lux Film"
+    }, 
+    {
+      "source": "Legend of Love", 
+      "target": "History"
+    }, 
+    {
+      "source": "Rogues Of Sherwood Forest", 
+      "target": "Gordon Douglas"
+    }, 
+    {
+      "source": "Rogues Of Sherwood Forest", 
+      "target": "Columbia Pictures"
+    }, 
+    {
+      "source": "Rogues Of Sherwood Forest", 
+      "target": "Fiction"
+    }, 
+    {
+      "source": "Margaret of Cortona", 
+      "target": "Mario Bonnard"
+    }, 
+    {
+      "source": "Margaret of Cortona", 
+      "target": "Scalera Film"
+    }, 
+    {
+      "source": "Margaret of Cortona", 
+      "target": "Secolo Film"
+    }, 
+    {
+      "source": "Margaret of Cortona", 
+      "target": "History"
+    }, 
+    {
+      "source": "Tales of Robin Hood", 
+      "target": "James Tinling"
+    }, 
+    {
+      "source": "Tales of Robin Hood", 
+      "target": "R & L Productions"
+    }, 
+    {
+      "source": "Tales of Robin Hood", 
+      "target": "Fiction"
+    }, 
+    {
+      "source": "Bluebeard", 
+      "target": "Christian-Jaque"
+    }, 
+    {
+      "source": "Bluebeard", 
+      "target": "Alcina"
+    }, 
+    {
+      "source": "Bluebeard", 
+      "target": "Fiction"
+    }, 
+    {
+      "source": "The Evil Forest ", 
+      "target": "Daniel Mangrané"
+    }, 
+    {
+      "source": "The Evil Forest ", 
+      "target": "Selecciones Huguet"
+    }, 
+    {
+      "source": "The Evil Forest ", 
+      "target": "Legend"
+    }, 
+    {
+      "source": "The Cloister of Martins", 
+      "target": "Richard Häussler"
+    }, 
+    {
+      "source": "The Cloister of Martins", 
+      "target": "Peter Ostermayr Produktion"
+    }, 
+    {
+      "source": "The Cloister of Martins", 
+      "target": "Fiction"
+    }, 
+    {
+      "source": "Dawn of America", 
+      "target": "Juan de Orduña"
+    }, 
+    {
+      "source": "Dawn of America", 
+      "target": "Compañía Industrial Film Español S.A. (CIFESA)"
+    }, 
+    {
+      "source": "Dawn of America", 
+      "target": "History"
+    }, 
+    {
+      "source": "Ivanhoe", 
+      "target": "Richard Thorpe"
+    }, 
+    {
+      "source": "Ivanhoe", 
+      "target": "Metro-Goldwyn-Mayer"
+    }, 
+    {
+      "source": "Ivanhoe", 
+      "target": "Loew's Incorporated"
+    }, 
+    {
+      "source": "Ivanhoe", 
+      "target": "History"
+    }, 
+    {
+      "source": "Judgement of God", 
+      "target": "Raymond Bernard"
+    }, 
+    {
+      "source": "Judgement of God", 
+      "target": "B.U.P. Française"
+    }, 
+    {
+      "source": "Judgement of God", 
+      "target": "History"
+    }, 
+    {
+      "source": "Wonderful Adventures of Guerrin Meschino", 
+      "target": "Pietro Francisci"
+    }, 
+    {
+      "source": "Wonderful Adventures of Guerrin Meschino", 
+      "target": "Oro Film"
+    }, 
+    {
+      "source": "Wonderful Adventures of Guerrin Meschino", 
+      "target": "Unicinematografica"
+    }, 
+    {
+      "source": "Wonderful Adventures of Guerrin Meschino", 
+      "target": "Fiction"
+    }, 
+    {
+      "source": "La Favorita", 
+      "target": "Cesare Barlacchi"
+    }, 
+    {
+      "source": "La Favorita", 
+      "target": "M.A.S. Film"
+    }, 
+    {
+      "source": "La Favorita", 
+      "target": "History"
+    }, 
+    {
+      "source": "The Monastery's Hunter", 
+      "target": "Harald Reinl"
+    }, 
+    {
+      "source": "The Monastery's Hunter", 
+      "target": "Peter Ostermayr Produktion"
+    }, 
+    {
+      "source": "The Monastery's Hunter", 
+      "target": "Fiction"
+    }, 
+    {
+      "source": "Old Czech Legends", 
+      "target": "Jiří Trnka"
+    }, 
+    {
+      "source": "Old Czech Legends", 
+      "target": "Loutkový film Praha"
+    }, 
+    {
+      "source": "Old Czech Legends", 
+      "target": "Animation"
+    }, 
+    {
+      "source": "Knights of the Round Table", 
+      "target": "Richard Thorpe"
+    }, 
+    {
+      "source": "Knights of the Round Table", 
+      "target": "Metro-Goldwyn-Mayer British Studios"
+    }, 
+    {
+      "source": "Knights of the Round Table", 
+      "target": "Metro-Goldwyn-Mayer"
+    }, 
+    {
+      "source": "Knights of the Round Table", 
+      "target": "History"
+    }, 
+    {
+      "source": "Decameron Nights", 
+      "target": "Hugo Fregonese"
+    }, 
+    {
+      "source": "Decameron Nights", 
+      "target": "Cesáreo González"
+    }, 
+    {
+      "source": "Decameron Nights", 
+      "target": "Frankovich Productions"
+    }, 
+    {
+      "source": "Decameron Nights", 
+      "target": "RKO Radio Pictures"
+    }, 
+    {
+      "source": "Decameron Nights", 
+      "target": "History"
+    }, 
+    {
+      "source": "Prince Valiant", 
+      "target": "Henry Hathaway"
+    }, 
+    {
+      "source": "Prince Valiant", 
+      "target": "20th Century Fox"
+    }, 
+    {
+      "source": "Prince Valiant", 
+      "target": "History"
+    }, 
+    {
+      "source": "The Men of Sherwood Forest", 
+      "target": "Val Guest"
+    }, 
+    {
+      "source": "The Men of Sherwood Forest", 
+      "target": "Hammer Film Productions"
+    }, 
+    {
+      "source": "The Men of Sherwood Forest", 
+      "target": "History"
+    }, 
+    {
+      "source": "The Saracen Blade", 
+      "target": "William Castle"
+    }, 
+    {
+      "source": "The Saracen Blade", 
+      "target": "Columbia Pictures"
+    }, 
+    {
+      "source": "The Saracen Blade", 
+      "target": "Fiction"
+    }, 
+    {
+      "source": "Joan of Arc at the Stake", 
+      "target": "Roberto Rossellini"
+    }, 
+    {
+      "source": "Joan of Arc at the Stake", 
+      "target": "Franco London Films"
+    }, 
+    {
+      "source": "Joan of Arc at the Stake", 
+      "target": "Produzioni Cinematografiche Associate"
+    }, 
+    {
+      "source": "Joan of Arc at the Stake", 
+      "target": "Fiction"
+    }, 
+    {
+      "source": "The Black Shield of Falworth", 
+      "target": "Rudolph Maté"
+    }, 
+    {
+      "source": "The Black Shield of Falworth", 
+      "target": "Universal International Pictures"
+    }, 
+    {
+      "source": "The Black Shield of Falworth", 
+      "target": "Fiction"
+    }, 
+    {
+      "source": "King Richard and the Crusaders", 
+      "target": "David Butler"
+    }, 
+    {
+      "source": "King Richard and the Crusaders", 
+      "target": "Warner Bros. Pictures"
+    }, 
+    {
+      "source": "King Richard and the Crusaders", 
+      "target": "History"
+    }, 
+    {
+      "source": "The Black Knight", 
+      "target": "Tay Garnett"
+    }, 
+    {
+      "source": "The Black Knight", 
+      "target": "Warwick Film Productions"
+    }, 
+    {
+      "source": "The Black Knight", 
+      "target": "Fiction"
+    }, 
+    {
+      "source": "Lady Godiva of Coventry", 
+      "target": "Arthur Lubin"
+    }, 
+    {
+      "source": "Lady Godiva of Coventry", 
+      "target": "Universal International Pictures"
+    }, 
+    {
+      "source": "Lady Godiva of Coventry", 
+      "target": "Legend"
+    }, 
+    {
+      "source": "Quentin Durward", 
+      "target": "Richard Thorpe"
+    }, 
+    {
+      "source": "Quentin Durward", 
+      "target": "Metro-Goldwyn-Mayer British Studios"
+    }, 
+    {
+      "source": "Quentin Durward", 
+      "target": "Metro-Goldwyn-Mayer"
+    }, 
+    {
+      "source": "Quentin Durward", 
+      "target": "History"
+    }, 
+    {
+      "source": "Tower of Lust", 
+      "target": "Abel Gance"
+    }, 
+    {
+      "source": "Tower of Lust", 
+      "target": "Film Costellazione"
+    }, 
+    {
+      "source": "Tower of Lust", 
+      "target": "Les Films Fernand Rivers"
+    }, 
+    {
+      "source": "Tower of Lust", 
+      "target": "Legend"
+    }, 
+    {
+      "source": "Jan Hus", 
+      "target": "Otakar Vávra"
+    }, 
+    {
+      "source": "Jan Hus", 
+      "target": "Studio uměleckého filmu Praha"
+    }, 
+    {
+      "source": "Jan Hus", 
+      "target": "History"
+    }, 
+    {
+      "source": "The Warrior", 
+      "target": "Henry Levin"
+    }, 
+    {
+      "source": "The Warrior", 
+      "target": "Allied Artists Pictures"
+    }, 
+    {
+      "source": "The Warrior", 
+      "target": "History"
+    }, 
+    {
+      "source": "Richard III", 
+      "target": "Laurence Olivier"
+    }, 
+    {
+      "source": "Richard III", 
+      "target": "London Films Productions"
+    }, 
+    {
+      "source": "Richard III", 
+      "target": "L.O.P."
+    }, 
+    {
+      "source": "Richard III", 
+      "target": "History"
+    }, 
+    {
+      "source": "The Sword and the Dragon", 
+      "target": "Aleksandr Ptushko"
+    }, 
+    {
+      "source": "The Sword and the Dragon", 
+      "target": "Mosfilm"
+    }, 
+    {
+      "source": "The Sword and the Dragon", 
+      "target": "Legend"
+    }, 
+    {
+      "source": "Roland the Mighty", 
+      "target": "Pietro Francisci"
+    }, 
+    {
+      "source": "Roland the Mighty", 
+      "target": "Italgamma"
+    }, 
+    {
+      "source": "Roland the Mighty", 
+      "target": "History"
+    }, 
+    {
+      "source": "I am Catherine", 
+      "target": "Oreste Palella"
+    }, 
+    {
+      "source": "I am Catherine", 
+      "target": "Arciere"
+    }, 
+    {
+      "source": "I am Catherine", 
+      "target": "Arena Cin.ca"
+    }, 
+    {
+      "source": "I am Catherine", 
+      "target": "History"
+    }, 
+    {
+      "source": "Saint Joan", 
+      "target": "Otto Preminger"
+    }, 
+    {
+      "source": "Saint Joan", 
+      "target": "Wheel Productions"
+    }, 
+    {
+      "source": "Saint Joan", 
+      "target": "United Artists"
+    }, 
+    {
+      "source": "Saint Joan", 
+      "target": "History"
+    }, 
+    {
+      "source": "The Mighty Crusaders", 
+      "target": "Carlo Ludovico Bragaglia"
+    }, 
+    {
+      "source": "The Mighty Crusaders", 
+      "target": "Max Film"
+    }, 
+    {
+      "source": "The Mighty Crusaders", 
+      "target": "History"
+    }, 
+    {
+      "source": "The Pied Piper of Hamelin", 
+      "target": "Bretaigne Windust"
+    }, 
+    {
+      "source": "The Pied Piper of Hamelin", 
+      "target": "Hal Stanley Productions"
+    }, 
+    {
+      "source": "The Pied Piper of Hamelin", 
+      "target": "Legend"
+    }, 
+    {
+      "source": "The Saga of the Viking Women and Their Voyage to the Waters of the Great Sea Serpent", 
+      "target": "Roger Corman"
+    }, 
+    {
+      "source": "The Saga of the Viking Women and Their Voyage to the Waters of the Great Sea Serpent", 
+      "target": "Malibu Productions"
+    }, 
+    {
+      "source": "The Saga of the Viking Women and Their Voyage to the Waters of the Great Sea Serpent", 
+      "target": "Fiction"
+    }, 
+    {
+      "source": "The Vikings", 
+      "target": "Richard Fleischer"
+    }, 
+    {
+      "source": "The Vikings", 
+      "target": "Brynaprod S.A."
+    }, 
+    {
+      "source": "The Vikings", 
+      "target": "Curtleigh Productions"
+    }, 
+    {
+      "source": "The Vikings", 
+      "target": "United Artists"
+    }, 
+    {
+      "source": "The Vikings", 
+      "target": "Fiction"
+    }, 
+    {
+      "source": "Son of Robin Hood", 
+      "target": "George Sherman"
+    }, 
+    {
+      "source": "Son of Robin Hood", 
+      "target": "Argo Film Productions"
+    }, 
+    {
+      "source": "Son of Robin Hood", 
+      "target": "20th Century Fox"
+    }, 
+    {
+      "source": "Son of Robin Hood", 
+      "target": "Fiction"
+    }, 
+    {
+      "source": "The Shepherd from Trutzberg", 
+      "target": "Eduard von Borsody"
+    }, 
+    {
+      "source": "The Shepherd from Trutzberg", 
+      "target": "Peter Ostermayr Produktion"
+    }, 
+    {
+      "source": "The Shepherd from Trutzberg", 
+      "target": "Fiction"
+    }, 
+    {
+      "source": "Attack of the Moors", 
+      "target": "Mario Costa"
+    }, 
+    {
+      "source": "Attack of the Moors", 
+      "target": "Schermi Produzione"
+    }, 
+    {
+      "source": "Attack of the Moors", 
+      "target": "Fiction"
+    }, 
+    {
+      "source": "Sleeping Beauty", 
+      "target": "Eric Larson"
+    }, 
+    {
+      "source": "Sleeping Beauty", 
+      "target": "Wolfgang Reitherman"
+    }, 
+    {
+      "source": "Sleeping Beauty", 
+      "target": "Clyde Geronimi"
+    }, 
+    {
+      "source": "Sleeping Beauty", 
+      "target": "Les Clark"
+    }, 
+    {
+      "source": "Sleeping Beauty", 
+      "target": "Walt Disney Productions"
+    }, 
+    {
+      "source": "Sleeping Beauty", 
+      "target": "Animation"
+    }, 
+    {
+      "source": "Fury of the Pagans", 
+      "target": "Guido Malatesta"
+    }, 
+    {
+      "source": "Fury of the Pagans", 
+      "target": "Arion Film"
+    }, 
+    {
+      "source": "Fury of the Pagans", 
+      "target": "Fiction"
+    }, 
+    {
+      "source": "Sword of Sherwood Forest", 
+      "target": "Terence Fisher"
+    }, 
+    {
+      "source": "Sword of Sherwood Forest", 
+      "target": "Hammer Film Productions"
+    }, 
+    {
+      "source": "Sword of Sherwood Forest", 
+      "target": "Fiction"
+    }, 
+    {
+      "source": "Blood on His Sword", 
+      "target": "André Hunebelle"
+    }, 
+    {
+      "source": "Blood on His Sword", 
+      "target": "Da.Ma. Cinematografica"
+    }, 
+    {
+      "source": "Blood on His Sword", 
+      "target": "P.A.C. Société"
+    }, 
+    {
+      "source": "Blood on His Sword", 
+      "target": "Nouvelle Pathé Cinéma"
+    }, 
+    {
+      "source": "Blood on His Sword", 
+      "target": "History"
+    }, 
+    {
+      "source": "Francis of Assisi", 
+      "target": "Michael Curtiz"
+    }, 
+    {
+      "source": "Francis of Assisi", 
+      "target": "Perseus Productions"
+    }, 
+    {
+      "source": "Francis of Assisi", 
+      "target": "20th Century Fox"
+    }, 
+    {
+      "source": "Francis of Assisi", 
+      "target": "History"
+    }, 
+    {
+      "source": "Charge of the Black Lancers", 
+      "target": "Giacomo Gentilomo"
+    }, 
+    {
+      "source": "Charge of the Black Lancers", 
+      "target": "C.F.S. Košutnjak"
+    }, 
+    {
+      "source": "Charge of the Black Lancers", 
+      "target": "France Cinéma Productions"
+    }, 
+    {
+      "source": "Charge of the Black Lancers", 
+      "target": "History"
+    }, 
+    {
+      "source": "The Magic Sword", 
+      "target": "Bert I. Gordon"
+    }, 
+    {
+      "source": "The Magic Sword", 
+      "target": "Bert I. Gordon Productions"
+    }, 
+    {
+      "source": "The Magic Sword", 
+      "target": "Legend"
+    }, 
+    {
+      "source": "Tower of London", 
+      "target": "Roger Corman"
+    }, 
+    {
+      "source": "Tower of London", 
+      "target": "Edward Small Productions"
+    }, 
+    {
+      "source": "Tower of London", 
+      "target": "United Artists"
+    }, 
+    {
+      "source": "Tower of London", 
+      "target": "Admiral Pictures"
+    }, 
+    {
+      "source": "Tower of London", 
+      "target": "History"
+    }, 
+    {
+      "source": "Good King Dagobert", 
+      "target": "Pierre Chevalier"
+    }, 
+    {
+      "source": "Good King Dagobert", 
+      "target": "Cineurop"
+    }, 
+    {
+      "source": "Good King Dagobert", 
+      "target": "Filmerc"
+    }, 
+    {
+      "source": "Good King Dagobert", 
+      "target": "Opening Production"
+    }, 
+    {
+      "source": "Good King Dagobert", 
+      "target": "Fiction"
+    }, 
+    {
+      "source": "Kaloyan", 
+      "target": "Dako Dakovski"
+    }, 
+    {
+      "source": "Kaloyan", 
+      "target": "Boyana Film"
+    }, 
+    {
+      "source": "Kaloyan", 
+      "target": "History"
+    }, 
+    {
+      "source": "Siege of the Saxons", 
+      "target": "Nathan H. Juran"
+    }, 
+    {
+      "source": "Siege of the Saxons", 
+      "target": "Ameran Films"
+    }, 
+    {
+      "source": "Siege of the Saxons", 
+      "target": "Columbia Pictures"
+    }, 
+    {
+      "source": "Siege of the Saxons", 
+      "target": "Legend"
+    }, 
+    {
+      "source": "The Tyrant of Castile", 
+      "target": "Ferdinando Baldi"
+    }, 
+    {
+      "source": "The Tyrant of Castile", 
+      "target": "Procinsa"
+    }, 
+    {
+      "source": "The Tyrant of Castile", 
+      "target": "Alexandra Produzioni Cinematografiche"
+    }, 
+    {
+      "source": "The Tyrant of Castile", 
+      "target": "History"
+    }, 
+    {
+      "source": "Sword of Lancelot", 
+      "target": "Cornel Wilde"
+    }, 
+    {
+      "source": "Sword of Lancelot", 
+      "target": "Emblem Productions"
+    }, 
+    {
+      "source": "Sword of Lancelot", 
+      "target": "Legend"
+    }, 
+    {
+      "source": "The Castilian", 
+      "target": "Javier Setó"
+    }, 
+    {
+      "source": "The Castilian", 
+      "target": "Cinemagic Inc."
+    }, 
+    {
+      "source": "The Castilian", 
+      "target": "M.D. Producciones Cinematográficas"
+    }, 
+    {
+      "source": "The Castilian", 
+      "target": "History"
+    }, 
+    {
+      "source": "The Sword in the Stone", 
+      "target": "Wolfgang Reitherman"
+    }, 
+    {
+      "source": "The Sword in the Stone", 
+      "target": "Walt Disney Productions"
+    }, 
+    {
+      "source": "The Sword in the Stone", 
+      "target": "Animation"
+    }, 
+    {
+      "source": "The Revenge of the Crusader", 
+      "target": "José Luis Monter"
+    }, 
+    {
+      "source": "The Revenge of the Crusader", 
+      "target": "Hispamer Films"
+    }, 
+    {
+      "source": "The Revenge of the Crusader", 
+      "target": "Imprecine"
+    }, 
+    {
+      "source": "The Revenge of the Crusader", 
+      "target": "Legend"
+    }, 
+    {
+      "source": "Ivaylo", 
+      "target": "Nikola Valchev"
+    }, 
+    {
+      "source": "Ivaylo", 
+      "target": "Boyana Film"
+    }, 
+    {
+      "source": "Ivaylo", 
+      "target": "History"
+    }, 
+    {
+      "source": "The Long Hair of Death", 
+      "target": "Antonio Margheriti"
+    }, 
+    {
+      "source": "The Long Hair of Death", 
+      "target": "Cinegai"
+    }, 
+    {
+      "source": "The Long Hair of Death", 
+      "target": "Fiction"
+    }, 
+    {
+      "source": "Hamlet", 
+      "target": "Grigori Kozintsev"
+    }, 
+    {
+      "source": "Hamlet", 
+      "target": "Lenfilm"
+    }, 
+    {
+      "source": "Hamlet", 
+      "target": "Fiction"
+    }, 
+    {
+      "source": "Becket", 
+      "target": "Peter Glenville"
+    }, 
+    {
+      "source": "Becket", 
+      "target": "Paramount Pictures"
+    }, 
+    {
+      "source": "Becket", 
+      "target": "Keep Films"
+    }, 
+    {
+      "source": "Becket", 
+      "target": "History"
+    }, 
+    {
+      "source": "Isidore the Laborer", 
+      "target": "Rafael J. Salvia"
+    }, 
+    {
+      "source": "Isidore the Laborer", 
+      "target": "Cooperativa Cinematográfica Walkiria"
+    }, 
+    {
+      "source": "Isidore the Laborer", 
+      "target": "Intercinema Internacional Cinematográfica"
+    }, 
+    {
+      "source": "Isidore the Laborer", 
+      "target": "History"
+    }
+  ]
+}

@@ -1,0 +1,182 @@
+/* Main elements */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  color: var(--main-text-color);
+  background-color: var(--main-bg-color);
+  font-family: 'EB Garamond', serif;
+  font-weight: 400;
+
+  /* Variables */
+  --main-bg-color: #f1e6d6;
+  --main-text-color: #242424;
+  --main-header-color: #550000;
+  --accent-color: #6e6e6e;
+}
+
+h2 {
+  font-family: 'Syne', serif;
+  font-size: 2.2rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  text-align: center;
+}
+
+h3 {
+  font-family: 'Syne', serif;
+  font-size: 1.75rem;
+  font-weight: 700;
+  text-align: center;
+}
+
+section {
+  margin: 0 20%;
+  line-height: 1.5;
+  font-size: 1.2rem;
+}
+
+section p {
+  margin-bottom: 1.2rem;
+  text-indent: 1.5rem;
+}
+
+section > h2 {
+  margin: 4rem auto;
+  text-align: center;
+}
+
+section p {
+  margin-bottom: 1.5rem;
+}
+
+/* section > p:first-of-type::first-letter {
+  float: left;
+  font-size: 2rem;
+  font-weight: bold;
+}
+*/
+
+/* Header */
+
+header {
+  padding: 1rem;
+  text-align: right;
+  border-bottom: 2px solid var(--accent-color);
+  font-size: 1rem;
+  text-transform: uppercase;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 2rem;
+}
+
+nav ul li a {
+  color: var(--main-text-color);
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  color: var(--main-header-color);
+}
+
+.nav_li_active {
+  text-decoration: line-through;
+  color: var(--accent-color);
+  font-weight: bold;
+}
+
+/* Footer */
+
+footer {
+  margin-top: 3rem;
+	padding: 2rem 1rem;
+	background: peru;
+  border-top: 2px solid var(--accent-color);
+}
+
+
+/* Index Page */
+
+#index_hero > h1 {
+  font-family: 'Syne', serif;
+  font-weight: 800;
+  text-transform: uppercase;
+  text-align: center;
+  padding: 7rem 1rem;
+  font-size: 2.125rem;
+  letter-spacing: 1.5px;
+  line-height: 1.7;
+}
+
+/*
+#title_thesis {
+  font-family: 'Syne', sans-serif;
+  font-weight: 700;
+  font-size: 2.5rem;
+  background: none;
+  color: var(--main-bg-color);
+  background-image: url(assets/background.png);
+  background-position-y: bottom;
+  padding: 100px;
+}
+*/
+
+#title_thesis {
+  background-image: url(./assets/gif.gif);
+  background-size: contain;
+  color: transparent;
+  background-clip: text;
+  -moz-background-clip: text;
+  -webkit-background-clip: text;
+}
+
+/* Case studies page */
+
+.cases_gallery_wrap {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-bottom: 6rem;
+}
+
+.cases_gallery_wrap > article {
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  flex-grow: 1;
+}
+
+.cases_gallery_wrap > .case_study_link {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+.cases_gallery_wrap > article img {
+  max-height: 250px;
+  width: 100%;
+  -o-object-fit: cover;
+  object-fit: cover;
+  border-radius: 3px;
+  transition: 0.3s ease opacity;
+}
+
+.cases_gallery_wrap > article:hover img {
+  opacity: 0.6;
+}

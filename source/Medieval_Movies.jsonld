@@ -1,0 +1,6803 @@
+{
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "name": "https://schema.org/name",
+    "alternativeHeadline": "https://schema.org/alternativeHeadline",
+    "image": "https://schema.org/image",
+    "spatialCoverage": {
+      "@id": "https://schema.org/spatialCoverage",
+      "@type": "Place"
+    },
+    "datePublished": "https://schema.org/datePublished",
+    "sameAs": "https://schema.org/sameAs",
+    "productionCompany": {
+      "@id": "https://schema.org/productionCompany",
+      "@type": "Organization"
+    },
+    "countryOfOrigin": {
+      "@id": "https://schema.org/countryOfOrigin",
+      "@type": "Country"
+    },
+    "director": {
+      "@id": "https://schema.org/director",
+      "@type": "Person"
+    },
+    "temporalCoverage": "https://schema.org/temporalCoverage",
+    "genre": "https://schema.org/genre",
+    "isBasedOn": {
+      "@id": "https://schema.org/isBasedOn",
+      "@type": "CreativeWork",
+      "author": {
+        "@type": "Person"
+      }
+    },
+    "keywords": "https://schema.org/keywords",
+    "description": "https://schema.org/description",
+    "lateTitle": {
+      "@id": "https://schema.org/additionalProperty",
+      "@type": "xsd:boolean",
+      "@value": true
+    },
+    "color": {
+      "@id": "https://schema.org/additionalProperty",
+      "@type": "xsd:string"
+    },
+    "sound": {
+      "@id": "https://schema.org/additionalProperty",
+      "@type": "xsd:boolean",
+      "@value": true
+    }
+  },
+  "@graph": [
+    {
+      "@type": "Movie",
+      "name": "Bluebeard",
+      "alternativeHeadline": "Barbe-bleue",
+      "image": "https://www.dropbox.com/scl/fi/mxeutshxgh2ssboqftos6/1901_Bluebeard.png?rlkey=y5cp56obn7o9tu8h1k9k43lst&raw=1",
+      "spatialCoverage": [
+        "France"
+      ],
+      "datePublished": "1901",
+      "sameAs": "https://boxd.it/Gs6",
+      "productionCompany": [
+        {
+          "@type": "Organization",
+          "name": "Star Film"
+        }
+      ],
+      "countryOfOrigin": [
+        {
+          "@type": "Country",
+          "name": "France"
+        }
+      ],
+      "director": [
+        {
+          "@type": "Person",
+          "name": "Georges Méliès"
+        }
+      ],
+      "temporalCoverage": "undefined",
+      "genre": [
+        "Fiction"
+      ],
+      "isBasedOn": {
+        "@type": "CreativeWork",
+        "name": "Charles Perrault"
+      },
+      "keywords": [
+        "Fairy tale",
+        "Horror",
+        "Fantasy",
+        "Drama",
+        "Literature"
+      ],
+      "description": "Title Card",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "lateTitle",
+          "value": true
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "color",
+          "value": "BW"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "sound",
+          "value": false
+        }
+      ]
+    },
+    {
+      "@type": "Movie",
+      "name": "The Treasures of Satan",
+      "alternativeHeadline": "Les trésors de satan",
+      "image": "https://www.dropbox.com/scl/fi/sfhauzzt1jtszxezexxb7/1902_The-Treasures-of-Satan.png?rlkey=62x9gi8tivsarm3dfbr1x6oi5&raw=1",
+      "spatialCoverage": [
+        "France"
+      ],
+      "datePublished": "1902",
+      "sameAs": "https://boxd.it/3EUI",
+      "productionCompany": [
+        {
+          "@type": "Organization",
+          "name": "Star Film"
+        }
+      ],
+      "countryOfOrigin": [
+        {
+          "@type": "Country",
+          "name": "France"
+        }
+      ],
+      "director": [
+        {
+          "@type": "Person",
+          "name": "Georges Méliès"
+        }
+      ],
+      "temporalCoverage": "undefined",
+      "genre": [
+        "Fiction"
+      ],
+      "isBasedOn": {
+        "@type": "CreativeWork",
+        "name": "Story"
+      },
+      "keywords": [
+        "Horror",
+        "Fantasy",
+        "Religious"
+      ],
+      "description": "Title Card",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "lateTitle",
+          "value": true
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "color",
+          "value": "BW"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "sound",
+          "value": false
+        }
+      ]
+    },
+    {
+      "@type": "Movie",
+      "name": "The Witch",
+      "alternativeHeadline": "La Fée Carabosse ou le poignard fatal",
+      "image": "https://www.dropbox.com/scl/fi/pamwnb3v5tk6zymqa8ecu/1906_The-Witch.png?rlkey=9sugqxcuophaxijp7fiz8rj91&raw=1",
+      "spatialCoverage": [
+        "France"
+      ],
+      "datePublished": "1906",
+      "sameAs": "https://boxd.it/5UVc",
+      "productionCompany": [
+        {
+          "@type": "Organization",
+          "name": "Star Film"
+        }
+      ],
+      "countryOfOrigin": [
+        {
+          "@type": "Country",
+          "name": "France"
+        }
+      ],
+      "director": [
+        {
+          "@type": "Person",
+          "name": "Georges Méliès"
+        }
+      ],
+      "temporalCoverage": "undefined",
+      "genre": [
+        "Fiction"
+      ],
+      "isBasedOn": {
+        "@type": "CreativeWork",
+        "name": "Story"
+      },
+      "keywords": [
+        "Fantasy",
+        "Family",
+        "Adventure"
+      ],
+      "description": "Title Shot",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "lateTitle",
+          "value": false
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "color",
+          "value": "Tint"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "sound",
+          "value": false
+        }
+      ]
+    },
+    {
+      "@type": "Movie",
+      "name": "The Hunchback of Notre Dame",
+      "alternativeHeadline": "Notre-Dame de Paris",
+      "image": "https://www.dropbox.com/scl/fi/gwxc5hmo0l8m2qvsvp6w8/1911_The-Hunchback-of-Notre-Dame.png?rlkey=p7973jl2kidq40vjrzko0n6m4&raw=1",
+      "spatialCoverage": [
+        "France"
+      ],
+      "datePublished": "1911",
+      "sameAs": "https://boxd.it/8Nx4",
+      "productionCompany": [
+        {
+          "@type": "Organization",
+          "name": "Pathé"
+        }
+      ],
+      "countryOfOrigin": [
+        {
+          "@type": "Country",
+          "name": "France"
+        }
+      ],
+      "director": [
+        {
+          "@type": "Person",
+          "name": "Albert Capellani"
+        }
+      ],
+      "temporalCoverage": "15th",
+      "genre": [
+        "Fiction"
+      ],
+      "isBasedOn": {
+        "@type": "CreativeWork",
+        "name": "Victor Hugo"
+      },
+      "keywords": [
+        "Drama",
+        "Literature",
+        "Romance"
+      ],
+      "description": "Title Card",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "lateTitle",
+          "value": true
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "color",
+          "value": "BW"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "sound",
+          "value": false
+        }
+      ]
+    },
+    {
+      "@type": "Movie",
+      "name": "Lady Godiva",
+      "alternativeHeadline": "Lady Godiva",
+      "image": "https://www.dropbox.com/scl/fi/lcpywsc3peujomps3pzk2/1911_Lady-Godiva.png?rlkey=7dp2l29gsoxa9i4820td17rlj&raw=1",
+      "spatialCoverage": [
+        "England"
+      ],
+      "datePublished": "1911",
+      "sameAs": "https://boxd.it/6Anm",
+      "productionCompany": [
+        {
+          "@type": "Organization",
+          "name": "Vitagraph Company of America"
+        }
+      ],
+      "countryOfOrigin": [
+        {
+          "@type": "Country",
+          "name": "USA"
+        }
+      ],
+      "director": [
+        {
+          "@type": "Person",
+          "name": "Charles Kent"
+        }
+      ],
+      "temporalCoverage": "11th",
+      "genre": [
+        "Legend"
+      ],
+      "isBasedOn": {
+        "@type": "CreativeWork",
+        "name": "Alfred Lord Tennyson"
+      },
+      "keywords": [
+        "Drama",
+        "Literature"
+      ],
+      "description": "Title Card",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "lateTitle",
+          "value": false
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "color",
+          "value": "BW"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "sound",
+          "value": false
+        }
+      ]
+    },
+    {
+      "@type": "Movie",
+      "name": "The Life and Death of King Richard III",
+      "alternativeHeadline": "The Life and Death of King Richard III",
+      "image": "https://www.dropbox.com/scl/fi/efovglhzfwrg4mb5gjpwe/1912_The-Life-and-Death-of-King-Richard-III.png?rlkey=kbr5aqunfha84kddcf0nxch61&raw=1",
+      "spatialCoverage": [
+        "England"
+      ],
+      "datePublished": "1912",
+      "sameAs": "https://boxd.it/Mp8",
+      "productionCompany": [
+        {
+          "@type": "Organization",
+          "name": "Sterling Camera and Film Company"
+        },
+        {
+          "@type": "Organization",
+          "name": "Le Film d'art"
+        },
+        {
+          "@type": "Organization",
+          "name": "M.B. Dudley Amusement Co."
+        }
+      ],
+      "countryOfOrigin": [
+        {
+          "@type": "Country",
+          "name": "France"
+        },
+        {
+          "@type": "Country",
+          "name": "USA"
+        }
+      ],
+      "director": [
+        {
+          "@type": "Person",
+          "name": "André Calmettes"
+        },
+        {
+          "@type": "Person",
+          "name": "James Keane"
+        }
+      ],
+      "temporalCoverage": "15th",
+      "genre": [
+        "History"
+      ],
+      "isBasedOn": {
+        "@type": "CreativeWork",
+        "name": "William Shakespeare"
+      },
+      "keywords": [
+        "Richard III",
+        "Drama",
+        "Literature",
+        "Adventure"
+      ],
+      "description": "Title Card",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "lateTitle",
+          "value": false
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "color",
+          "value": "Tint"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "sound",
+          "value": false
+        }
+      ]
+    },
+    {
+      "@type": "Movie",
+      "name": "The Miracle",
+      "alternativeHeadline": "The Miracle",
+      "image": "https://www.dropbox.com/scl/fi/rgwvlfxuxjx0lm379ghd1/1912_The-Miracle.png?rlkey=xow5oas8as2tqmr8600aucw8n&raw=1",
+      "spatialCoverage": [
+        "Germany"
+      ],
+      "datePublished": "1912",
+      "sameAs": "https://boxd.it/5Qkm",
+      "productionCompany": [
+        {
+          "@type": "Organization",
+          "name": "Continental-Kunstfilm"
+        }
+      ],
+      "countryOfOrigin": [
+        {
+          "@type": "Country",
+          "name": "UK"
+        },
+        {
+          "@type": "Country",
+          "name": "Germany"
+        }
+      ],
+      "director": [
+        {
+          "@type": "Person",
+          "name": "Michel Carré"
+        }
+      ],
+      "temporalCoverage": "13th",
+      "genre": [
+        "Fiction"
+      ],
+      "isBasedOn": {
+        "@type": "CreativeWork",
+        "name": "Karl Vollmoeller"
+      },
+      "keywords": [
+        "Drama",
+        "Literature",
+        "Religious"
+      ],
+      "description": "Title Card",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "lateTitle",
+          "value": false
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "color",
+          "value": "Tint"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "sound",
+          "value": false
+        }
+      ]
+    },
+    {
+      "@type": "Movie",
+      "name": "Hamlet",
+      "alternativeHeadline": "Hamlet",
+      "image": "https://www.dropbox.com/scl/fi/37638yp7yu3zbryziphwc/1917_Hamlet.png?rlkey=n0plx9jtjmqczyy2tuqvydvh9&raw=1",
+      "spatialCoverage": [
+        "England"
+      ],
+      "datePublished": "1917",
+      "sameAs": "https://boxd.it/8lCK",
+      "productionCompany": [
+        {
+          "@type": "Organization",
+          "name": "Società Italiana Cines"
+        },
+        {
+          "@type": "Organization",
+          "name": "Rodolfifilm"
+        }
+      ],
+      "countryOfOrigin": [
+        {
+          "@type": "Country",
+          "name": "Italy"
+        }
+      ],
+      "director": [
+        {
+          "@type": "Person",
+          "name": "Heinz Schall"
+        }
+      ],
+      "temporalCoverage": "14th",
+      "genre": [
+        "Fiction"
+      ],
+      "isBasedOn": {
+        "@type": "CreativeWork",
+        "name": "William Shakespeare"
+      },
+      "keywords": [
+        "Drama",
+        "Family",
+        "Literature",
+        "Adventure",
+        "Crime"
+      ],
+      "description": "Opening (Title) Sequence",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "lateTitle",
+          "value": false
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "color",
+          "value": "Tint"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "sound",
+          "value": false
+        }
+      ]
+    },
+    {
+      "@type": "Movie",
+      "name": "Jerusalem Liberated ",
+      "alternativeHeadline": "La Gerusalemme liberata",
+      "image": "https://www.dropbox.com/scl/fi/cale76l3pz3p77p8jesfq/1918_Jerusalem-Liberated.png?rlkey=nah01419cqd7jbe4qnfzab5na&raw=1",
+      "spatialCoverage": [
+        "Italy"
+      ],
+      "datePublished": "1918",
+      "sameAs": "https://boxd.it/jjlu",
+      "productionCompany": [
+        {
+          "@type": "Organization",
+          "name": "Pathé"
+        }
+      ],
+      "countryOfOrigin": [
+        {
+          "@type": "Country",
+          "name": "Italy"
+        }
+      ],
+      "director": [
+        {
+          "@type": "Person",
+          "name": "Enrico Guazzoni"
+        }
+      ],
+      "temporalCoverage": "11th",
+      "genre": [
+        "History"
+      ],
+      "isBasedOn": {
+        "@type": "CreativeWork",
+        "name": "Torquato Tasso"
+      },
+      "keywords": [
+        "Godfrey of Bouillon",
+        "Literature",
+        "Religious",
+        "War",
+        "Crusades"
+      ],
+      "description": "Opening (Title) Sequence",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "lateTitle",
+          "value": false
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "color",
+          "value": "Tint"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "sound",
+          "value": false
+        }
+      ]
+    },
+    {
+      "@type": "Movie",
+      "name": "Wilhelm Tell",
+      "alternativeHeadline": "Wilhelm Tell",
+      "image": "https://www.dropbox.com/scl/fi/ns6ev6n2t5o7dnogwvrxd/1923_Wilhelm-Tell.png?rlkey=yvef8x1nsdz1vw012ponvc75n&raw=1",
+      "spatialCoverage": [
+        "Switzerland"
+      ],
+      "datePublished": "1923",
+      "sameAs": "https://boxd.it/5oNA",
+      "productionCompany": [
+        {
+          "@type": "Organization",
+          "name": "Althoff-Ambos-Film"
+        }
+      ],
+      "countryOfOrigin": [
+        {
+          "@type": "Country",
+          "name": "Germany"
+        }
+      ],
+      "director": [
+        {
+          "@type": "Person",
+          "name": "Rudolf Walther-Fein"
+        },
+        {
+          "@type": "Person",
+          "name": "Rudolf Dworsky"
+        }
+      ],
+      "temporalCoverage": "14th",
+      "genre": [
+        "Legend"
+      ],
+      "isBasedOn": {
+        "@type": "CreativeWork",
+        "name": "Legend"
+      },
+      "keywords": [
+        "Wilhelm Tell",
+        "Drama",
+        "Adventure"
+      ],
+      "description": "Opening (Title) Sequence",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "lateTitle",
+          "value": false
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "color",
+          "value": "BW"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "sound",
+          "value": false
+        }
+      ]
+    },
+    {
+      "@type": "Movie",
+      "name": "The Hunchback of Notre Dame",
+      "alternativeHeadline": "The Hunchback of Notre Dame",
+      "image": "https://www.dropbox.com/scl/fi/kt41ad0blkr1cs90xf97l/1923_The-Hunchback-of-Notre-Dame.png?rlkey=09zj8tg9b2iokibzf269u688k&raw=1",
+      "spatialCoverage": [
+        "France"
+      ],
+      "datePublished": "1923",
+      "sameAs": "https://boxd.it/1FVo",
+      "productionCompany": [
+        {
+          "@type": "Organization",
+          "name": "Universal Pictures"
+        }
+      ],
+      "countryOfOrigin": [
+        {
+          "@type": "Country",
+          "name": "USA"
+        }
+      ],
+      "director": [
+        {
+          "@type": "Person",
+          "name": "Wallace Worsley"
+        }
+      ],
+      "temporalCoverage": "15th",
+      "genre": [
+        "Fiction"
+      ],
+      "isBasedOn": {
+        "@type": "CreativeWork",
+        "name": "Victor Hugo"
+      },
+      "keywords": [
+        "Horror",
+        "Drama",
+        "Literature",
+        "Romance"
+      ],
+      "description": "Opening (Title) Sequence",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "lateTitle",
+          "value": false
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "color",
+          "value": "BW"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "sound",
+          "value": false
+        }
+      ]
+    },
+    {
+      "@type": "Movie",
+      "name": "Miracle of the Wolves",
+      "alternativeHeadline": "Le Miracle des loups",
+      "image": "https://www.dropbox.com/scl/fi/rq5s5v9b2r71odpv2o8by/1924_Miracle-of-the-Wolves.png?rlkey=6b18o8ymlgp47lbjpx12lp3n0&raw=1",
+      "spatialCoverage": [
+        "France"
+      ],
+      "datePublished": "1924",
+      "sameAs": "https://boxd.it/4cn4",
+      "productionCompany": [
+        {
+          "@type": "Organization",
+          "name": "Société des Films Historiques"
+        }
+      ],
+      "countryOfOrigin": [
+        {
+          "@type": "Country",
+          "name": "France"
+        }
+      ],
+      "director": [
+        {
+          "@type": "Person",
+          "name": "Raymond Bernard"
+        }
+      ],
+      "temporalCoverage": "15th",
+      "genre": [
+        "History"
+      ],
+      "isBasedOn": {
+        "@type": "CreativeWork",
+        "name": "Henry Dupuis-Mazuel"
+      },
+      "keywords": [
+        "Louis XI",
+        "Drama",
+        "Literature",
+        "War"
+      ],
+      "description": "Opening (Title) Sequence",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "lateTitle",
+          "value": false
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "color",
+          "value": "Tint"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "sound",
+          "value": false
+        }
+      ]
+    },
+    {
+      "@type": "Movie",
+      "name": "The Nibelungs: Siegfried",
+      "alternativeHeadline": "Die Nibelungen: Siegfried",
+      "image": "https://www.dropbox.com/scl/fi/dzwj6qn1pcgexpplg0oo4/1924_The-Nibelungs-Siegfried.png?rlkey=7d2sklp06c3k24yjfeemsdl17&raw=1",
+      "spatialCoverage": [
+        "Germany"
+      ],
+      "datePublished": "1924",
+      "sameAs": "https://boxd.it/1iWS",
+      "productionCompany": [
+        {
+          "@type": "Organization",
+          "name": "UFA"
+        },
+        {
+          "@type": "Organization",
+          "name": "Decla-Bioscop"
+        }
+      ],
+      "countryOfOrigin": [
+        {
+          "@type": "Country",
+          "name": "Germany"
+        }
+      ],
+      "director": [
+        {
+          "@type": "Person",
+          "name": "Fritz Lang"
+        }
+      ],
+      "temporalCoverage": "6th",
+      "genre": [
+        "Legend"
+      ],
+      "isBasedOn": {
+        "@type": "CreativeWork",
+        "name": "Legend"
+      },
+      "keywords": [
+        "Fantasy",
+        "Drama",
+        "Literature",
+        "Adventure"
+      ],
+      "description": "Opening (Title) Sequence",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "lateTitle",
+          "value": false
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "color",
+          "value": "Tint"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "sound",
+          "value": false
+        }
+      ]
+    },
+    {
+      "@type": "Movie",
+      "name": "The Nibelungs: Kriemhild's Revenge",
+      "alternativeHeadline": "Die Nibelungen: Kriemhilds Rache",
+      "image": "https://www.dropbox.com/scl/fi/84nmvple7p358d8gmg9op/1924_The-Nibelungs-Kriemhild-s-Revenge.png?rlkey=zu2n5ybg4x4eybkvkaey1kno3&raw=1",
+      "spatialCoverage": [
+        "Germany"
+      ],
+      "datePublished": "1924",
+      "sameAs": "https://boxd.it/WIu",
+      "productionCompany": [
+        {
+          "@type": "Organization",
+          "name": "UFA"
+        },
+        {
+          "@type": "Organization",
+          "name": "Decla-Bioscop"
+        }
+      ],
+      "countryOfOrigin": [
+        {
+          "@type": "Country",
+          "name": "Germany"
+        }
+      ],
+      "director": [
+        {
+          "@type": "Person",
+          "name": "Fritz Lang"
+        }
+      ],
+      "temporalCoverage": "6th",
+      "genre": [
+        "Legend"
+      ],
+      "isBasedOn": {
+        "@type": "CreativeWork",
+        "name": "Legend"
+      },
+      "keywords": [
+        "Fantasy",
+        "Drama",
+        "Literature",
+        "Adventure"
+      ],
+      "description": "Opening (Title) Sequence",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "lateTitle",
+          "value": false
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "color",
+          "value": "Tint"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "sound",
+          "value": false
+        }
+      ]
+    },
+    {
+      "@type": "Movie",
+      "name": "The Devil in the City",
+      "alternativeHeadline": "Le Diable dans la ville",
+      "image": "https://www.dropbox.com/scl/fi/hhdtyi88dx1ejm9x0aipi/1925_The-Devil-in-the-City.png?rlkey=gdzo5q71f9jkgoavwa0eqfxsq&raw=1",
+      "spatialCoverage": [
+        "France"
+      ],
+      "datePublished": "1925",
+      "sameAs": "https://boxd.it/8HUm",
+      "productionCompany": [
+        {
+          "@type": "Organization",
+          "name": "Films de France"
+        }
+      ],
+      "countryOfOrigin": [
+        {
+          "@type": "Country",
+          "name": "France"
+        }
+      ],
+      "director": [
+        {
+          "@type": "Person",
+          "name": "Germaine Dulac"
+        }
+      ],
+      "temporalCoverage": "15th",
+      "genre": [
+        "Fiction"
+      ],
+      "isBasedOn": {
+        "@type": "CreativeWork",
+        "name": "Story"
+      },
+      "keywords": [
+        "Fantasy",
+        "Religious"
+      ],
+      "description": "Opening (Title) Sequence",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "lateTitle",
+          "value": false
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "color",
+          "value": "BW"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "sound",
+          "value": false
+        }
+      ]
+    },
+    {
+      "@type": "Movie",
+      "name": "The Beloved Rogue",
+      "alternativeHeadline": "The Beloved Rogue",
+      "image": "https://www.dropbox.com/scl/fi/itra5s2ecxagqq2nc6dcd/1927_The-Beloved-Rogue.png?rlkey=fb3zf27zgzptb2f4yli7wyhxn&raw=1",
+      "spatialCoverage": [
+        "France"
+      ],
+      "datePublished": "1927",
+      "sameAs": "https://boxd.it/4016",
+      "productionCompany": [
+        {
+          "@type": "Organization",
+          "name": "Feature Productions"
+        }
+      ],
+      "countryOfOrigin": [
+        {
+          "@type": "Country",
+          "name": "USA"
+        }
+      ],
+      "director": [
+        {
+          "@type": "Person",
+          "name": "Alan Crosland"
+        }
+      ],
+      "temporalCoverage": "15th",
+      "genre": [
+        "History"
+      ],
+      "isBasedOn": {
+        "@type": "CreativeWork",
+        "name": "François Villon"
+      },
+      "keywords": [
+        "Drama",
+        "Literature",
+        "Adventure",
+        "Romance"
+      ],
+      "description": "Opening (Title) Sequence",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "lateTitle",
+          "value": false
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "color",
+          "value": "Tint"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "sound",
+          "value": false
+        }
+      ]
+    },
+    {
+      "@type": "Movie",
+      "name": "Saint Joan the Maid",
+      "alternativeHeadline": "La Merveilleuse Vie de Jeanne d'Arc",
+      "image": "https://www.dropbox.com/scl/fi/imsqjgoa9swfs9n6l0ljq/1929_Saint-Joan-the-Maid.png?rlkey=ha904jsfzh26hjas5f9an6dsz&raw=1",
+      "spatialCoverage": [
+        "France"
+      ],
+      "datePublished": "1929",
+      "sameAs": "https://boxd.it/5KnE",
+      "productionCompany": [
+        {
+          "@type": "Organization",
+          "name": "Rapid Film"
+        },
+        {
+          "@type": "Organization",
+          "name": "Pathé-Natan"
+        }
+      ],
+      "countryOfOrigin": [
+        {
+          "@type": "Country",
+          "name": "France"
+        },
+        {
+          "@type": "Country",
+          "name": "Germany"
+        }
+      ],
+      "director": [
+        {
+          "@type": "Person",
+          "name": "Marco de Gastyne"
+        }
+      ],
+      "temporalCoverage": "15th",
+      "genre": [
+        "History"
+      ],
+      "isBasedOn": {
+        "@type": "CreativeWork",
+        "name": "Hagiography"
+      },
+      "keywords": [
+        "Biography",
+        "Drama",
+        "Religious",
+        "War"
+      ],
+      "description": "Opening (Title) Sequence",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "lateTitle",
+          "value": false
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "color",
+          "value": "Tint"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "sound",
+          "value": false
+        }
+      ]
+    },
+    {
+      "@type": "Movie",
+      "name": "Anthony of Padua, The Saint of Miracles",
+      "alternativeHeadline": "Antonio di Padova, Il santo dei miracoli",
+      "image": "https://www.dropbox.com/scl/fi/v752z50e1bhz82rbx38ah/1931_Anthony-of-Padua-The-Saint-of-Miracles.png?rlkey=eplrpkvdyk022w3kf3dvhdrhe&raw=1",
+      "spatialCoverage": [
+        "Italy"
+      ],
+      "datePublished": "1931",
+      "sameAs": "https://boxd.it/aGPO",
+      "productionCompany": [
+        {
+          "@type": "Organization",
+          "name": "Società Anonima Cinematografie Religiose Artistiche Sonore (SACRAS)"
+        }
+      ],
+      "countryOfOrigin": [
+        {
+          "@type": "Country",
+          "name": "Italy"
+        }
+      ],
+      "director": [
+        {
+          "@type": "Person",
+          "name": "Giulio Antamoro"
+        }
+      ],
+      "temporalCoverage": "13th",
+      "genre": [
+        "History"
+      ],
+      "isBasedOn": {
+        "@type": "CreativeWork",
+        "name": "Hagiography"
+      },
+      "keywords": [
+        "Biography",
+        "Drama",
+        "Religious"
+      ],
+      "description": "Opening (Title) Sequence",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "lateTitle",
+          "value": false
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "color",
+          "value": "BW"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "sound",
+          "value": false
+        }
+      ]
+    },
+    {
+      "@type": "Movie",
+      "name": "Wilhelm Tell",
+      "alternativeHeadline": "Wilhelm Tell",
+      "image": "https://www.dropbox.com/scl/fi/6w4byu7v2c4zv4doh7vlo/1934_Wilhelm-Tell.png?rlkey=kac1wy6qqfsfhlgnk56uzujen&raw=1",
+      "spatialCoverage": [
+        "Austria"
+      ],
+      "datePublished": "1934",
+      "sameAs": "https://boxd.it/94kQ",
+      "productionCompany": [
+        {
+          "@type": "Organization",
+          "name": "Terra-Filmkunst"
+        }
+      ],
+      "countryOfOrigin": [
+        {
+          "@type": "Country",
+          "name": "Germany"
+        }
+      ],
+      "director": [
+        {
+          "@type": "Person",
+          "name": "Heinz Paul"
+        }
+      ],
+      "temporalCoverage": "14th",
+      "genre": [
+        "Fiction"
+      ],
+      "isBasedOn": {
+        "@type": "CreativeWork",
+        "name": "Friedrich Schiller"
+      },
+      "keywords": [
+        "Drama",
+        "Literature",
+        "Adventure"
+      ],
+      "description": "Opening (Title) Sequence",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "lateTitle",
+          "value": false
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "color",
+          "value": "BW"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "sound",
+          "value": true
+        }
+      ]
+    },
+    {
+      "@type": "Movie",
+      "name": "Adémaï in the Middle Ages",
+      "alternativeHeadline": "Adémaï au Moyen Âge",
+      "image": "https://www.dropbox.com/scl/fi/r76hqrlrdgfa30fc7ibry/1935_Ad-ma-in-the-Middle-Ages.png?rlkey=85dmmeh3g184mvf6ooaovllun&raw=1",
+      "spatialCoverage": [
+        "France"
+      ],
+      "datePublished": "1935",
+      "sameAs": "https://boxd.it/fUmG",
+      "productionCompany": [
+        {
+          "@type": "Organization",
+          "name": "Lutèce Films"
+        }
+      ],
+      "countryOfOrigin": [
+        {
+          "@type": "Country",
+          "name": "France"
+        }
+      ],
+      "director": [
+        {
+          "@type": "Person",
+          "name": "Jean de Marguenat"
+        }
+      ],
+      "temporalCoverage": "15th",
+      "genre": [
+        "History"
+      ],
+      "isBasedOn": {
+        "@type": "CreativeWork",
+        "name": "Story"
+      },
+      "keywords": [
+        "Comedy",
+        "Adventure",
+        "War"
+      ],
+      "description": "Opening (Title) Sequence",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "lateTitle",
+          "value": false
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "color",
+          "value": "BW"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "sound",
+          "value": true
+        }
+      ]
+    },
+    {
+      "@type": "Movie",
+      "name": "If I Were King",
+      "alternativeHeadline": "If I Were King",
+      "image": "https://www.dropbox.com/scl/fi/2i36foqxqog7ov3v26cyf/1938_If-I-Were-King.png?rlkey=h3o72bfv12iukzlnrz7ajart2&raw=1",
+      "spatialCoverage": [
+        "France"
+      ],
+      "datePublished": "1938",
+      "sameAs": "https://boxd.it/49BC",
+      "productionCompany": [
+        {
+          "@type": "Organization",
+          "name": "Paramount Pictures"
+        }
+      ],
+      "countryOfOrigin": [
+        {
+          "@type": "Country",
+          "name": "USA"
+        }
+      ],
+      "director": [
+        {
+          "@type": "Person",
+          "name": "Frank Lloyd"
+        }
+      ],
+      "temporalCoverage": "15th",
+      "genre": [
+        "History"
+      ],
+      "isBasedOn": {
+        "@type": "CreativeWork",
+        "name": "Justin Huntly McCarthy"
+      },
+      "keywords": [
+        "François Villon",
+        "Louis XI",
+        "Biography"
+      ],
+      "description": "Intro",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "lateTitle",
+          "value": false
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "color",
+          "value": "BW"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "sound",
+          "value": true
+        }
+      ]
+    },
+    {
+      "@type": "Movie",
+      "name": "The Adventures of Robin Hood",
+      "alternativeHeadline": "The Adventures of Robin Hood",
+      "image": "https://www.dropbox.com/scl/fi/5bzxt6bi1qr0qapvbsoq6/1938_The-Adventures-of-Robin-Hood.png?rlkey=uijl3omp83ntasqw65iejdn3j&raw=1",
+      "spatialCoverage": [
+        "England"
+      ],
+      "datePublished": "1938",
+      "sameAs": "https://boxd.it/1V6G",
+      "productionCompany": [
+        {
+          "@type": "Organization",
+          "name": "Warner Bros. Pictures"
+        }
+      ],
+      "countryOfOrigin": [
+        {
+          "@type": "Country",
+          "name": "USA"
+        }
+      ],
+      "director": [
+        {
+          "@type": "Person",
+          "name": "Michael Curtiz"
+        },
+        {
+          "@type": "Person",
+          "name": "William Keighley"
+        }
+      ],
+      "temporalCoverage": "12th",
+      "genre": [
+        "Fiction"
+      ],
+      "isBasedOn": {
+        "@type": "CreativeWork",
+        "name": "Story"
+      },
+      "keywords": [
+        "Robin Hood",
+        "King Richard the Lionheart",
+        "Adventure"
+      ],
+      "description": "Intro",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "lateTitle",
+          "value": false
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "color",
+          "value": "C"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "sound",
+          "value": true
+        }
+      ]
+    },
+    {
+      "@type": "Movie",
+      "name": "The Adventures of Marco Polo",
+      "alternativeHeadline": "The Adventures of Marco Polo",
+      "image": "https://www.dropbox.com/scl/fi/fzvrzzp3bulbyd1umsaxr/1938_The-Adventures-of-Marco-Polo.png?rlkey=j7te0sp9czbuxuduf8q46oc23&raw=1",
+      "spatialCoverage": "Italy",
+      "datePublished": "1938",
+      "sameAs": "https://boxd.it/3XW4",
+      "productionCompany": [
+        {
+          "@type": "Organization",
+          "name": "Samuel Goldwyn Productions"
+        }
+      ],
+      "countryOfOrigin": [
+        {
+          "@type": "Country",
+          "name": "USA"
+        }
+      ],
+      "director": [
+        {
+          "@type": "Person",
+          "name": "Archie Mayo"
+        }
+      ],
+      "temporalCoverage": "13th",
+      "genre": [
+        "History"
+      ],
+      "isBasedOn": {
+        "@type": "CreativeWork",
+        "name": "Story"
+      },
+      "keywords": [
+        "Marco Polo",
+        "Biography",
+        "Adventure",
+        "Romance"
+      ],
+      "description": "Intro",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "lateTitle",
+          "value": false
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "color",
+          "value": "BW"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "sound",
+          "value": true
+        }
+      ]
+    },
+    {
+      "@type": "Movie",
+      "name": "The Hunchback of Notre Dame",
+      "alternativeHeadline": "The Hunchback of Notre Dame",
+      "image": "https://www.dropbox.com/scl/fi/s08eurz4k0m60oxz6kzqu/1939_The-Hunchback-of-Notre-Dame.png?rlkey=28ln8uye3e7lnj6065cp34zkn&raw=1",
+      "spatialCoverage": [
+        "France"
+      ],
+      "datePublished": "1939",
+      "sameAs": "https://boxd.it/1ixo",
+      "productionCompany": [
+        {
+          "@type": "Organization",
+          "name": "RKO Radio Pictures"
+        }
+      ],
+      "countryOfOrigin": [
+        {
+          "@type": "Country",
+          "name": "USA"
+        }
+      ],
+      "director": [
+        {
+          "@type": "Person",
+          "name": "William Dieterle"
+        }
+      ],
+      "temporalCoverage": "15th",
+      "genre": [
+        "Fiction"
+      ],
+      "isBasedOn": {
+        "@type": "CreativeWork",
+        "name": "Victor Hugo"
+      },
+      "keywords": [
+        "Horror",
+        "Drama",
+        "Literature",
+        "Romance"
+      ],
+      "description": "Intro",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "lateTitle",
+          "value": false
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "color",
+          "value": "BW"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "sound",
+          "value": true
+        }
+      ]
+    },
+    {
+      "@type": "Movie",
+      "name": "The Iron Crown",
+      "alternativeHeadline": "La corona di ferro",
+      "image": "https://www.dropbox.com/scl/fi/dq58sjopg2hy9brylj8mb/1941_The-Iron-Crown.png?rlkey=t02bceny8kh9wyey3dg7jbr27&raw=1",
+      "spatialCoverage": [
+        "Unknown"
+      ],
+      "datePublished": "1941",
+      "sameAs": "https://boxd.it/2egK",
+      "productionCompany": [
+        {
+          "@type": "Organization",
+          "name": "ENIC"
+        },
+        {
+          "@type": "Organization",
+          "name": "Lux Film"
+        }
+      ],
+      "countryOfOrigin": [
+        {
+          "@type": "Country",
+          "name": "Italy"
+        }
+      ],
+      "director": [
+        {
+          "@type": "Person",
+          "name": "Alessandro Blasetti"
+        }
+      ],
+      "temporalCoverage": "undefined",
+      "genre": [
+        "Fiction"
+      ],
+      "isBasedOn": {
+        "@type": "CreativeWork",
+        "name": "Story"
+      },
+      "keywords": [
+        "Fantasy",
+        "Adventure"
+      ],
+      "description": "Opening (Title) Sequence",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "lateTitle",
+          "value": false
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "color",
+          "value": "BW"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "sound",
+          "value": true
+        }
+      ]
+    },
+    {
+      "@type": "Movie",
+      "name": "The Gorgon",
+      "alternativeHeadline": "La Gorgona",
+      "image": "https://www.dropbox.com/scl/fi/69k2s0m5a64vo8rn11agi/1942_The-Gorgon.png?rlkey=xd5n20yd4db19sqlymjbfnykb&raw=1",
+      "spatialCoverage": [
+        "Italy"
+      ],
+      "datePublished": "1942",
+      "sameAs": "https://boxd.it/sQks",
+      "productionCompany": [
+        {
+          "@type": "Organization",
+          "name": "Artisti Associati"
+        },
+        {
+          "@type": "Organization",
+          "name": "Florentia Film"
+        }
+      ],
+      "countryOfOrigin": [
+        {
+          "@type": "Country",
+          "name": "Italy"
+        }
+      ],
+      "director": [
+        {
+          "@type": "Person",
+          "name": "Guido Brignone"
+        }
+      ],
+      "temporalCoverage": "11th",
+      "genre": [
+        "Fiction"
+      ],
+      "isBasedOn": {
+        "@type": "CreativeWork",
+        "name": "Sem Benelli"
+      },
+      "keywords": [
+        "Drama",
+        "Literature",
+        "Adventure",
+        "War"
+      ],
+      "description": "Opening (Title) Sequence",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "lateTitle",
+          "value": false
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "color",
+          "value": "BW"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "sound",
+          "value": true
+        }
+      ]
+    },
+    {
+      "@type": "Movie",
+      "name": "The Devil's Envoys",
+      "alternativeHeadline": "Les Visiteurs du soir",
+      "image": "https://www.dropbox.com/scl/fi/rom7bd5f4ipi11ns8azfo/1942_The-Devil-s-Envoys.png?rlkey=81lpfuigprsl05028dk4dtzs7&raw=1",
+      "spatialCoverage": [
+        "France"
+      ],
+      "datePublished": "1942",
+      "sameAs": "https://boxd.it/QAa",
+      "productionCompany": [
+        {
+          "@type": "Organization",
+          "name": "Productions André Paulvé"
+        }
+      ],
+      "countryOfOrigin": [
+        {
+          "@type": "Country",
+          "name": "France"
+        }
+      ],
+      "director": [
+        {
+          "@type": "Person",
+          "name": "Marcel Carné"
+        }
+      ],
+      "temporalCoverage": "15th",
+      "genre": [
+        "Fiction"
+      ],
+      "isBasedOn": {
+        "@type": "CreativeWork",
+        "name": "Story"
+      },
+      "keywords": [
+        "Fantasy",
+        "Drama",
+        "Romance"
+      ],
+      "description": "Intro",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "lateTitle",
+          "value": false
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "color",
+          "value": "BW"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "sound",
+          "value": true
+        }
+      ]
+    },
+    {
+      "@type": "Movie",
+      "name": "Henry V",
+      "alternativeHeadline": "Henry V",
+      "image": "https://www.dropbox.com/scl/fi/gzioqpe88yqu8eyee1zfr/1944_Henry-V.png?rlkey=5hkrcny73ix7d5j1xjedz7swg&raw=1",
+      "spatialCoverage": [
+        "England"
+      ],
+      "datePublished": "1944",
+      "sameAs": "https://boxd.it/1Agq",
+      "productionCompany": [
+        {
+          "@type": "Organization",
+          "name": "Two Cities Films"
+        },
+        {
+          "@type": "Organization",
+          "name": "J. Arthur Rank Organisation"
+        }
+      ],
+      "countryOfOrigin": [
+        {
+          "@type": "Country",
+          "name": "UK"
+        }
+      ],
+      "director": [
+        {
+          "@type": "Person",
+          "name": "Laurence Olivier"
+        }
+      ],
+      "temporalCoverage": "15th",
+      "genre": [
+        "History"
+      ],
+      "isBasedOn": {
+        "@type": "CreativeWork",
+        "name": "William Shakespeare"
+      },
+      "keywords": [
+        "Henry V",
+        "Biography",
+        "Drama",
+        "Literature",
+        "War"
+      ],
+      "description": "Intro",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "lateTitle",
+          "value": false
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "color",
+          "value": "C"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "sound",
+          "value": true
+        }
+      ]
+    },
+    {
+      "@type": "Movie",
+      "name": "Inés de Castro",
+      "alternativeHeadline": "Inés de Castro",
+      "image": "https://www.dropbox.com/scl/fi/4uwkzdonkalt4o0d54yde/1944_In-s-de-Castro.png?rlkey=8kdwifgszsku9i4btpmkpiubz&raw=1",
+      "spatialCoverage": [
+        "Portugal"
+      ],
+      "datePublished": "1944",
+      "sameAs": "https://boxd.it/ghKG",
+      "productionCompany": [
+        {
+          "@type": "Organization",
+          "name": "Faro"
+        },
+        {
+          "@type": "Organization",
+          "name": "Filmes Lumiar"
+        }
+      ],
+      "countryOfOrigin": [
+        {
+          "@type": "Country",
+          "name": "Spain"
+        },
+        {
+          "@type": "Country",
+          "name": "Portugal"
+        }
+      ],
+      "director": [
+        {
+          "@type": "Person",
+          "name": "José Leitão de Barros"
+        },
+        {
+          "@type": "Person",
+          "name": "Manuel Augusto García Viñolas"
+        }
+      ],
+      "temporalCoverage": "14th",
+      "genre": [
+        "History"
+      ],
+      "isBasedOn": {
+        "@type": "CreativeWork",
+        "name": "Afonso Lopes Vieira"
+      },
+      "keywords": [
+        "Inés de Castro",
+        "Drama",
+        "Literature",
+        "Romance"
+      ],
+      "description": "Intro",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "lateTitle",
+          "value": false
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "color",
+          "value": "BW"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "sound",
+          "value": true
+        }
+      ]
+    },
+    {
+      "@type": "Movie",
+      "name": "Kashchey the Immortal",
+      "alternativeHeadline": "Кащей Бессмертный",
+      "image": "https://www.dropbox.com/scl/fi/ssa3ahfm04shbek7pusvj/1944_Kashchey-the-Immortal.png?rlkey=t0e4r8hphx4yik95xunqrf4gu&raw=1",
+      "spatialCoverage": [
+        "Kievan Rus'"
+      ],
+      "datePublished": "1944",
+      "sameAs": "https://boxd.it/2D6U",
+      "productionCompany": [
+        {
+          "@type": "Organization",
+          "name": "Soyuzdetfilm"
+        },
+        {
+          "@type": "Organization",
+          "name": "Gorky Film Studios"
+        }
+      ],
+      "countryOfOrigin": [
+        {
+          "@type": "Country",
+          "name": "USSR"
+        }
+      ],
+      "director": [
+        {
+          "@type": "Person",
+          "name": "Aleksandr Rou"
+        }
+      ],
+      "temporalCoverage": "12th",
+      "genre": [
+        "Legend"
+      ],
+      "isBasedOn": {
+        "@type": "CreativeWork",
+        "name": "Legend"
+      },
+      "keywords": [
+        "Fantasy",
+        "Family",
+        "Literature",
+        "Adventure"
+      ],
+      "description": "Opening (Title) Sequence",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "lateTitle",
+          "value": false
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "color",
+          "value": "BW"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "sound",
+          "value": true
+        }
+      ]
+    },
+    {
+      "@type": "Movie",
+      "name": "The Bandit of Sherwood Forest",
+      "alternativeHeadline": "The Bandit of Sherwood Forest",
+      "image": "https://www.dropbox.com/scl/fi/33spz2z2dqvoudkjx6kmk/1946_The-Bandit-of-Sherwood-Forest.png?rlkey=l4xcza1bwqjvy1hzavvnfhn14&raw=1",
+      "spatialCoverage": [
+        "England"
+      ],
+      "datePublished": "1946",
+      "sameAs": "https://boxd.it/3I2K",
+      "productionCompany": [
+        {
+          "@type": "Organization",
+          "name": "Columbia Pictures"
+        }
+      ],
+      "countryOfOrigin": [
+        {
+          "@type": "Country",
+          "name": "USA"
+        }
+      ],
+      "director": [
+        {
+          "@type": "Person",
+          "name": "Henry Levin"
+        },
+        {
+          "@type": "Person",
+          "name": "George Sherman"
+        }
+      ],
+      "temporalCoverage": "13th",
+      "genre": [
+        "Fiction"
+      ],
+      "isBasedOn": {
+        "@type": "CreativeWork",
+        "name": "Paul Castleton"
+      },
+      "keywords": [
+        "Robin Hood",
+        "King Richard the Lionheart",
+        "Magna Carta",
+        "Family",
+        "Literature",
+        "Adventure"
+      ],
+      "description": "Intro",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "lateTitle",
+          "value": false
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "color",
+          "value": "C"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "sound",
+          "value": true
+        }
+      ]
+    },
+    {
+      "@type": "Movie",
+      "name": "The Holy Crown",
+      "alternativeHeadline": "Reina santa",
+      "image": "https://www.dropbox.com/scl/fi/zbz7epw6ylpj4shq5ysym/1947_The-Holy-Crown.png?rlkey=p8ilyfh2hgl3stt3su0d52ntq&raw=1",
+      "spatialCoverage": [
+        "Portugal"
+      ],
+      "datePublished": "1947",
+      "sameAs": "https://boxd.it/aeSA",
+      "productionCompany": [
+        {
+          "@type": "Organization",
+          "name": "Filmes Albuquerque"
+        },
+        {
+          "@type": "Organization",
+          "name": "Cesáreo González"
+        }
+      ],
+      "countryOfOrigin": [
+        {
+          "@type": "Country",
+          "name": "Spain"
+        },
+        {
+          "@type": "Country",
+          "name": "Portugal"
+        }
+      ],
+      "director": [
+        {
+          "@type": "Person",
+          "name": "Rafael Gil, Henrique Campos, Aníbal Contreiras"
+        }
+      ],
+      "temporalCoverage": "14th",
+      "genre": [
+        "History"
+      ],
+      "isBasedOn": {
+        "@type": "CreativeWork",
+        "name": "Story"
+      },
+      "keywords": [
+        "Isabel of Aragon",
+        "Biography",
+        "Drama",
+        "War"
+      ],
+      "description": "Opening (Title) Sequence",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "lateTitle",
+          "value": false
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "color",
+          "value": "BW"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "sound",
+          "value": true
+        }
+      ]
+    },
+    {
+      "@type": "Movie",
+      "name": "Warriors of Faith",
+      "alternativeHeadline": "Jan Roháč z Dubé",
+      "image": "https://www.dropbox.com/scl/fi/fq8r4kbjif7ssto0dc0pn/1947_Warriors-of-Faith.png?rlkey=p7sxx0ms4h3ygjmpm704h6t50&raw=1",
+      "spatialCoverage": [
+        "Czech Republic"
+      ],
+      "datePublished": "1947",
+      "sameAs": "https://boxd.it/6liQ",
+      "productionCompany": [
+        {
+          "@type": "Organization",
+          "name": "Československá filmová společnost"
+        }
+      ],
+      "countryOfOrigin": [
+        {
+          "@type": "Country",
+          "name": "Czechoslovakia"
+        }
+      ],
+      "director": [
+        {
+          "@type": "Person",
+          "name": "Vladimír Borský"
+        }
+      ],
+      "temporalCoverage": "15th",
+      "genre": [
+        "History"
+      ],
+      "isBasedOn": {
+        "@type": "CreativeWork",
+        "name": "Story"
+      },
+      "keywords": [
+        "Jan Roháč of Dubá",
+        "Drama",
+        "Religious",
+        "War"
+      ],
+      "description": "Opening (Title) Sequence",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "lateTitle",
+          "value": false
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "color",
+          "value": "C"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "sound",
+          "value": true
+        }
+      ]
+    },
+    {
+      "@type": "Movie",
+      "name": "The Prince Of Thieves",
+      "alternativeHeadline": "The Prince Of Thieves",
+      "image": "https://www.dropbox.com/scl/fi/8ftf436lima1vbmwanaw6/1948_The-Prince-Of-Thieves.png?rlkey=ey40ovbhqayqtv47iff7ifpq6&raw=1",
+      "spatialCoverage": [
+        "England"
+      ],
+      "datePublished": "1948",
+      "sameAs": "https://boxd.it/7E4U",
+      "productionCompany": [
+        {
+          "@type": "Organization",
+          "name": "Columbia Pictures"
+        }
+      ],
+      "countryOfOrigin": [
+        {
+          "@type": "Country",
+          "name": "USA"
+        }
+      ],
+      "director": [
+        {
+          "@type": "Person",
+          "name": "Howard Bretherton"
+        }
+      ],
+      "temporalCoverage": "12th",
+      "genre": [
+        "Fiction"
+      ],
+      "isBasedOn": {
+        "@type": "CreativeWork",
+        "name": "Alexandre Dumas"
+      },
+      "keywords": [
+        "Robin Hood",
+        "King Richard the Lionheart", 
+        "Crusades", 
+        "Literature",
+        "Adventure"
+      ],
+      "description": "Intro",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "lateTitle",
+          "value": false
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "color",
+          "value": "C"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "sound",
+          "value": true
+        }
+      ]
+    },
+    {
+      "@type": "Movie",
+      "name": "The Black Arrow",
+      "alternativeHeadline": "The Black Arrow",
+      "image": "https://www.dropbox.com/scl/fi/uzs7r3xxyrn002phgbkug/1948_The-Black-Arrow.png?rlkey=xtvaef9xstyxfjdrecmnnbmg5&raw=1",
+      "spatialCoverage": [
+        "England"
+      ],
+      "datePublished": "1948",
+      "sameAs": "https://boxd.it/8Mn8",
+      "productionCompany": [
+        {
+          "@type": "Organization",
+          "name": "Edward Small Productions"
+        },
+        {
+          "@type": "Organization",
+          "name": "Columbia Pictures"
+        }
+      ],
+      "countryOfOrigin": [
+        {
+          "@type": "Country",
+          "name": "USA"
+        }
+      ],
+      "director": [
+        {
+          "@type": "Person",
+          "name": "Gordon Douglas"
+        }
+      ],
+      "temporalCoverage": "15th",
+      "genre": [
+        "History"
+      ],
+      "isBasedOn": {
+        "@type": "CreativeWork",
+        "name": "Robert Louis Stevenson"
+      },
+      "keywords": [
+        "Literature",
+        "Adventure",
+        "War"
+      ],
+      "description": "Intro",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "lateTitle",
+          "value": false
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "color",
+          "value": "BW"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "sound",
+          "value": true
+        }
+      ]
+    },
+    {
+      "@type": "Movie",
+      "name": "Fiddlers Three",
+      "alternativeHeadline": "Fiddlers Three",
+      "image": "https://www.dropbox.com/scl/fi/uuvzhzoeq60acv3bl1oq3/1948_Fiddlers-Three.png?rlkey=d929rnoghmqs9d3is9xvxy5w5&raw=1",
+      "spatialCoverage": [
+        "England"
+      ],
+      "datePublished": "1948",
+      "sameAs": "https://boxd.it/3RMW",
+      "productionCompany": [
+        {
+          "@type": "Organization",
+          "name": "Columbia Pictures"
+        }
+      ],
+      "countryOfOrigin": [
+        {
+          "@type": "Country",
+          "name": "USA"
+        }
+      ],
+      "director": [
+        {
+          "@type": "Person",
+          "name": "Jules White"
+        }
+      ],
+      "temporalCoverage": "12th",
+      "genre": [
+        "Fiction"
+      ],
+      "isBasedOn": {
+        "@type": "CreativeWork",
+        "name": "Story"
+      },
+      "keywords": [
+        "Comedy"
+      ],
+      "description": "Opening (Title) Sequence",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "lateTitle",
+          "value": false
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "color",
+          "value": "BW"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "sound",
+          "value": true
+        }
+      ]
+    },
+    {
+      "@type": "Movie",
+      "name": "The Wind Is My Lover",
+      "alternativeHeadline": "Singoalla",
+      "image": "https://www.dropbox.com/scl/fi/4hzq2ngtylt9c3a6f7kqt/1949_The-Wind-Is-My-Lover.png?rlkey=o3k33bm78l0nakg8p1fc59olb&raw=1",
+      "spatialCoverage": [
+        "Sweden"
+      ],
+      "datePublished": "1949",
+      "sameAs": "https://boxd.it/442C",
+      "productionCompany": [
+        {
+          "@type": "Organization",
+          "name": "Terrafilm"
+        },
+        {
+          "@type": "Organization",
+          "name": "Roissy Films"
+        }
+      ],
+      "countryOfOrigin": [
+        {
+          "@type": "Country",
+          "name": "France"
+        },
+        {
+          "@type": "Country",
+          "name": "Sweden"
+        }
+      ],
+      "director": [
+        {
+          "@type": "Person",
+          "name": "Christian-Jaque"
+        }
+      ],
+      "temporalCoverage": "14th",
+      "genre": [
+        "Legend"
+      ],
+      "isBasedOn": {
+        "@type": "CreativeWork",
+        "name": "Viktor Rydberg"
+      },
+      "keywords": [
+        "Drama",
+        "Literature",
+        "Romance"
+      ],
+      "description": "Opening (Title) Sequence",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "lateTitle",
+          "value": false
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "color",
+          "value": "BW"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "sound",
+          "value": true
+        }
+      ]
+    },
+    {
+      "@type": "Movie",
+      "name": "The Adventures of Sir Galahad",
+      "alternativeHeadline": "The Adventures of Sir Galahad",
+      "image": "https://www.dropbox.com/scl/fi/tsbx3os2a50ri9ofew8a6/1949_The-Adventures-of-Sir-Galahad.png?rlkey=yl2hn5vqmuj89sxnnjupmlc00&raw=1",
+      "spatialCoverage": [
+        "England"
+      ],
+      "datePublished": "1949",
+      "sameAs": "https://boxd.it/62fe",
+      "productionCompany": [
+        {
+          "@type": "Organization",
+          "name": "Sam Katzman Productions"
+        }
+      ],
+      "countryOfOrigin": [
+        {
+          "@type": "Country",
+          "name": "USA"
+        }
+      ],
+      "director": [
+        {
+          "@type": "Person",
+          "name": "Spencer Gordon Bennet"
+        }
+      ],
+      "temporalCoverage": "6th",
+      "genre": [
+        "Legend"
+      ],
+      "isBasedOn": {
+        "@type": "CreativeWork",
+        "name": "Legend"
+      },
+      "keywords": [
+        "King Arthur",
+        "Sir Lancelot",
+        "Sir Bors",
+        "Sir Mordred",
+        "Merlin",
+        "Literature",
+        "Adventure"
+      ],
+      "description": "Opening (Title) Sequence",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "lateTitle",
+          "value": false
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "color",
+          "value": "BW"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "sound",
+          "value": true
+        }
+      ]
+    },
+    {
+      "@type": "Movie",
+      "name": "A Connecticut Yankee in King Arthur's Court",
+      "alternativeHeadline": "A Connecticut Yankee in King Arthur's Court",
+      "image": "https://www.dropbox.com/scl/fi/42epf3ch5pzu96hbei73w/1949_A-Connecticut-Yankee-in-King-Arthur-s-Court.png?rlkey=bjsbzxvse7fspj75bl0somsvz&raw=1",
+      "spatialCoverage": [
+        "England"
+      ],
+      "datePublished": "1949",
+      "sameAs": "https://boxd.it/19Gc",
+      "productionCompany": [
+        {
+          "@type": "Organization",
+          "name": "Paramount Pictures"
+        }
+      ],
+      "countryOfOrigin": [
+        {
+          "@type": "Country",
+          "name": "USA"
+        }
+      ],
+      "director": [
+        {
+          "@type": "Person",
+          "name": "Tay Garnett"
+        }
+      ],
+      "temporalCoverage": "6th",
+      "genre": [
+        "Legend"
+      ],
+      "isBasedOn": {
+        "@type": "CreativeWork",
+        "name": "Mark Twain"
+      },
+      "keywords": [
+        "King Arthur",
+        "Fantasy",
+        "Family",
+        "Comedy",
+        "Literature",
+        "Music",
+        "Adventure",
+        "Romance"
+      ],
+      "description": "Opening (Title) Sequence",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "lateTitle",
+          "value": false
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "color",
+          "value": "C"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "sound",
+          "value": true
+        }
+      ]
+    },
+    {
+      "@type": "Movie",
+      "name": "Christopher Columbus",
+      "alternativeHeadline": "Christopher Columbus",
+      "image": "https://www.dropbox.com/scl/fi/z4n5kq5ify1znp4ll2v2l/1949_Christopher-Columbus.png?rlkey=7wqfifz0gz4tz6nvamiqex7xy&raw=1",
+      "spatialCoverage": [
+        "Spain"
+      ],
+      "datePublished": "1949",
+      "sameAs": "https://boxd.it/4VMI",
+      "productionCompany": [
+        {
+          "@type": "Organization",
+          "name": "Sydney Box Productions"
+        },
+        {
+          "@type": "Organization",
+          "name": "Gainsborough Pictures"
+        },
+        {
+          "@type": "Organization",
+          "name": "J. Arthur Rank Organisation"
+        }
+      ],
+      "countryOfOrigin": [
+        {
+          "@type": "Country",
+          "name": "UK"
+        }
+      ],
+      "director": [
+        {
+          "@type": "Person",
+          "name": "David MacDonald"
+        }
+      ],
+      "temporalCoverage": "15th",
+      "genre": [
+        "History"
+      ],
+      "isBasedOn": {
+        "@type": "CreativeWork",
+        "name": "Rafael Sabatini"
+      },
+      "keywords": [
+        "Christopher Columbus",
+        "Queen Isabella",
+        "Biography",
+        "Drama",
+        "Literature",
+        "Adventure",
+        "Romance"
+      ],
+      "description": "Intro",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "lateTitle",
+          "value": false
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "color",
+          "value": "C"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "sound",
+          "value": true
+        }
+      ]
+    },
+    {
+      "@type": "Movie",
+      "name": "Sicilian Uprising",
+      "alternativeHeadline": "Vespro siciliano",
+      "image": "https://www.dropbox.com/scl/fi/cgw0sa6uymhszetv17d2l/1949_Sicilian-Uprising.png?rlkey=mw1ncew09i2metpfrowilx252&raw=1",
+      "spatialCoverage": [
+        "Italy"
+      ],
+      "datePublished": "1949",
+      "sameAs": "https://boxd.it/fY2g",
+      "productionCompany": [
+        {
+          "@type": "Organization",
+          "name": "Epica Film"
+        },
+        {
+          "@type": "Organization",
+          "name": "Società Anonima Film Italiani Roma (SAFIR)"
+        }
+      ],
+      "countryOfOrigin": [
+        {
+          "@type": "Country",
+          "name": "Italy"
+        }
+      ],
+      "director": [
+        {
+          "@type": "Person",
+          "name": "Giorgio Pàstina"
+        }
+      ],
+      "temporalCoverage": "13th",
+      "genre": [
+        "History"
+      ],
+      "isBasedOn": {
+        "@type": "CreativeWork",
+        "name": "Giuseppe Verdi"
+      },
+      "keywords": [
+        "Drama",
+        "Literature"
+      ],
+      "description": "Opening (Title) Sequence",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "lateTitle",
+          "value": false
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "color",
+          "value": "BW"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "sound",
+          "value": true
+        }
+      ]
+    },
+    {
+      "@type": "Movie",
+      "name": "The Iron Swordsman",
+      "alternativeHeadline": "Il conte Ugolino",
+      "image": "https://www.dropbox.com/scl/fi/y7s370012w7dnkmy8loy5/1949_The-Iron-Swordsman.png?rlkey=ks56154xi13yz515diy08e5wz&raw=1",
+      "spatialCoverage": [
+        "Italy"
+      ],
+      "datePublished": "1949",
+      "sameAs": "https://boxd.it/aHki",
+      "productionCompany": [
+        {
+          "@type": "Organization",
+          "name": "Forum Film"
+        }
+      ],
+      "countryOfOrigin": [
+        {
+          "@type": "Country",
+          "name": "Italy"
+        }
+      ],
+      "director": [
+        {
+          "@type": "Person",
+          "name": "Riccardo Freda"
+        }
+      ],
+      "temporalCoverage": "13th",
+      "genre": [
+        "History"
+      ],
+      "isBasedOn": {
+        "@type": "CreativeWork",
+        "name": "Dante Alighieri"
+      },
+      "keywords": [
+        "Ugolino della Gherardesca",
+        "Biography",
+        "Drama",
+        "Literature"
+      ],
+      "description": "Intro",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "lateTitle",
+          "value": false
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "color",
+          "value": "BW"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "sound",
+          "value": true
+        }
+      ]
+    },
+    {
+      "@type": "Movie",
+      "name": "Du Guesclin",
+      "alternativeHeadline": "Du Guesclin",
+      "image": "https://www.dropbox.com/scl/fi/o7qpmxo7tt18b4f7he57i/1949_Du-Guesclin.png?rlkey=1kxot2zdxk7lj1ol96v00zoaz&raw=1",
+      "spatialCoverage": [
+        "France"
+      ],
+      "datePublished": "1949",
+      "sameAs": "https://boxd.it/c6",
+      "productionCompany": [
+        {
+          "@type": "Organization",
+          "name": "Les Films du Verseau"
+        }
+      ],
+      "countryOfOrigin": [
+        {
+          "@type": "Country",
+          "name": "France"
+        }
+      ],
+      "director": [
+        {
+          "@type": "Person",
+          "name": "Bernard de Latour"
+        }
+      ],
+      "temporalCoverage": "14th",
+      "genre": [
+        "History"
+      ],
+      "isBasedOn": {
+        "@type": "CreativeWork",
+        "name": "Roger Vercel"
+      },
+      "keywords": [
+        "Bertrand du Guesclin",
+        "Biography",
+        "Drama",
+        "Literature",
+        "Adventure"
+      ],
+      "description": "Intro",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "lateTitle",
+          "value": false
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "color",
+          "value": "BW"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "sound",
+          "value": true
+        }
+      ]
+    },
+    {
+      "@type": "Movie",
+      "name": "The Black Rose",
+      "alternativeHeadline": "The Black Rose",
+      "image": "https://www.dropbox.com/scl/fi/pu4becbaa0gn1uqw3v3va/1950_The-Black-Rose.png?rlkey=e87smxxjyalg40g230n4byb0y&raw=1",
+      "spatialCoverage": [
+        "England"
+      ],
+      "datePublished": "1950",
+      "sameAs": "https://boxd.it/S38",
+      "productionCompany": [
+        {
+          "@type": "Organization",
+          "name": "20th Century Fox"
+        }
+      ],
+      "countryOfOrigin": [
+        {
+          "@type": "Country",
+          "name": "UK"
+        },
+        {
+          "@type": "Country",
+          "name": "USA"
+        }
+      ],
+      "director": [
+        {
+          "@type": "Person",
+          "name": "Henry Hathaway"
+        }
+      ],
+      "temporalCoverage": "13th",
+      "genre": [
+        "Fiction"
+      ],
+      "isBasedOn": {
+        "@type": "CreativeWork",
+        "name": "Thomas B. Costain"
+      },
+      "keywords": [
+        "Drama",
+        "Literature",
+        "Adventure"
+      ],
+      "description": "Opening (Title) Sequence",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "lateTitle",
+          "value": false
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "color",
+          "value": "C"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "sound",
+          "value": true
+        }
+      ]
+    },
+    {
+      "@type": "Movie",
+      "name": "The Flame and the Arrow",
+      "alternativeHeadline": "The Flame and the Arrow",
+      "image": "https://www.dropbox.com/scl/fi/vpecvchz9r99zlytdat5j/1950_The-Flame-and-the-Arrow.png?rlkey=migiqyng3xrxbs9oflcwkycgn&raw=1",
+      "spatialCoverage": [
+        "Italy"
+      ],
+      "datePublished": "1950",
+      "sameAs": "https://boxd.it/1gWm",
+      "productionCompany": [
+        {
+          "@type": "Organization",
+          "name": "Norma-F.R. Productions"
+        },
+        {
+          "@type": "Organization",
+          "name": "Warner Bros. Pictures"
+        }
+      ],
+      "countryOfOrigin": [
+        {
+          "@type": "Country",
+          "name": "USA"
+        }
+      ],
+      "director": [
+        {
+          "@type": "Person",
+          "name": "Jacques Tourneur"
+        }
+      ],
+      "temporalCoverage": "12th",
+      "genre": [
+        "Fiction"
+      ],
+      "isBasedOn": {
+        "@type": "CreativeWork",
+        "name": "Story"
+      },
+      "keywords": [
+        "Drama",
+        "Adventure",
+        "Romance"
+      ],
+      "description": "Opening (Title) Sequence",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "lateTitle",
+          "value": false
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "color",
+          "value": "C"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "sound",
+          "value": true
+        }
+      ]
+    },
+    {
+      "@type": "Movie",
+      "name": "Legend of Love",
+      "alternativeHeadline": "Paolo e Francesca",
+      "image": "https://www.dropbox.com/scl/fi/sw2dcho2j8xbg7e7cgisz/1950_Legend-of-Love.png?rlkey=qvppmb9a1x6jk33zws52kgf24&raw=1",
+      "spatialCoverage": [
+        "Italy"
+      ],
+      "datePublished": "1950",
+      "sameAs": "https://boxd.it/8P4I",
+      "productionCompany": [
+        {
+          "@type": "Organization",
+          "name": "Lux Film"
+        }
+      ],
+      "countryOfOrigin": [
+        {
+          "@type": "Country",
+          "name": "Italy"
+        }
+      ],
+      "director": [
+        {
+          "@type": "Person",
+          "name": "Raffaello Matarazzo"
+        }
+      ],
+      "temporalCoverage": "13th",
+      "genre": [
+        "History"
+      ],
+      "isBasedOn": {
+        "@type": "CreativeWork",
+        "name": "Story"
+      },
+      "keywords": [
+        "Paolo Malatesta",
+        "Francesca da Polenta",
+        "Biography",
+        "Drama",
+        "Romance"
+      ],
+      "description": "Opening (Title) Sequence",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "lateTitle",
+          "value": false
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "color",
+          "value": "BW"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "sound",
+          "value": true
+        }
+      ]
+    },
+    {
+      "@type": "Movie",
+      "name": "Rogues Of Sherwood Forest",
+      "alternativeHeadline": "Rogues Of Sherwood Forest",
+      "image": "https://www.dropbox.com/scl/fi/bxt1cuuqrd5jokedgeqcp/1950_Rogues-Of-Sherwood-Forest.png?rlkey=5switj8amsn9t0r6glmb80e8x&raw=1",
+      "spatialCoverage": [
+        "England"
+      ],
+      "datePublished": "1950",
+      "sameAs": "https://boxd.it/4uUK",
+      "productionCompany": [
+        {
+          "@type": "Organization",
+          "name": "Columbia Pictures"
+        }
+      ],
+      "countryOfOrigin": [
+        {
+          "@type": "Country",
+          "name": "USA"
+        }
+      ],
+      "director": [
+        {
+          "@type": "Person",
+          "name": "Gordon Douglas"
+        }
+      ],
+      "temporalCoverage": "13th",
+      "genre": [
+        "Fiction"
+      ],
+      "isBasedOn": {
+        "@type": "CreativeWork",
+        "name": "Story"
+      },
+      "keywords": [
+        "Robin Hood",
+        "King John of England", 
+        "Family",
+        "Adventure"
+      ],
+      "description": "Opening (Title) Sequence",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "lateTitle",
+          "value": false
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "color",
+          "value": "C"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "sound",
+          "value": true
+        }
+      ]
+    },
+    {
+      "@type": "Movie",
+      "name": "Margaret of Cortona",
+      "alternativeHeadline": "Margherita da Cortona",
+      "image": "https://www.dropbox.com/scl/fi/yq3ydlko1wypplfxpt3yn/1950_Margaret-of-Cortona.png?rlkey=zy9qxchl62jkn0n7tuykwwxtc&raw=1",
+      "spatialCoverage": [
+        "Italy"
+      ],
+      "datePublished": "1950",
+      "sameAs": "https://boxd.it/735m",
+      "productionCompany": [
+        {
+          "@type": "Organization",
+          "name": "Scalera Film"
+        },
+        {
+          "@type": "Organization",
+          "name": "Secolo Film"
+        }
+      ],
+      "countryOfOrigin": [
+        {
+          "@type": "Country",
+          "name": "Italy"
+        }
+      ],
+      "director": [
+        {
+          "@type": "Person",
+          "name": "Mario Bonnard"
+        }
+      ],
+      "temporalCoverage": "13th",
+      "genre": [
+        "History"
+      ],
+      "isBasedOn": {
+        "@type": "CreativeWork",
+        "name": "Story"
+      },
+      "keywords": [
+        "Margaret of Cortona",
+        "Biography",
+        "Drama",
+        "Religious"
+      ],
+      "description": "Opening (Title) Sequence",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "lateTitle",
+          "value": false
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "color",
+          "value": "BW"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "sound",
+          "value": true
+        }
+      ]
+    },
+    {
+      "@type": "Movie",
+      "name": "Tales of Robin Hood",
+      "alternativeHeadline": "Tales of Robin Hood",
+      "image": "https://www.dropbox.com/scl/fi/3rjdh5xiaf365lqx90ij8/1951_Tales-of-Robin-Hood.png?rlkey=4agzcqk7a0pd41xvbssrdo2ry&raw=1",
+      "spatialCoverage": [
+        "England"
+      ],
+      "datePublished": "1951",
+      "sameAs": "https://boxd.it/gsUW",
+      "productionCompany": [
+        {
+          "@type": "Organization",
+          "name": "R & L Productions"
+        }
+      ],
+      "countryOfOrigin": [
+        {
+          "@type": "Country",
+          "name": "USA"
+        }
+      ],
+      "director": [
+        {
+          "@type": "Person",
+          "name": "James Tinling"
+        }
+      ],
+      "temporalCoverage": "12th",
+      "genre": [
+        "Fiction"
+      ],
+      "isBasedOn": {
+        "@type": "CreativeWork",
+        "name": "Story"
+      },
+      "keywords": [
+        "Robin Hood",
+        "King Richard the Lionheart", 
+        "Family",
+        "Adventure"
+      ],
+      "description": "Opening (Title) Sequence",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "lateTitle",
+          "value": false
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "color",
+          "value": "BW"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "sound",
+          "value": true
+        }
+      ]
+    },
+    {
+      "@type": "Movie",
+      "name": "Bluebeard",
+      "alternativeHeadline": "Barbe-Bleue",
+      "image": "https://www.dropbox.com/scl/fi/6pprcvrxlk6xi0vvf608r/1951_Bluebeard.png?rlkey=jo0us108wpwidrzt8c2h6ran7&raw=1",
+      "spatialCoverage": [
+        "France"
+      ],
+      "datePublished": "1951",
+      "sameAs": "https://boxd.it/afzu",
+      "productionCompany": [
+        {
+          "@type": "Organization",
+          "name": "Alcina"
+        }
+      ],
+      "countryOfOrigin": [
+        {
+          "@type": "Country",
+          "name": "France"
+        }
+      ],
+      "director": [
+        {
+          "@type": "Person",
+          "name": "Christian-Jaque"
+        }
+      ],
+      "temporalCoverage": "undefined",
+      "genre": [
+        "Fiction"
+      ],
+      "isBasedOn": {
+        "@type": "CreativeWork",
+        "name": "Charles Perrault"
+      },
+      "keywords": [
+        "Fairy tale",
+        "Horror",
+        "Fantasy",
+        "Drama",
+        "Comedy",
+        "Literature"
+      ],
+      "description": "Opening (Title) Sequence",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "lateTitle",
+          "value": false
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "color",
+          "value": "C"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "sound",
+          "value": true
+        }
+      ]
+    },
+    {
+      "@type": "Movie",
+      "name": "The Evil Forest",
+      "alternativeHeadline": "Parsifal",
+      "image": "https://www.dropbox.com/scl/fi/iyc5vwmqf9jyxztwcjbdu/1951_The-Evil-Forest.png?rlkey=qedksdke34ub5xgvlkm8eg73q&raw=1",
+      "spatialCoverage": [
+        "Spain"
+      ],
+      "datePublished": "1951",
+      "sameAs": "https://boxd.it/60pQ",
+      "productionCompany": [
+        {
+          "@type": "Organization",
+          "name": "Selecciones Huguet"
+        }
+      ],
+      "countryOfOrigin": [
+        {
+          "@type": "Country",
+          "name": "Spain"
+        }
+      ],
+      "director": [
+        {
+          "@type": "Person",
+          "name": "Daniel Mangrané"
+        }
+      ],
+      "temporalCoverage": "13th",
+      "genre": [
+        "Legend"
+      ],
+      "isBasedOn": {
+        "@type": "CreativeWork",
+        "name": "Legend"
+      },
+      "keywords": [
+        "Fantasy",
+        "Drama",
+        "Romance"
+      ],
+      "description": "Opening (Title) Sequence",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "lateTitle",
+          "value": false
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "color",
+          "value": "BW"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "sound",
+          "value": true
+        }
+      ]
+    },
+    {
+      "@type": "Movie",
+      "name": "The Cloister of Martins",
+      "alternativeHeadline": "Die Martinsklause",
+      "image": "https://www.dropbox.com/scl/fi/bl0lelfqhv3gjk06h671x/1951_The-Cloister-of-Martins.png?rlkey=xjgq6c5csik6415i9fy4aafe4&raw=1",
+      "spatialCoverage": [
+        "Germany"
+      ],
+      "datePublished": "1951",
+      "sameAs": "https://boxd.it/7XRm",
+      "productionCompany": [
+        {
+          "@type": "Organization",
+          "name": "Peter Ostermayr Produktion"
+        }
+      ],
+      "countryOfOrigin": [
+        {
+          "@type": "Country",
+          "name": "Germany"
+        }
+      ],
+      "director": [
+        {
+          "@type": "Person",
+          "name": "Richard Häussler"
+        }
+      ],
+      "temporalCoverage": "undefined",
+      "genre": [
+        "Fiction"
+      ],
+      "isBasedOn": {
+        "@type": "CreativeWork",
+        "name": "Ludwig Ganghofer"
+      },
+      "keywords": [
+        "Drama",
+        "Literature",
+        "Adventure"
+      ],
+      "description": "Opening (Title) Sequence",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "lateTitle",
+          "value": false
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "color",
+          "value": "BW"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "sound",
+          "value": true
+        }
+      ]
+    },
+    {
+      "@type": "Movie",
+      "name": "Dawn of America",
+      "alternativeHeadline": "Alba de América",
+      "image": "https://www.dropbox.com/scl/fi/i96qvr442sx7f4cnhv9bc/1951_Dawn-of-America.png?rlkey=684gcxsuwvrc17xr3e2y6rf7a&raw=1",
+      "spatialCoverage": [
+        "Spain"
+      ],
+      "datePublished": "1951",
+      "sameAs": "https://boxd.it/51Bc",
+      "productionCompany": [
+        {
+          "@type": "Organization",
+          "name": "Compañía Industrial Film Español S.A. (CIFESA)"
+        }
+      ],
+      "countryOfOrigin": [
+        {
+          "@type": "Country",
+          "name": "Spain"
+        }
+      ],
+      "director": [
+        {
+          "@type": "Person",
+          "name": "Juan de Orduña"
+        }
+      ],
+      "temporalCoverage": "15th",
+      "genre": [
+        "History"
+      ],
+      "isBasedOn": {
+        "@type": "CreativeWork",
+        "name": "Story"
+      },
+      "keywords": [
+        "Christopher Columbus",
+        "Biography",
+        "Drama",
+        "Adventure"
+      ],
+      "description": "Intro",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "lateTitle",
+          "value": false
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "color",
+          "value": "BW"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "sound",
+          "value": true
+        }
+      ]
+    },
+    {
+      "@type": "Movie",
+      "name": "Ivanhoe",
+      "alternativeHeadline": "Ivanhoe",
+      "image": "https://www.dropbox.com/scl/fi/h0ix60njrch6zf4k47rox/1952_Ivanhoe.png?rlkey=ndemhn2jccjjf38hxc0jkdf62&raw=1",
+      "spatialCoverage": [
+        "England"
+      ],
+      "datePublished": "1952",
+      "sameAs": "https://boxd.it/1upG",
+      "productionCompany": [
+        {
+          "@type": "Organization",
+          "name": "Metro-Goldwyn-Mayer"
+        },
+        {
+          "@type": "Organization",
+          "name": "Loew's Incorporated"
+        }
+      ],
+      "countryOfOrigin": [
+        {
+          "@type": "Country",
+          "name": "UK"
+        },
+        {
+          "@type": "Country",
+          "name": "USA"
+        }
+      ],
+      "director": [
+        {
+          "@type": "Person",
+          "name": "Richard Thorpe"
+        }
+      ],
+      "temporalCoverage": "12th",
+      "genre": [
+        "History"
+      ],
+      "isBasedOn": {
+        "@type": "CreativeWork",
+        "name": "Walter Scott"
+      },
+      "keywords": [
+        "King Richard the Lionheart",
+        "Crusades",
+        "Drama",
+        "Literature",
+        "Adventure",
+        "Romance"
+      ],
+      "description": "Intro",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "lateTitle",
+          "value": false
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "color",
+          "value": "C"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "sound",
+          "value": true
+        }
+      ]
+    },
+    {
+      "@type": "Movie",
+      "name": "Judgement of God",
+      "alternativeHeadline": "Le Jugement de Dieu",
+      "image": "https://www.dropbox.com/scl/fi/a6ymr78e0k786i9up0e42/1952_Judgement-of-God.png?rlkey=9vk8g28hoe5vtf2buxp60fcvx&raw=1",
+      "spatialCoverage": [
+        "Germany"
+      ],
+      "datePublished": "1952",
+      "sameAs": "https://boxd.it/7UTO",
+      "productionCompany": [
+        {
+          "@type": "Organization",
+          "name": "B.U.P. Française"
+        }
+      ],
+      "countryOfOrigin": [
+        {
+          "@type": "Country",
+          "name": "France"
+        }
+      ],
+      "director": [
+        {
+          "@type": "Person",
+          "name": "Raymond Bernard"
+        }
+      ],
+      "temporalCoverage": "15th",
+      "genre": [
+        "History"
+      ],
+      "isBasedOn": {
+        "@type": "CreativeWork",
+        "name": "Story"
+      },
+      "keywords": [
+        "Albert III",
+        "Agnès Bernauer",
+        "Drama",
+        "Romance"
+      ],
+      "description": "Opening (Title) Sequence",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "lateTitle",
+          "value": false
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "color",
+          "value": "BW"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "sound",
+          "value": true
+        }
+      ]
+    },
+    {
+      "@type": "Movie",
+      "name": "Wonderful Adventures of Guerrin Meschino",
+      "alternativeHeadline": "Le meravigliose avventure di Guerrin Meschino",
+      "image": "https://www.dropbox.com/scl/fi/9ler1u0n7z32ygwhda9qf/1952_Wonderful-Adventures-of-Guerrin-Meschino.png?rlkey=icmz37843uyyq9fpa766c3mfb&raw=1",
+      "spatialCoverage": [
+        "Italy"
+      ],
+      "datePublished": "1952",
+      "sameAs": "https://boxd.it/nFvO",
+      "productionCompany": [
+        {
+          "@type": "Organization",
+          "name": "Oro Film"
+        },
+        {
+          "@type": "Organization",
+          "name": "Unicinematografica"
+        }
+      ],
+      "countryOfOrigin": [
+        {
+          "@type": "Country",
+          "name": "Italy"
+        }
+      ],
+      "director": [
+        {
+          "@type": "Person",
+          "name": "Pietro Francisci"
+        }
+      ],
+      "temporalCoverage": "15th",
+      "genre": [
+        "Fiction"
+      ],
+      "isBasedOn": {
+        "@type": "CreativeWork",
+        "name": "Andrea da Barberino"
+      },
+      "keywords": [
+        "Chivalric romance",
+        "Literature",
+        "Adventure",
+        "Romance"
+      ],
+      "description": "Intro",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "lateTitle",
+          "value": false
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "color",
+          "value": "BW"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "sound",
+          "value": true
+        }
+      ]
+    },
+    {
+      "@type": "Movie",
+      "name": "La Favorita",
+      "alternativeHeadline": "La Favorita",
+      "image": "https://www.dropbox.com/scl/fi/8u7bffxvnidh8nz9k435z/1952_La-Favorita.png?rlkey=t9ocfs27a45dfrqq43k6nfbn7&raw=1",
+      "spatialCoverage": [
+        "Spain"
+      ],
+      "datePublished": "1952",
+      "sameAs": "https://boxd.it/c3ZE",
+      "productionCompany": [
+        {
+          "@type": "Organization",
+          "name": "M.A.S. Film"
+        }
+      ],
+      "countryOfOrigin": [
+        {
+          "@type": "Country",
+          "name": "Italy"
+        }
+      ],
+      "director": [
+        {
+          "@type": "Person",
+          "name": "Cesare Barlacchi"
+        }
+      ],
+      "temporalCoverage": "14th",
+      "genre": [
+        "History"
+      ],
+      "isBasedOn": {
+        "@type": "CreativeWork",
+        "name": "Gaetano Donizetti"
+      },
+      "keywords": [
+        "Alfonso XI",
+        "Literature"
+      ],
+      "description": "Intro",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "lateTitle",
+          "value": false
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "color",
+          "value": "BW"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "sound",
+          "value": true
+        }
+      ]
+    },
+    {
+      "@type": "Movie",
+      "name": "The Monastery's Hunter",
+      "alternativeHeadline": "Der Klosterjäger",
+      "image": "https://www.dropbox.com/scl/fi/6b9evomldw35lfk9h9ial/1953_The-Monastery-s-Hunter.png?rlkey=tnefaj7p83tme9lgu07i2nc08&raw=1",
+      "spatialCoverage": [
+        "Germany"
+      ],
+      "datePublished": "1953",
+      "sameAs": "https://boxd.it/7dkQ",
+      "productionCompany": [
+        {
+          "@type": "Organization",
+          "name": "Peter Ostermayr Produktion"
+        }
+      ],
+      "countryOfOrigin": [
+        {
+          "@type": "Country",
+          "name": "Germany"
+        }
+      ],
+      "director": [
+        {
+          "@type": "Person",
+          "name": "Harald Reinl"
+        }
+      ],
+      "temporalCoverage": "14th",
+      "genre": [
+        "Fiction"
+      ],
+      "isBasedOn": {
+        "@type": "CreativeWork",
+        "name": "Ludwig Ganghofer"
+      },
+      "keywords": [
+        "Literature",
+        "Romance"
+      ],
+      "description": "Intro",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "lateTitle",
+          "value": false
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "color",
+          "value": "C"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "sound",
+          "value": true
+        }
+      ]
+    },
+    {
+      "@type": "Movie",
+      "name": "Old Czech Legends",
+      "alternativeHeadline": "Staré pověsti české",
+      "image": "https://www.dropbox.com/scl/fi/wtnkhfm92jq05g267n92b/1953_Old-Czech-Legends.png?rlkey=f0pqo1gv8otq90mfhwlln64ai&raw=1",
+      "spatialCoverage": [
+        "Czech Republic"
+      ],
+      "datePublished": "1953",
+      "sameAs": "https://boxd.it/7AuE",
+      "productionCompany": [
+        {
+          "@type": "Organization",
+          "name": "Loutkový film Praha"
+        }
+      ],
+      "countryOfOrigin": [
+        {
+          "@type": "Country",
+          "name": "Czechoslovakia"
+        }
+      ],
+      "director": [
+        {
+          "@type": "Person",
+          "name": "Jiří Trnka"
+        }
+      ],
+      "temporalCoverage": "9th",
+      "genre": [
+        "Animation"
+      ],
+      "isBasedOn": {
+        "@type": "CreativeWork",
+        "name": "Alois Jirásek"
+      },
+      "keywords": [
+        "Fairy tale",
+        "Fantasy",
+        "Literature",
+        "Adventure"
+      ],
+      "description": "Intro",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "lateTitle",
+          "value": false
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "color",
+          "value": "C"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "sound",
+          "value": true
+        }
+      ]
+    },
+    {
+      "@type": "Movie",
+      "name": "Knights of the Round Table",
+      "alternativeHeadline": "Knights of the Round Table",
+      "image": "https://www.dropbox.com/scl/fi/6rfvuewss7z85pjp7l64e/1953_Knights-of-the-Round-Table.png?rlkey=sb55gnj2mggrv1bivv5126qij&raw=1",
+      "spatialCoverage": [
+        "England"
+      ],
+      "datePublished": "1953",
+      "sameAs": "https://boxd.it/1Eje",
+      "productionCompany": [
+        {
+          "@type": "Organization",
+          "name": "Metro-Goldwyn-Mayer British Studios"
+        },
+        {
+          "@type": "Organization",
+          "name": "Metro-Goldwyn-Mayer"
+        }
+      ],
+      "countryOfOrigin": [
+        {
+          "@type": "Country",
+          "name": "UK"
+        },
+        {
+          "@type": "Country",
+          "name": "USA"
+        }
+      ],
+      "director": [
+        {
+          "@type": "Person",
+          "name": "Richard Thorpe"
+        }
+      ],
+      "temporalCoverage": "6th",
+      "genre": [
+        "Legend"
+      ],
+      "isBasedOn": {
+        "@type": "CreativeWork",
+        "name": "Sir Thomas Malory"
+      },
+      "keywords": [
+        "King Arthur",
+        "Drama",
+        "Literature",
+        "Adventure",
+        "Romance"
+      ],
+      "description": "Intro",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "lateTitle",
+          "value": false
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "color",
+          "value": "C"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "sound",
+          "value": true
+        }
+      ]
+    },
+    {
+      "@type": "Movie",
+      "name": "Decameron Nights",
+      "alternativeHeadline": "Decameron Nights",
+      "image": "https://www.dropbox.com/scl/fi/pyh481islzv5wx4ev9b1h/1953_Decameron-Nights.png?rlkey=10medcvu94ajtvbitjziozjx6&raw=1",
+      "spatialCoverage": [
+        "Italy"
+      ],
+      "datePublished": "1953",
+      "sameAs": "https://boxd.it/4tRA",
+      "productionCompany": [
+        {
+          "@type": "Organization",
+          "name": "Cesáreo González"
+        },
+        {
+          "@type": "Organization",
+          "name": "Frankovich Productions"
+        },
+        {
+          "@type": "Organization",
+          "name": "RKO Radio Pictures"
+        }
+      ],
+      "countryOfOrigin": [
+        {
+          "@type": "Country",
+          "name": "UK"
+        },
+        {
+          "@type": "Country",
+          "name": "Spain"
+        }
+      ],
+      "director": [
+        {
+          "@type": "Person",
+          "name": "Hugo Fregonese"
+        }
+      ],
+      "temporalCoverage": "14th",
+      "genre": [
+        "History"
+      ],
+      "isBasedOn": {
+        "@type": "CreativeWork",
+        "name": "Giovanni Boccaccio"
+      },
+      "keywords": [
+        "Literature",
+        "Adventure",
+        "Romance"
+      ],
+      "description": "Intro",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "lateTitle",
+          "value": false
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "color",
+          "value": "C"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "sound",
+          "value": true
+        }
+      ]
+    },
+    {
+      "@type": "Movie",
+      "name": "Prince Valiant",
+      "alternativeHeadline": "Prince Valiant",
+      "image": "https://www.dropbox.com/scl/fi/cnpjgk5serxw7bb0ges2f/1954_Prince-Valiant.png?rlkey=m4ndaxw0jpcy0sagrvi4vgq4u&raw=1",
+      "spatialCoverage": [
+        "England"
+      ],
+      "datePublished": "1954",
+      "sameAs": "https://boxd.it/2dq",
+      "productionCompany": [
+        {
+          "@type": "Organization",
+          "name": "20th Century Fox"
+        }
+      ],
+      "countryOfOrigin": [
+        {
+          "@type": "Country",
+          "name": "USA"
+        }
+      ],
+      "director": [
+        {
+          "@type": "Person",
+          "name": "Henry Hathaway"
+        }
+      ],
+      "temporalCoverage": "6th",
+      "genre": [
+        "Legend"
+      ],
+      "isBasedOn": {
+        "@type": "CreativeWork",
+        "name": "Hal Foster"
+      },
+      "keywords": [
+        "King Arthur",
+        "Sunday comics",
+        "Adventure"
+      ],
+      "description": "Opening (Title) Sequence",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "lateTitle",
+          "value": false
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "color",
+          "value": "C"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "sound",
+          "value": true
+        }
+      ]
+    },
+    {
+      "@type": "Movie",
+      "name": "The Men of Sherwood Forest",
+      "alternativeHeadline": "The Men of Sherwood Forest",
+      "image": "https://www.dropbox.com/scl/fi/vnh72qk9veln9t1s8s5bz/1954_The-Men-of-Sherwood-Forest.png?rlkey=6xfiw5pqe3gwogj4lngivkt9j&raw=1",
+      "spatialCoverage": [
+        "England"
+      ],
+      "datePublished": "1954",
+      "sameAs": "https://boxd.it/43Zy",
+      "productionCompany": [
+        {
+          "@type": "Organization",
+          "name": "Hammer Film Productions"
+        }
+      ],
+      "countryOfOrigin": [
+        {
+          "@type": "Country",
+          "name": "USA"
+        }
+      ],
+      "director": [
+        {
+          "@type": "Person",
+          "name": "Val Guest"
+        }
+      ],
+      "temporalCoverage": "12th",
+      "genre": [
+        "Fiction"
+      ],
+      "isBasedOn": {
+        "@type": "CreativeWork",
+        "name": "Story"
+      },
+      "keywords": [
+        "Robin Hood",
+        "King Richard the Lionheart",
+        "Crusades",
+        "Adventure",
+        "War"
+      ],
+      "description": "Opening (Title) Sequence",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "lateTitle",
+          "value": false
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "color",
+          "value": "C"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "sound",
+          "value": true
+        }
+      ]
+    },
+    {
+      "@type": "Movie",
+      "name": "The Saracen Blade",
+      "alternativeHeadline": "The Saracen Blade",
+      "image": "https://www.dropbox.com/scl/fi/q4gpyodo1bju51szyni8r/1954_The-Saracen-Blade.png?rlkey=mzfm589okew84i1sib5tq785u&raw=1",
+      "spatialCoverage": [
+        "Italy"
+      ],
+      "datePublished": "1954",
+      "sameAs": "https://boxd.it/cCXe",
+      "productionCompany": [
+        {
+          "@type": "Organization",
+          "name": "Columbia Pictures"
+        }
+      ],
+      "countryOfOrigin": [
+        {
+          "@type": "Country",
+          "name": "USA"
+        }
+      ],
+      "director": [
+        {
+          "@type": "Person",
+          "name": "William Castle"
+        }
+      ],
+      "temporalCoverage": "13th",
+      "genre": [
+        "Fiction"
+      ],
+      "isBasedOn": {
+        "@type": "CreativeWork",
+        "name": "Frank Yerby"
+      },
+      "keywords": [
+        "Literature",
+        "Adventure",
+        "Romance",
+        "War",
+        "Crusades"
+      ],
+      "description": "Intro",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "lateTitle",
+          "value": false
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "color",
+          "value": "C"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "sound",
+          "value": true
+        }
+      ]
+    },
+    {
+      "@type": "Movie",
+      "name": "Joan of Arc at the Stake",
+      "alternativeHeadline": "Giovanna d'Arco al rogo",
+      "image": "https://www.dropbox.com/scl/fi/ors956n31ld8gckosoc4z/1954_Joan-of-Arc-at-the-Stake.png?rlkey=7wrqcngord2zo7ckn0rz9vs6j&raw=1",
+      "spatialCoverage": [
+        "France"
+      ],
+      "datePublished": "1954",
+      "sameAs": "https://boxd.it/4TIE",
+      "productionCompany": [
+        {
+          "@type": "Organization",
+          "name": "Franco London Films"
+        },
+        {
+          "@type": "Organization",
+          "name": "Produzioni Cinematografiche Associate"
+        }
+      ],
+      "countryOfOrigin": [
+        {
+          "@type": "Country",
+          "name": "France"
+        },
+        {
+          "@type": "Country",
+          "name": "Italy"
+        }
+      ],
+      "director": [
+        {
+          "@type": "Person",
+          "name": "Roberto Rossellini"
+        }
+      ],
+      "temporalCoverage": "15th",
+      "genre": [
+        "Fiction"
+      ],
+      "isBasedOn": {
+        "@type": "CreativeWork",
+        "name": "Paul Claudel, Arthur Honegger"
+      },
+      "keywords": [
+        "Joan of Arc",
+        "Biography",
+        "Fantasy",
+        "Literature",
+        "Religious",
+        "Music"
+      ],
+      "description": "Intro",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "lateTitle",
+          "value": false
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "color",
+          "value": "C"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "sound",
+          "value": true
+        }
+      ]
+    },
+    {
+      "@type": "Movie",
+      "name": "The Black Shield of Falworth",
+      "alternativeHeadline": "The Black Shield of Falworth",
+      "image": "https://www.dropbox.com/scl/fi/daffgsjpordk8a5uhkjjh/1954_The-Black-Shield-of-Falworth.png?rlkey=91kcgvdoniob7rxawszb1etxc&raw=1",
+      "spatialCoverage": [
+        "England"
+      ],
+      "datePublished": "1954",
+      "sameAs": "https://boxd.it/1xEu",
+      "productionCompany": [
+        {
+          "@type": "Organization",
+          "name": "Universal International Pictures"
+        }
+      ],
+      "countryOfOrigin": [
+        {
+          "@type": "Country",
+          "name": "USA"
+        }
+      ],
+      "director": [
+        {
+          "@type": "Person",
+          "name": "Rudolph Maté"
+        }
+      ],
+      "temporalCoverage": "15th",
+      "genre": [
+        "Fiction"
+      ],
+      "isBasedOn": {
+        "@type": "CreativeWork",
+        "name": "Howard Pyle"
+      },
+      "keywords": [
+        "Henry IV",
+        "Drama",
+        "Literature",
+        "Adventure",
+        "Romance"
+      ],
+      "description": "Opening (Title) Sequence",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "lateTitle",
+          "value": false
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "color",
+          "value": "C"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "sound",
+          "value": true
+        }
+      ]
+    },
+    {
+      "@type": "Movie",
+      "name": "King Richard and the Crusaders",
+      "alternativeHeadline": "King Richard and the Crusaders",
+      "image": "https://www.dropbox.com/scl/fi/igrrss2sjauhduxqcs65n/1954_King-Richard-and-the-Crusaders.png?rlkey=7pmmpq42qyhjlk8754ulzfivc&raw=1",
+      "spatialCoverage": [
+        "England"
+      ],
+      "datePublished": "1954",
+      "sameAs": "https://boxd.it/BQC",
+      "productionCompany": [
+        {
+          "@type": "Organization",
+          "name": "Warner Bros. Pictures"
+        }
+      ],
+      "countryOfOrigin": [
+        {
+          "@type": "Country",
+          "name": "USA"
+        }
+      ],
+      "director": [
+        {
+          "@type": "Person",
+          "name": "David Butler"
+        }
+      ],
+      "temporalCoverage": "12th",
+      "genre": [
+        "History"
+      ],
+      "isBasedOn": {
+        "@type": "CreativeWork",
+        "name": "Walter Scott"
+      },
+      "keywords": [
+        "King Richard the Lionheart",
+        "Drama",
+        "Literature",
+        "Adventure",
+        "War",
+        "Crusades"
+      ],
+      "description": "Opening (Title) Sequence",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "lateTitle",
+          "value": false
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "color",
+          "value": "C"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "sound",
+          "value": true
+        }
+      ]
+    },
+    {
+      "@type": "Movie",
+      "name": "The Black Knight",
+      "alternativeHeadline": "The Black Knight",
+      "image": "https://www.dropbox.com/scl/fi/xnlxvp279d8hmzlddfqpy/1954_The-Black-Knight.png?rlkey=g2ypc518ctih2hhgeoygohdg9&raw=1",
+      "spatialCoverage": [
+        "England"
+      ],
+      "datePublished": "1954",
+      "sameAs": "https://boxd.it/1c5o",
+      "productionCompany": [
+        {
+          "@type": "Organization",
+          "name": "Warwick Film Productions"
+        }
+      ],
+      "countryOfOrigin": [
+        {
+          "@type": "Country",
+          "name": "UK"
+        },
+        {
+          "@type": "Country",
+          "name": "USA"
+        }
+      ],
+      "director": [
+        {
+          "@type": "Person",
+          "name": "Tay Garnett"
+        }
+      ],
+      "temporalCoverage": "6th",
+      "genre": [
+        "Fiction"
+      ],
+      "isBasedOn": {
+        "@type": "CreativeWork",
+        "name": "Story"
+      },
+      "keywords": [
+        "King Arthur",
+        "Adventure"
+      ],
+      "description": "Intro",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "lateTitle",
+          "value": false
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "color",
+          "value": "C"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "sound",
+          "value": true
+        }
+      ]
+    },
+    {
+      "@type": "Movie",
+      "name": "Lady Godiva of Coventry",
+      "alternativeHeadline": "Lady Godiva of Coventry",
+      "image": "https://www.dropbox.com/scl/fi/m6vkh7ywhetunqq0fgwr7/1955_Lady-Godiva-of-Coventry.png?rlkey=9fvbzeg2cllhmrg68od4xi7es&raw=1",
+      "spatialCoverage": [
+        "England"
+      ],
+      "datePublished": "1955",
+      "sameAs": "https://boxd.it/3NYO",
+      "productionCompany": [
+        {
+          "@type": "Organization",
+          "name": "Universal International Pictures"
+        }
+      ],
+      "countryOfOrigin": [
+        {
+          "@type": "Country",
+          "name": "USA"
+        }
+      ],
+      "director": [
+        {
+          "@type": "Person",
+          "name": "Arthur Lubin"
+        }
+      ],
+      "temporalCoverage": "11th",
+      "genre": [
+        "Legend"
+      ],
+      "isBasedOn": {
+        "@type": "CreativeWork",
+        "name": "Legend"
+      },
+      "keywords": [
+        "Edward the Confessor",
+        "Drama",
+        "Literature",
+        "Adventure",
+        "Romance"
+      ],
+      "description": "Opening (Title) Sequence",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "lateTitle",
+          "value": false
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "color",
+          "value": "C"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "sound",
+          "value": true
+        }
+      ]
+    },
+    {
+      "@type": "Movie",
+      "name": "Quentin Durward",
+      "alternativeHeadline": "Quentin Durward",
+      "image": "https://www.dropbox.com/scl/fi/pyf1uwalpa5or30rx2nya/1955_Quentin-Durward.png?rlkey=x9tly0etyoshw3dughl76it4g&raw=1",
+      "spatialCoverage": [
+        "France"
+      ],
+      "datePublished": "1955",
+      "sameAs": "https://boxd.it/2D40",
+      "productionCompany": [
+        {
+          "@type": "Organization",
+          "name": "Metro-Goldwyn-Mayer British Studios"
+        },
+        {
+          "@type": "Organization",
+          "name": "Metro-Goldwyn-Mayer"
+        }
+      ],
+      "countryOfOrigin": [
+        {
+          "@type": "Country",
+          "name": "UK"
+        },
+        {
+          "@type": "Country",
+          "name": "USA"
+        }
+      ],
+      "director": [
+        {
+          "@type": "Person",
+          "name": "Richard Thorpe"
+        }
+      ],
+      "temporalCoverage": "15th",
+      "genre": [
+        "History"
+      ],
+      "isBasedOn": {
+        "@type": "CreativeWork",
+        "name": "Walter Scott"
+      },
+      "keywords": [
+        "Louis XI",
+        "Drama",
+        "Literature",
+        "Adventure",
+        "Romance"
+      ],
+      "description": "Opening (Title) Sequence",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "lateTitle",
+          "value": false
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "color",
+          "value": "C"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "sound",
+          "value": true
+        }
+      ]
+    },
+    {
+      "@type": "Movie",
+      "name": "Tower of Lust",
+      "alternativeHeadline": "La Tour de Nesle",
+      "image": "https://www.dropbox.com/scl/fi/r75f7o4nq5a3a6dls7eix/1955_Tower-of-Lust.png?rlkey=8dl4rznmmloq897spdxb02oso&raw=1",
+      "spatialCoverage": [
+        "France"
+      ],
+      "datePublished": "1955",
+      "sameAs": "https://boxd.it/2MA0",
+      "productionCompany": [
+        {
+          "@type": "Organization",
+          "name": "Film Costellazione"
+        },
+        {
+          "@type": "Organization",
+          "name": "Les Films Fernand Rivers"
+        }
+      ],
+      "countryOfOrigin": [
+        {
+          "@type": "Country",
+          "name": "France"
+        },
+        {
+          "@type": "Country",
+          "name": "Italy"
+        }
+      ],
+      "director": [
+        {
+          "@type": "Person",
+          "name": "Abel Gance"
+        }
+      ],
+      "temporalCoverage": "14th",
+      "genre": [
+        "Legend"
+      ],
+      "isBasedOn": {
+        "@type": "CreativeWork",
+        "name": "Alexandre Dumas"
+      },
+      "keywords": [
+        "Margaret of Burgundy",
+        "Louis X",
+        "Drama",
+        "Literature",
+        "Adventure",
+        "Romance"
+      ],
+      "description": "Opening (Title) Sequence",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "lateTitle",
+          "value": false
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "color",
+          "value": "C"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "sound",
+          "value": true
+        }
+      ]
+    },
+    {
+      "@type": "Movie",
+      "name": "Jan Hus",
+      "alternativeHeadline": "Jan Hus",
+      "image": "https://www.dropbox.com/scl/fi/1y4oc7az49cyfx8uyqaf6/1955_Jan-Hus.png?rlkey=7z7fk1yiea6j6psglntcxtnla&raw=1",
+      "spatialCoverage": [
+        "Czech Republic"
+      ],
+      "datePublished": "1955",
+      "sameAs": "https://boxd.it/4Asi",
+      "productionCompany": [
+        {
+          "@type": "Organization",
+          "name": "Studio uměleckého filmu Praha"
+        }
+      ],
+      "countryOfOrigin": [
+        {
+          "@type": "Country",
+          "name": "Czechoslovakia"
+        }
+      ],
+      "director": [
+        {
+          "@type": "Person",
+          "name": "Otakar Vávra"
+        }
+      ],
+      "temporalCoverage": "15th",
+      "genre": [
+        "History"
+      ],
+      "isBasedOn": {
+        "@type": "CreativeWork",
+        "name": "Jan Žižka"
+      },
+      "keywords": [
+        "Jan Hus",
+        "Drama",
+        "Literature",
+        "Adventure",
+        "Religious"
+      ],
+      "description": "Opening (Title) Sequence",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "lateTitle",
+          "value": false
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "color",
+          "value": "C"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "sound",
+          "value": true
+        }
+      ]
+    },
+    {
+      "@type": "Movie",
+      "name": "The Warrior",
+      "alternativeHeadline": "The Dark Avenger",
+      "image": "https://www.dropbox.com/scl/fi/udzqivf3k13swjypgzrx5/1955_The-Warrior.png?rlkey=38ekevhyfr6qxoqndi7du0nw6&raw=1",
+      "spatialCoverage": [
+        "France",
+        "England"
+      ],
+      "datePublished": "1955",
+      "sameAs": "https://boxd.it/2BWE",
+      "productionCompany": [
+        {
+          "@type": "Organization",
+          "name": "Allied Artists Pictures"
+        }
+      ],
+      "countryOfOrigin": [
+        {
+          "@type": "Country",
+          "name": "UK"
+        }
+      ],
+      "director": [
+        {
+          "@type": "Person",
+          "name": "Henry Levin"
+        }
+      ],
+      "temporalCoverage": "14th",
+      "genre": [
+        "History"
+      ],
+      "isBasedOn": {
+        "@type": "CreativeWork",
+        "name": "Story"
+      },
+      "keywords": [
+        "King Edward III",
+        "Edward of Woodstock",
+        "Drama",
+        "Adventure",
+        "War"
+      ],
+      "description": "Intro",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "lateTitle",
+          "value": false
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "color",
+          "value": "C"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "sound",
+          "value": true
+        }
+      ]
+    },
+    {
+      "@type": "Movie",
+      "name": "Richard III",
+      "alternativeHeadline": "Richard III",
+      "image": "https://www.dropbox.com/scl/fi/e1xkifm4uqqcbczuojcg1/1955_Richard-III.png?rlkey=x7jni634dpyhu4e40m5o1330r&raw=1",
+      "spatialCoverage": [
+        "England"
+      ],
+      "datePublished": "1955",
+      "sameAs": "https://boxd.it/UMa",
+      "productionCompany": [
+        {
+          "@type": "Organization",
+          "name": "London Films Productions"
+        },
+        {
+          "@type": "Organization",
+          "name": "L.O.P."
+        }
+      ],
+      "countryOfOrigin": [
+        {
+          "@type": "Country",
+          "name": "UK"
+        }
+      ],
+      "director": [
+        {
+          "@type": "Person",
+          "name": "Laurence Olivier"
+        }
+      ],
+      "temporalCoverage": "15th",
+      "genre": [
+        "History"
+      ],
+      "isBasedOn": {
+        "@type": "CreativeWork",
+        "name": "William Shakespeare"
+      },
+      "keywords": [
+        "Edward IV",
+        "Drama",
+        "Literature",
+        "Adventure"
+      ],
+      "description": "Opening (Title) Sequence",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "lateTitle",
+          "value": false
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "color",
+          "value": "C"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "sound",
+          "value": true
+        }
+      ]
+    },
+    {
+      "@type": "Movie",
+      "name": "The Sword and the Dragon",
+      "alternativeHeadline": "Илья Муромец",
+      "image": "https://www.dropbox.com/scl/fi/s0hlkzdtsp7fdzhfhvuyt/1956_The-Sword-and-the-Dragon.png?rlkey=5uphhq25di8jftznc3ncevzuv&raw=1",
+      "spatialCoverage": [
+        "Kievan Rus'"
+      ],
+      "datePublished": "1956",
+      "sameAs": "https://boxd.it/3Voa",
+      "productionCompany": [
+        {
+          "@type": "Organization",
+          "name": "Mosfilm"
+        }
+      ],
+      "countryOfOrigin": [
+        {
+          "@type": "Country",
+          "name": "USSR"
+        }
+      ],
+      "director": [
+        {
+          "@type": "Person",
+          "name": "Aleksandr Ptushko"
+        }
+      ],
+      "temporalCoverage": "10th",
+      "genre": [
+        "Legend"
+      ],
+      "isBasedOn": {
+        "@type": "CreativeWork",
+        "name": "Legend"
+      },
+      "keywords": [
+        "Ilya Muromets",
+        "Literature",
+        "Adventure"
+      ],
+      "description": "Opening (Title) Sequence",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "lateTitle",
+          "value": false
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "color",
+          "value": "C"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "sound",
+          "value": true
+        }
+      ]
+    },
+    {
+      "@type": "Movie",
+      "name": "Roland the Mighty",
+      "alternativeHeadline": "Orlando e i Paladini di Francia",
+      "image": "https://www.dropbox.com/scl/fi/k0aaq9py9gzrlh08axwve/1956_Roland-the-Mighty.png?rlkey=yxlih543dwapl53r5lao5y4nx&raw=1",
+      "spatialCoverage": [
+        "Spain"
+      ],
+      "datePublished": "1956",
+      "sameAs": "https://boxd.it/aQgO",
+      "productionCompany": [
+        {
+          "@type": "Organization",
+          "name": "Italgamma"
+        }
+      ],
+      "countryOfOrigin": [
+        {
+          "@type": "Country",
+          "name": "Italy"
+        }
+      ],
+      "director": [
+        {
+          "@type": "Person",
+          "name": "Pietro Francisci"
+        }
+      ],
+      "temporalCoverage": "8th",
+      "genre": [
+        "History"
+      ],
+      "isBasedOn": {
+        "@type": "CreativeWork",
+        "name": "Story"
+      },
+      "keywords": [
+        "Roland",
+        "Battle of Roncevaux Pass",
+        "Adventure",
+        "War"
+      ],
+      "description": "Opening (Title) Sequence",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "lateTitle",
+          "value": false
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "color",
+          "value": "C"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "sound",
+          "value": true
+        }
+      ]
+    },
+    {
+      "@type": "Movie",
+      "name": "I am Catherine",
+      "alternativeHeadline": "Io, Caterina",
+      "image": "https://www.dropbox.com/scl/fi/o7n46ideazgcuf90b2h4f/1957_I-am-Catherine.png?rlkey=isqpfqtpumjig0gy8ofyl26rv&raw=1",
+      "spatialCoverage": [
+        "Italy"
+      ],
+      "datePublished": "1957",
+      "sameAs": "https://boxd.it/q7xW",
+      "productionCompany": [
+        {
+          "@type": "Organization",
+          "name": "Arciere"
+        },
+        {
+          "@type": "Organization",
+          "name": "Arena Cin.ca"
+        }
+      ],
+      "countryOfOrigin": [
+        {
+          "@type": "Country",
+          "name": "Italy"
+        }
+      ],
+      "director": [
+        {
+          "@type": "Person",
+          "name": "Oreste Palella"
+        }
+      ],
+      "temporalCoverage": "14th",
+      "genre": [
+        "History"
+      ],
+      "isBasedOn": {
+        "@type": "CreativeWork",
+        "name": "Hagiography"
+      },
+      "keywords": [
+        "St. Catherine of Siena",
+        "Drama",
+        "Religious"
+      ],
+      "description": "Opening (Title) Sequence",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "lateTitle",
+          "value": false
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "color",
+          "value": "C"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "sound",
+          "value": true
+        }
+      ]
+    },
+    {
+      "@type": "Movie",
+      "name": "Saint Joan",
+      "alternativeHeadline": "Saint Joan",
+      "image": "https://www.dropbox.com/scl/fi/3og4sv6bb4en4tt8jgm3a/1957_Saint-Joan.png?rlkey=h7yubg80187zzpl9erv7dezfp&raw=1",
+      "spatialCoverage": [
+        "France"
+      ],
+      "datePublished": "1957",
+      "sameAs": "https://boxd.it/3F5Q",
+      "productionCompany": [
+        {
+          "@type": "Organization",
+          "name": "Wheel Productions"
+        },
+        {
+          "@type": "Organization",
+          "name": "United Artists"
+        }
+      ],
+      "countryOfOrigin": [
+        {
+          "@type": "Country",
+          "name": "UK"
+        },
+        {
+          "@type": "Country",
+          "name": "USA"
+        }
+      ],
+      "director": [
+        {
+          "@type": "Person",
+          "name": "Otto Preminger"
+        }
+      ],
+      "temporalCoverage": "15th",
+      "genre": [
+        "History"
+      ],
+      "isBasedOn": {
+        "@type": "CreativeWork",
+        "name": "George Bernard Shaw"
+      },
+      "keywords": [
+        "Charles VII",
+        "Drama",
+        "Literature",
+        "Religious",
+        "War"
+      ],
+      "description": "Opening (Title) Sequence",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "lateTitle",
+          "value": false
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "color",
+          "value": "BW"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "sound",
+          "value": true
+        }
+      ]
+    },
+    {
+      "@type": "Movie",
+      "name": "The Mighty Crusaders",
+      "alternativeHeadline": "La Gerusalemme liberata",
+      "image": "https://www.dropbox.com/scl/fi/46a28h0u5atlq0uxazpab/1957_The-Mighty-Crusaders.png?rlkey=npzabizu529e3qvzsze4twa2x&raw=1",
+      "spatialCoverage": [
+        "Italy"
+      ],
+      "datePublished": "1957",
+      "sameAs": "https://boxd.it/8Mw0",
+      "productionCompany": [
+        {
+          "@type": "Organization",
+          "name": "Max Film"
+        }
+      ],
+      "countryOfOrigin": [
+        {
+          "@type": "Country",
+          "name": "Italy"
+        }
+      ],
+      "director": [
+        {
+          "@type": "Person",
+          "name": "Carlo Ludovico Bragaglia"
+        }
+      ],
+      "temporalCoverage": "11th",
+      "genre": [
+        "History"
+      ],
+      "isBasedOn": {
+        "@type": "CreativeWork",
+        "name": "Torquato Tasso"
+      },
+      "keywords": [
+        "Drama",
+        "Literature",
+        "Adventure",
+        "War",
+        "Crusades"
+      ],
+      "description": "Opening (Title) Sequence",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "lateTitle",
+          "value": false
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "color",
+          "value": "C"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "sound",
+          "value": true
+        }
+      ]
+    },
+    {
+      "@type": "Movie",
+      "name": "The Pied Piper of Hamelin",
+      "alternativeHeadline": "The Pied Piper of Hamelin",
+      "image": "https://www.dropbox.com/scl/fi/obdx3zlqa9rvmnkzsjrio/1957_The-Pied-Piper-Of-Hamelin.png?rlkey=9ys83t6jyi82tsld02oqisg2d&raw=1",
+      "spatialCoverage": [
+        "Germany"
+      ],
+      "datePublished": "1957",
+      "sameAs": "https://boxd.it/3UM6",
+      "productionCompany": [
+        {
+          "@type": "Organization",
+          "name": "Hal Stanley Productions"
+        }
+      ],
+      "countryOfOrigin": [
+        {
+          "@type": "Country",
+          "name": "USA"
+        }
+      ],
+      "director": [
+        {
+          "@type": "Person",
+          "name": "Bretaigne Windust"
+        }
+      ],
+      "temporalCoverage": "13th",
+      "genre": [
+        "Legend"
+      ],
+      "isBasedOn": {
+        "@type": "CreativeWork",
+        "name": "Robert Browning"
+      },
+      "keywords": [
+        "Comedy",
+        "Literature",
+        "Music",
+        "Adventure"
+      ],
+      "description": "Intro",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "lateTitle",
+          "value": false
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "color",
+          "value": "C"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "sound",
+          "value": true
+        }
+      ]
+    },
+    {
+      "@type": "Movie",
+      "name": "The Saga of the Viking Women and Their Voyage to the Waters of the Great Sea Serpent",
+      "alternativeHeadline": "The Saga of the Viking Women and Their Voyage to the Waters of the Great Sea Serpent",
+      "image": "https://www.dropbox.com/scl/fi/1y3gl6gbjfgwkk2sg5eva/1957_Saga-of-the-Viking-Women-and-Their-Voyage-to-the-Waters-of-the-Great-Sea-Serpent.png?rlkey=0cbcjh2wk0ghk1lrrb8vshige&raw=1",
+      "spatialCoverage": [
+        "Scandinavia"
+      ],
+      "datePublished": "1957",
+      "sameAs": "https://boxd.it/32yO",
+      "productionCompany": [
+        {
+          "@type": "Organization",
+          "name": "Malibu Productions"
+        }
+      ],
+      "countryOfOrigin": [
+        {
+          "@type": "Country",
+          "name": "USA"
+        }
+      ],
+      "director": [
+        {
+          "@type": "Person",
+          "name": "Roger Corman"
+        }
+      ],
+      "temporalCoverage": "10th",
+      "genre": [
+        "Fiction"
+      ],
+      "isBasedOn": {
+        "@type": "CreativeWork",
+        "name": "Story"
+      },
+      "keywords": [
+        "Adventure",
+        "Horror"
+      ],
+      "description": "Intro",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "lateTitle",
+          "value": false
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "color",
+          "value": "BW"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "sound",
+          "value": true
+        }
+      ]
+    },
+    {
+      "@type": "Movie",
+      "name": "The Vikings",
+      "alternativeHeadline": "The Vikings",
+      "image": "https://www.dropbox.com/scl/fi/67b1tksk8gtxip4pfop77/1958_The-Vikings.png?rlkey=lomb9dbh90yocs9rld6dkgay2&raw=1",
+      "spatialCoverage": [
+        "Scandinavia"
+      ],
+      "datePublished": "1958",
+      "sameAs": "https://boxd.it/Wlg",
+      "productionCompany": [
+        {
+          "@type": "Organization",
+          "name": "Brynaprod S.A."
+        },
+        {
+          "@type": "Organization",
+          "name": "Curtleigh Productions"
+        },
+        {
+          "@type": "Organization",
+          "name": "United Artists"
+        }
+      ],
+      "countryOfOrigin": [
+        {
+          "@type": "Country",
+          "name": "USA"
+        }
+      ],
+      "director": [
+        {
+          "@type": "Person",
+          "name": "Richard Fleischer"
+        }
+      ],
+      "temporalCoverage": "9th",
+      "genre": [
+        "Fiction"
+      ],
+      "isBasedOn": {
+        "@type": "CreativeWork",
+        "name": "Edison Marshall"
+      },
+      "keywords": [
+        "Literature",
+        "Adventure",
+        "War"
+      ],
+      "description": "Intro",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "lateTitle",
+          "value": false
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "color",
+          "value": "C"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "sound",
+          "value": true
+        }
+      ]
+    },
+    {
+      "@type": "Movie",
+      "name": "Son of Robin Hood",
+      "alternativeHeadline": "Son of Robin Hood",
+      "image": "https://www.dropbox.com/scl/fi/rquczrt6gw0hdqg4t8l2x/1958_Son-of-Robin-Hood.png?rlkey=dngi0xzlwo7gf6pe2ig722zox&raw=1",
+      "spatialCoverage": [
+        "England"
+      ],
+      "datePublished": "1958",
+      "sameAs": "https://boxd.it/aMGo",
+      "productionCompany": [
+        {
+          "@type": "Organization",
+          "name": "Argo Film Productions"
+        },
+        {
+          "@type": "Organization",
+          "name": "20th Century Fox"
+        }
+      ],
+      "countryOfOrigin": [
+        {
+          "@type": "Country",
+          "name": "UK"
+        }
+      ],
+      "director": [
+        {
+          "@type": "Person",
+          "name": "George Sherman"
+        }
+      ],
+      "temporalCoverage": "13th",
+      "genre": [
+        "Fiction"
+      ],
+      "isBasedOn": {
+        "@type": "CreativeWork",
+        "name": "Story"
+      },
+      "keywords": [
+        "Robin Hood",
+        "Henry III",
+        "Family",
+        "Adventure"
+      ],
+      "description": "Opening (Title) Sequence",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "lateTitle",
+          "value": false
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "color",
+          "value": "C"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "sound",
+          "value": true
+        }
+      ]
+    },
+    {
+      "@type": "Movie",
+      "name": "The Shepherd from Trutzberg",
+      "alternativeHeadline": "Der Schäfer vom Trutzberg",
+      "image": "https://www.dropbox.com/scl/fi/fouolew1q3gu0rapj6d3m/1959_The-Shepherd-from-Trutzberg.png?rlkey=wjusbnx0cv7zk3om1ck0fp1mu&raw=1",
+      "spatialCoverage": [
+        "Germany"
+      ],
+      "datePublished": "1959",
+      "sameAs": "https://boxd.it/9Owy",
+      "productionCompany": [
+        {
+          "@type": "Organization",
+          "name": "Peter Ostermayr Produktion"
+        }
+      ],
+      "countryOfOrigin": [
+        {
+          "@type": "Country",
+          "name": "Germany"
+        }
+      ],
+      "director": [
+        {
+          "@type": "Person",
+          "name": "Eduard von Borsody"
+        }
+      ],
+      "temporalCoverage": "15th",
+      "genre": [
+        "Fiction"
+      ],
+      "isBasedOn": {
+        "@type": "CreativeWork",
+        "name": "Ludwig Ganghofer"
+      },
+      "keywords": [
+        "Literature",
+        "Adventure",
+        "Romance"
+      ],
+      "description": "Intro",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "lateTitle",
+          "value": false
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "color",
+          "value": "C"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "sound",
+          "value": true
+        }
+      ]
+    },
+    {
+      "@type": "Movie",
+      "name": "Attack of the Moors",
+      "alternativeHeadline": "I Reali de Francia",
+      "image": "https://www.dropbox.com/scl/fi/xdtuj8v50rmjps0yn2olh/1959_Attack-of-the-Moors.png?rlkey=ke780t747sjfrfzgfxb3hnehy&raw=1",
+      "spatialCoverage": [
+        "France",
+        "Spain"
+      ],
+      "datePublished": "1959",
+      "sameAs": "https://boxd.it/7LpK",
+      "productionCompany": [
+        {
+          "@type": "Organization",
+          "name": "Schermi Produzione"
+        }
+      ],
+      "countryOfOrigin": [
+        {
+          "@type": "Country",
+          "name": "Italy"
+        }
+      ],
+      "director": [
+        {
+          "@type": "Person",
+          "name": "Mario Costa"
+        }
+      ],
+      "temporalCoverage": "12th",
+      "genre": [
+        "History"
+      ],
+      "isBasedOn": {
+        "@type": "CreativeWork",
+        "name": "Matter of France"
+      },
+      "keywords": [
+        "Louis VII",
+        "Literature",
+        "Adventure",
+        "War"
+      ],
+      "description": "Opening (Title) Sequence",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "lateTitle",
+          "value": false
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "color",
+          "value": "C"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "sound",
+          "value": true
+        }
+      ]
+    },
+    {
+      "@type": "Movie",
+      "name": "Sleeping Beauty",
+      "alternativeHeadline": "Sleeping Beauty",
+      "image": "https://www.dropbox.com/scl/fi/8mcjxfvsleh5k5pdvfkv5/1959_Sleeping-Beauty.png?rlkey=gsnkaajq00mmnorb92hbtkg0o&raw=1",
+      "spatialCoverage": [
+        "Unknown"
+      ],
+      "datePublished": "1959",
+      "sameAs": "https://boxd.it/1V9A",
+      "productionCompany": [
+        {
+          "@type": "Organization",
+          "name": "Walt Disney Productions"
+        }
+      ],
+      "countryOfOrigin": [
+        {
+          "@type": "Country",
+          "name": "USA"
+        }
+      ],
+      "director": [
+        {
+          "@type": "Person",
+          "name": "Eric Larson"
+        },
+        {
+          "@type": "Person",
+          "name": "Wolfgang Reitherman"
+        },
+        {
+          "@type": "Person",
+          "name": "Clyde Geronimi"
+        },
+        {
+          "@type": "Person",
+          "name": "Les Clark"
+        }
+      ],
+      "temporalCoverage": "undefined",
+      "genre": [
+        "Animation"
+      ],
+      "isBasedOn": {
+        "@type": "CreativeWork",
+        "name": "Charles Perrault"
+      },
+      "keywords": [
+        "Fantasy",
+        "Family",
+        "Literature",
+        "Romance"
+      ],
+      "description": "Opening (Title) Sequence",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "lateTitle",
+          "value": false
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "color",
+          "value": "C"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "sound",
+          "value": true
+        }
+      ]
+    },
+    {
+      "@type": "Movie",
+      "name": "Fury of the Pagans",
+      "alternativeHeadline": "La furia dei barbari",
+      "image": "https://www.dropbox.com/scl/fi/ktvjojwielf1qbxbihji3/1960_Fury-of-the-Pagans.png?rlkey=owawe672lh125y6u23pmjrqpc&raw=1",
+      "spatialCoverage": [
+        "Unknown"
+      ],
+      "datePublished": "1960",
+      "sameAs": "https://boxd.it/6hES",
+      "productionCompany": [
+        {
+          "@type": "Organization",
+          "name": "Arion Film"
+        }
+      ],
+      "countryOfOrigin": [
+        {
+          "@type": "Country",
+          "name": "Italy"
+        }
+      ],
+      "director": [
+        {
+          "@type": "Person",
+          "name": "Guido Malatesta"
+        }
+      ],
+      "temporalCoverage": "6th",
+      "genre": [
+        "Fiction"
+      ],
+      "isBasedOn": {
+        "@type": "CreativeWork",
+        "name": "Story"
+      },
+      "keywords": [
+        "Adventure"
+      ],
+      "description": "Opening (Title) Sequence",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "lateTitle",
+          "value": false
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "color",
+          "value": "C"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "sound",
+          "value": true
+        }
+      ]
+    },
+    {
+      "@type": "Movie",
+      "name": "Sword of Sherwood Forest",
+      "alternativeHeadline": "Sword of Sherwood Forest",
+      "image": "https://www.dropbox.com/scl/fi/c5okw7l6su01u75fs8fpq/1960_Sword-of-Sherwood-Forest.png?rlkey=697cnqq9vps9el03rhovi5kz1&raw=1",
+      "spatialCoverage": [
+        "England"
+      ],
+      "datePublished": "1960",
+      "sameAs": "https://boxd.it/3RwE",
+      "productionCompany": [
+        {
+          "@type": "Organization",
+          "name": "Hammer Film Productions"
+        }
+      ],
+      "countryOfOrigin": [
+        {
+          "@type": "Country",
+          "name": "UK"
+        }
+      ],
+      "director": [
+        {
+          "@type": "Person",
+          "name": "Terence Fisher"
+        }
+      ],
+      "temporalCoverage": "13th",
+      "genre": [
+        "Fiction"
+      ],
+      "isBasedOn": {
+        "@type": "CreativeWork",
+        "name": "Story"
+      },
+      "keywords": [
+        "Robin Hood",
+        "King Richard the Lionheart", 
+        "Crusades", 
+        "Adventure",
+        "War"
+      ],
+      "description": "Opening (Title) Sequence",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "lateTitle",
+          "value": false
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "color",
+          "value": "C"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "sound",
+          "value": true
+        }
+      ]
+    },
+    {
+      "@type": "Movie",
+      "name": "Blood on His Sword",
+      "alternativeHeadline": "Le Miracle des loups",
+      "image": "https://www.dropbox.com/scl/fi/us9skb8xmtt43eix6bw2d/1961_Blood-on-His-Sword.png?rlkey=pvmdhqsgxszz3q3kixafd2msa&raw=1",
+      "spatialCoverage": [
+        "France"
+      ],
+      "datePublished": "1961",
+      "sameAs": "https://boxd.it/3jny",
+      "productionCompany": [
+        {
+          "@type": "Organization",
+          "name": "Da.Ma. Cinematografica"
+        },
+        {
+          "@type": "Organization",
+          "name": "P.A.C. Société"
+        },
+        {
+          "@type": "Organization",
+          "name": "Nouvelle Pathé Cinéma"
+        }
+      ],
+      "countryOfOrigin": [
+        {
+          "@type": "Country",
+          "name": "France"
+        },
+        {
+          "@type": "Country",
+          "name": "Italy"
+        }
+      ],
+      "director": [
+        {
+          "@type": "Person",
+          "name": "André Hunebelle"
+        }
+      ],
+      "temporalCoverage": "15th",
+      "genre": [
+        "History"
+      ],
+      "isBasedOn": {
+        "@type": "CreativeWork",
+        "name": "Henry Dupuy-Mazuel"
+      },
+      "keywords": [
+        "Louis XI",
+        "Drama",
+        "Literature",
+        "Adventure",
+        "Romance"
+      ],
+      "description": "Opening (Title) Sequence",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "lateTitle",
+          "value": false
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "color",
+          "value": "C"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "sound",
+          "value": true
+        }
+      ]
+    },
+    {
+      "@type": "Movie",
+      "name": "Francis of Assisi",
+      "alternativeHeadline": "Francis of Assisi",
+      "image": "https://www.dropbox.com/scl/fi/ebbr4ltx8ukd8iylcnyw0/1961_Francis-of-Assisi.png?rlkey=rmzdxuh545gv2hfkej2n2c9j2&raw=1",
+      "spatialCoverage": [
+        "Italy"
+      ],
+      "datePublished": "1961",
+      "sameAs": "https://boxd.it/3nGO",
+      "productionCompany": [
+        {
+          "@type": "Organization",
+          "name": "Perseus Productions"
+        },
+        {
+          "@type": "Organization",
+          "name": "20th Century Fox"
+        }
+      ],
+      "countryOfOrigin": [
+        {
+          "@type": "Country",
+          "name": "USA"
+        }
+      ],
+      "director": [
+        {
+          "@type": "Person",
+          "name": "Michael Curtiz"
+        }
+      ],
+      "temporalCoverage": "13th",
+      "genre": [
+        "History"
+      ],
+      "isBasedOn": {
+        "@type": "CreativeWork",
+        "name": "Louis de Wohl"
+      },
+      "keywords": [
+        "Francis of Assisi",
+        "Biography",
+        "Literature",
+        "Religious"
+      ],
+      "description": "Opening (Title) Sequence",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "lateTitle",
+          "value": false
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "color",
+          "value": "C"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "sound",
+          "value": true
+        }
+      ]
+    },
+    {
+      "@type": "Movie",
+      "name": "Charge of the Black Lancers",
+      "alternativeHeadline": "I lancieri neri",
+      "image": "https://www.dropbox.com/scl/fi/lbx79hstc8868kdt0dbu1/1962_Charge-of-the-Black-Lancers.png?rlkey=kkzwc71pe07j4xyy9uwu9sq6m&raw=1",
+      "spatialCoverage": [
+        "Kievan Rus'"
+      ],
+      "datePublished": "1962",
+      "sameAs": "https://boxd.it/aNPc",
+      "productionCompany": [
+        {
+          "@type": "Organization",
+          "name": "C.F.S. Košutnjak"
+        },
+        {
+          "@type": "Organization",
+          "name": "France Cinéma Productions"
+        }
+      ],
+      "countryOfOrigin": [
+        {
+          "@type": "Country",
+          "name": "France"
+        },
+        {
+          "@type": "Country",
+          "name": "Italy"
+        }
+      ],
+      "director": [
+        {
+          "@type": "Person",
+          "name": "Giacomo Gentilomo"
+        }
+      ],
+      "temporalCoverage": "12th",
+      "genre": [
+        "History"
+      ],
+      "isBasedOn": {
+        "@type": "CreativeWork",
+        "name": "Story"
+      },
+      "keywords": [
+        "Drama",
+        "Adventure"
+      ],
+      "description": "Opening (Title) Sequence",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "lateTitle",
+          "value": false
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "color",
+          "value": "C"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "sound",
+          "value": true
+        }
+      ]
+    },
+    {
+      "@type": "Movie",
+      "name": "The Magic Sword",
+      "alternativeHeadline": "The Magic Sword",
+      "image": "https://www.dropbox.com/scl/fi/f7khyia1ysxc4zfsfq6g0/1962_The-Magic-Sword.png?rlkey=bsli2rxae9nhaxi5mnmli8yzc&raw=1",
+      "spatialCoverage": [
+        "Unknown"
+      ],
+      "datePublished": "1962",
+      "sameAs": "https://boxd.it/1tt8",
+      "productionCompany": [
+        {
+          "@type": "Organization",
+          "name": "Bert I. Gordon Productions"
+        }
+      ],
+      "countryOfOrigin": [
+        {
+          "@type": "Country",
+          "name": "USA"
+        }
+      ],
+      "director": [
+        {
+          "@type": "Person",
+          "name": "Bert I. Gordon"
+        }
+      ],
+      "temporalCoverage": "11th",
+      "genre": [
+        "Legend"
+      ],
+      "isBasedOn": {
+        "@type": "CreativeWork",
+        "name": "Hagiography"
+      },
+      "keywords": [
+        "Saint George",
+        "Fantasy",
+        "Family",
+        "Adventure"
+      ],
+      "description": "Opening (Title) Sequence",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "lateTitle",
+          "value": false
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "color",
+          "value": "C"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "sound",
+          "value": true
+        }
+      ]
+    },
+    {
+      "@type": "Movie",
+      "name": "Tower of London",
+      "alternativeHeadline": "Tower of London",
+      "image": "https://www.dropbox.com/scl/fi/m9ah0lkjyrcwa92gfzd96/1962_Tower-of-London.png?rlkey=9ovm16w7wvg44b9d4vq1ora8z&raw=1",
+      "spatialCoverage": [
+        "England"
+      ],
+      "datePublished": "1962",
+      "sameAs": "https://boxd.it/VvO",
+      "productionCompany": [
+        {
+          "@type": "Organization",
+          "name": "Edward Small Productions"
+        },
+        {
+          "@type": "Organization",
+          "name": "United Artists"
+        },
+        {
+          "@type": "Organization",
+          "name": "Admiral Pictures"
+        }
+      ],
+      "countryOfOrigin": [
+        {
+          "@type": "Country",
+          "name": "USA"
+        }
+      ],
+      "director": [
+        {
+          "@type": "Person",
+          "name": "Roger Corman"
+        }
+      ],
+      "temporalCoverage": "15th",
+      "genre": [
+        "History"
+      ],
+      "isBasedOn": {
+        "@type": "CreativeWork",
+        "name": "Story"
+      },
+      "keywords": [
+        "Richard III",
+        "Horror"
+      ],
+      "description": "Intro",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "lateTitle",
+          "value": false
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "color",
+          "value": "BW"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "sound",
+          "value": true
+        }
+      ]
+    },
+    {
+      "@type": "Movie",
+      "name": "Good King Dagobert",
+      "alternativeHeadline": "Le Bon Roi Dagobert",
+      "image": "https://www.dropbox.com/scl/fi/h7296839xu9d9uy4zmppd/1963_Good-King-Dagobert.png?rlkey=hljti4gr4nxwo25fbbletjjae&raw=1",
+      "spatialCoverage": [
+        "France"
+      ],
+      "datePublished": "1963",
+      "sameAs": "https://boxd.it/3jn4",
+      "productionCompany": [
+        {
+          "@type": "Organization",
+          "name": "Cineurop"
+        },
+        {
+          "@type": "Organization",
+          "name": "Filmerc"
+        },
+        {
+          "@type": "Organization",
+          "name": "Opening Production"
+        }
+      ],
+      "countryOfOrigin": [
+        {
+          "@type": "Country",
+          "name": "France"
+        }
+      ],
+      "director": [
+        {
+          "@type": "Person",
+          "name": "Pierre Chevalier"
+        }
+      ],
+      "temporalCoverage": "7th",
+      "genre": [
+        "Fiction"
+      ],
+      "isBasedOn": {
+        "@type": "CreativeWork",
+        "name": "Story"
+      },
+      "keywords": [
+        "Comedy"
+      ],
+      "description": "Opening (Title) Sequence",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "lateTitle",
+          "value": false
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "color",
+          "value": "BW"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "sound",
+          "value": true
+        }
+      ]
+    },
+    {
+      "@type": "Movie",
+      "name": "Kaloyan",
+      "alternativeHeadline": "Калоян",
+      "image": "https://www.dropbox.com/scl/fi/jam0ml8y48i6nvc3vg0y8/1963_Kaloyan.png?rlkey=xoyg91d4k2c68nhyri034ygvr&raw=1",
+      "spatialCoverage": [
+        "Bulgaria"
+      ],
+      "datePublished": "1963",
+      "sameAs": "https://boxd.it/7i7M",
+      "productionCompany": [
+        {
+          "@type": "Organization",
+          "name": "Boyana Film"
+        }
+      ],
+      "countryOfOrigin": [
+        {
+          "@type": "Country",
+          "name": "Bulgaria"
+        }
+      ],
+      "director": [
+        {
+          "@type": "Person",
+          "name": "Dako Dakovski"
+        }
+      ],
+      "temporalCoverage": "12th",
+      "genre": [
+        "History"
+      ],
+      "isBasedOn": {
+        "@type": "CreativeWork",
+        "name": "Story"
+      },
+      "keywords": [
+        "Tsar Kaloyan",
+        "Biography",
+        "Adventure",
+        "War"
+      ],
+      "description": "Opening (Title) Sequence",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "lateTitle",
+          "value": false
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "color",
+          "value": "C"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "sound",
+          "value": true
+        }
+      ]
+    },
+    {
+      "@type": "Movie",
+      "name": "Siege of the Saxons",
+      "alternativeHeadline": "Siege of the Saxons",
+      "image": "https://www.dropbox.com/scl/fi/wn8p859e8cj5n95heyiiq/1963_Siege-of-the-Saxons.png?rlkey=s7361jpvys4moccgi2kx6simy&raw=1",
+      "spatialCoverage": [
+        "England"
+      ],
+      "datePublished": "1963",
+      "sameAs": "https://boxd.it/2Mx6",
+      "productionCompany": [
+        {
+          "@type": "Organization",
+          "name": "Ameran Films"
+        },
+        {
+          "@type": "Organization",
+          "name": "Columbia Pictures"
+        }
+      ],
+      "countryOfOrigin": [
+        {
+          "@type": "Country",
+          "name": "UK"
+        }
+      ],
+      "director": [
+        {
+          "@type": "Person",
+          "name": "Nathan H. Juran"
+        }
+      ],
+      "temporalCoverage": "6th",
+      "genre": [
+        "Legend"
+      ],
+      "isBasedOn": {
+        "@type": "CreativeWork",
+        "name": "Legend"
+      },
+      "keywords": [
+        "King Arthur",
+        "Literature",
+        "Adventure",
+        "War"
+      ],
+      "description": "Opening (Title) Sequence",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "lateTitle",
+          "value": false
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "color",
+          "value": "C"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "sound",
+          "value": true
+        }
+      ]
+    },
+    {
+      "@type": "Movie",
+      "name": "The Tyrant of Castile",
+      "alternativeHeadline": "Sfida al re di Castiglia",
+      "image": "https://www.dropbox.com/scl/fi/e7j14kwr10dd88hfncqtx/1963_The-Tyrant-of-Castile.png?rlkey=ckmw9h6ey9hsxe6slz7tuk73e&raw=1",
+      "spatialCoverage": [
+        "Spain"
+      ],
+      "datePublished": "1963",
+      "sameAs": "https://boxd.it/4WIM",
+      "productionCompany": [
+        {
+          "@type": "Organization",
+          "name": "Procinsa"
+        },
+        {
+          "@type": "Organization",
+          "name": "Alexandra Produzioni Cinematografiche"
+        }
+      ],
+      "countryOfOrigin": [
+        {
+          "@type": "Country",
+          "name": "Italy"
+        }
+      ],
+      "director": [
+        {
+          "@type": "Person",
+          "name": "Ferdinando Baldi"
+        }
+      ],
+      "temporalCoverage": "14th",
+      "genre": [
+        "History"
+      ],
+      "isBasedOn": {
+        "@type": "CreativeWork",
+        "name": "Story"
+      },
+      "keywords": [
+        "Peter of Castile",
+        "Drama",
+        "Adventure"
+      ],
+      "description": "Intro",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "lateTitle",
+          "value": false
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "color",
+          "value": "C"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "sound",
+          "value": true
+        }
+      ]
+    },
+    {
+      "@type": "Movie",
+      "name": "Sword of Lancelot",
+      "alternativeHeadline": "Lancelot and Guinevere",
+      "image": "https://www.dropbox.com/scl/fi/ct5uqplh7lhxa6h59on56/1963_Sword-of-Lancelot.png?rlkey=lfe0dzbtnva0rfng7wpwkrhop&raw=1",
+      "spatialCoverage": [
+        "England"
+      ],
+      "datePublished": "1963",
+      "sameAs": "https://boxd.it/VYc",
+      "productionCompany": [
+        {
+          "@type": "Organization",
+          "name": "Emblem Productions"
+        }
+      ],
+      "countryOfOrigin": [
+        {
+          "@type": "Country",
+          "name": "UK"
+        }
+      ],
+      "director": [
+        {
+          "@type": "Person",
+          "name": "Cornel Wilde"
+        }
+      ],
+      "temporalCoverage": "6th",
+      "genre": [
+        "Legend"
+      ],
+      "isBasedOn": {
+        "@type": "CreativeWork",
+        "name": "Legend"
+      },
+      "keywords": [
+        "King Arthur",
+        "Lancelot",
+        "Fantasy",
+        "Literature",
+        "Adventure",
+        "Romance"
+      ],
+      "description": "Intro",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "lateTitle",
+          "value": false
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "color",
+          "value": "C"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "sound",
+          "value": true
+        }
+      ]
+    },
+    {
+      "@type": "Movie",
+      "name": "The Castilian",
+      "alternativeHeadline": "El valle de las espadas",
+      "image": "https://www.dropbox.com/scl/fi/ug4hf3z3cqhvpwdmcf7ta/1963_The-Castilian.png?rlkey=5ip7ov5q1qqbsv5n2b32hofvq&raw=1",
+      "spatialCoverage": [
+        "Spain"
+      ],
+      "datePublished": "1963",
+      "sameAs": "https://boxd.it/4lKw",
+      "productionCompany": [
+        {
+          "@type": "Organization",
+          "name": "Cinemagic Inc."
+        },
+        {
+          "@type": "Organization",
+          "name": "M.D. Producciones Cinematográficas"
+        }
+      ],
+      "countryOfOrigin": [
+        {
+          "@type": "Country",
+          "name": "Spain"
+        }
+      ],
+      "director": [
+        {
+          "@type": "Person",
+          "name": "Javier Setó"
+        }
+      ],
+      "temporalCoverage": "10th",
+      "genre": [
+        "History"
+      ],
+      "isBasedOn": {
+        "@type": "CreativeWork",
+        "name": "Story"
+      },
+      "keywords": [
+        "Fernán González",
+        "Biography",
+        "Adventure"
+      ],
+      "description": "Intro",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "lateTitle",
+          "value": false
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "color",
+          "value": "C"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "sound",
+          "value": true
+        }
+      ]
+    },
+    {
+      "@type": "Movie",
+      "name": "The Sword in the Stone",
+      "alternativeHeadline": "The Sword in the Stone",
+      "image": "https://www.dropbox.com/scl/fi/5u9y0krboschqhjjr3f9x/1963_The-Sword-in-the-Stone.png?rlkey=2yfby4ea6c7whb3rn4g0yu70r&raw=1",
+      "spatialCoverage": [
+        "England"
+      ],
+      "datePublished": "1963",
+      "sameAs": "https://boxd.it/1ZdG",
+      "productionCompany": [
+        {
+          "@type": "Organization",
+          "name": "Walt Disney Productions"
+        }
+      ],
+      "countryOfOrigin": [
+        {
+          "@type": "Country",
+          "name": "USA"
+        }
+      ],
+      "director": [
+        {
+          "@type": "Person",
+          "name": "Wolfgang Reitherman"
+        }
+      ],
+      "temporalCoverage": "6th",
+      "genre": [
+        "Animation"
+      ],
+      "isBasedOn": {
+        "@type": "CreativeWork",
+        "name": "Legend"
+      },
+      "keywords": [
+        "Merlin",
+        "Legend",
+        "Fantasy",
+        "Family"
+      ],
+      "description": "Opening (Title) Sequence",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "lateTitle",
+          "value": false
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "color",
+          "value": "C"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "sound",
+          "value": true
+        }
+      ]
+    },
+    {
+      "@type": "Movie",
+      "name": "The Revenge of the Crusader",
+      "alternativeHeadline": "Genoveffa di Brabante",
+      "image": "https://www.dropbox.com/scl/fi/si000su1og2kqf0u2y1qe/1964_The-Revenge-of-the-Crusader.png?rlkey=kqjgxzx3rzcpp5exo5nf43ypz&raw=1",
+      "spatialCoverage": [
+        "Netherlands",
+        "Belgium"
+      ],
+      "datePublished": "1964",
+      "sameAs": "https://boxd.it/9m8S",
+      "productionCompany": [
+        {
+          "@type": "Organization",
+          "name": "Hispamer Films"
+        },
+        {
+          "@type": "Organization",
+          "name": "Imprecine"
+        }
+      ],
+      "countryOfOrigin": [
+        {
+          "@type": "Country",
+          "name": "Italy"
+        },
+        {
+          "@type": "Country",
+          "name": "Spain"
+        }
+      ],
+      "director": [
+        {
+          "@type": "Person",
+          "name": "José Luis Monter"
+        }
+      ],
+      "temporalCoverage": "13th",
+      "genre": [
+        "Fiction"
+      ],
+      "isBasedOn": {
+        "@type": "CreativeWork",
+        "name": "Jacques de Voragine"
+      },
+      "keywords": [
+        "Siegfried",
+        "Drama",
+        "Literature",
+        "Adventure",
+        "Crusades"
+      ],
+      "description": "Intro",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "lateTitle",
+          "value": false
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "color",
+          "value": "C"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "sound",
+          "value": true
+        }
+      ]
+    },
+    {
+      "@type": "Movie",
+      "name": "Ivaylo",
+      "alternativeHeadline": "Ивайло",
+      "image": "https://www.dropbox.com/scl/fi/csyogtmt6be49j53cn6rh/1964_Ivaylo.png?rlkey=guc6bioss1mp7g9hae10v36n8&raw=1",
+      "spatialCoverage": [
+        "Bulgaria"
+      ],
+      "datePublished": "1964",
+      "sameAs": "https://boxd.it/lvSa",
+      "productionCompany": [
+        {
+          "@type": "Organization",
+          "name": "Boyana Film"
+        }
+      ],
+      "countryOfOrigin": [
+        {
+          "@type": "Country",
+          "name": "Bulgaria"
+        }
+      ],
+      "director": [
+        {
+          "@type": "Person",
+          "name": "Nikola Valchev"
+        }
+      ],
+      "temporalCoverage": "13th",
+      "genre": [
+        "History"
+      ],
+      "isBasedOn": {
+        "@type": "CreativeWork",
+        "name": "Story"
+      },
+      "keywords": [
+        "Ivaylo",
+        "Drama",
+        "Adventure",
+        "War"
+      ],
+      "description": "Intro",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "lateTitle",
+          "value": false
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "color",
+          "value": "C"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "sound",
+          "value": true
+        }
+      ]
+    },
+    {
+      "@type": "Movie",
+      "name": "The Long Hair of Death",
+      "alternativeHeadline": "I lunghi capelli della morte",
+      "image": "https://www.dropbox.com/scl/fi/rxp5p2g5q7smqobf9d14e/1964_The-Long-Hair-of-Death.png?rlkey=mz0dfs7biqfsf3tz99fib641b&raw=1",
+      "spatialCoverage": [
+        "Unknown"
+      ],
+      "datePublished": "1964",
+      "sameAs": "https://boxd.it/2USc",
+      "productionCompany": [
+        {
+          "@type": "Organization",
+          "name": "Cinegai"
+        }
+      ],
+      "countryOfOrigin": [
+        {
+          "@type": "Country",
+          "name": "Italy"
+        }
+      ],
+      "director": [
+        {
+          "@type": "Person",
+          "name": "Antonio Margheriti"
+        }
+      ],
+      "temporalCoverage": "15th",
+      "genre": [
+        "Fiction"
+      ],
+      "isBasedOn": {
+        "@type": "CreativeWork",
+        "name": "Story"
+      },
+      "keywords": [
+        "Horror"
+      ],
+      "description": "Intro",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "lateTitle",
+          "value": false
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "color",
+          "value": "BW"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "sound",
+          "value": true
+        }
+      ]
+    },
+    {
+      "@type": "Movie",
+      "name": "Hamlet",
+      "alternativeHeadline": "Гамлет",
+      "image": "https://www.dropbox.com/scl/fi/8n3k7ktlxaq1cotfdythu/1964_Hamlet.png?rlkey=eqskfuzejmzwfs5xee3jekshk&raw=1",
+      "spatialCoverage": [
+        "England"
+      ],
+      "datePublished": "1964",
+      "sameAs": "https://boxd.it/2rhQ",
+      "productionCompany": [
+        {
+          "@type": "Organization",
+          "name": "Lenfilm"
+        }
+      ],
+      "countryOfOrigin": [
+        {
+          "@type": "Country",
+          "name": "USSR"
+        }
+      ],
+      "director": [
+        {
+          "@type": "Person",
+          "name": "Grigori Kozintsev"
+        }
+      ],
+      "temporalCoverage": "15th",
+      "genre": [
+        "Fiction"
+      ],
+      "isBasedOn": {
+        "@type": "CreativeWork",
+        "name": "William Shakespeare"
+      },
+      "keywords": [
+        "Drama",
+        "Literature"
+      ],
+      "description": "Intro",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "lateTitle",
+          "value": false
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "color",
+          "value": "BW"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "sound",
+          "value": true
+        }
+      ]
+    },
+    {
+      "@type": "Movie",
+      "name": "Becket",
+      "alternativeHeadline": "Becket",
+      "image": "https://www.dropbox.com/scl/fi/x2ma8uprn9yrhzkoauac0/1964_Becket.png?rlkey=13skqa4ei8gsie6jko0noqqgm&raw=1",
+      "spatialCoverage": [
+        "England"
+      ],
+      "datePublished": "1964",
+      "sameAs": "https://boxd.it/1MgW",
+      "productionCompany": [
+        {
+          "@type": "Organization",
+          "name": "Paramount Pictures"
+        },
+        {
+          "@type": "Organization",
+          "name": "Keep Films"
+        }
+      ],
+      "countryOfOrigin": [
+        {
+          "@type": "Country",
+          "name": "UK"
+        },
+        {
+          "@type": "Country",
+          "name": "USA"
+        }
+      ],
+      "director": [
+        {
+          "@type": "Person",
+          "name": "Peter Glenville"
+        }
+      ],
+      "temporalCoverage": "12th",
+      "genre": [
+        "History"
+      ],
+      "isBasedOn": {
+        "@type": "CreativeWork",
+        "name": "Jean Anouilh "
+      },
+      "keywords": [
+        "King Henry II",
+        "Becket",
+        "Biography",
+        "Drama",
+        "Literature"
+      ],
+      "description": "Opening (Title) Sequence",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "lateTitle",
+          "value": false
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "color",
+          "value": "C"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "sound",
+          "value": true
+        }
+      ]
+    },
+    {
+      "@type": "Movie",
+      "name": "Isidore the Laborer",
+      "alternativeHeadline": "Isidro el labrador",
+      "image": "https://www.dropbox.com/scl/fi/tcj1wjrk7w4mnxrsr2lvn/1964_Isidro-el-Labrador.png?rlkey=6cfxjuz8q36xzaz8p847bpf8w&raw=1",
+      "spatialCoverage": [
+        "Spain"
+      ],
+      "datePublished": "1964",
+      "sameAs": "https://boxd.it/6Z5i",
+      "productionCompany": [
+        {
+          "@type": "Organization",
+          "name": "Cooperativa Cinematográfica Walkiria"
+        },
+        {
+          "@type": "Organization",
+          "name": "Intercinema Internacional Cinematográfica"
+        }
+      ],
+      "countryOfOrigin": [
+        {
+          "@type": "Country",
+          "name": "Spain"
+        }
+      ],
+      "director": [
+        {
+          "@type": "Person",
+          "name": "Rafael J. Salvia"
+        }
+      ],
+      "temporalCoverage": "11th",
+      "genre": [
+        "History"
+      ],
+      "isBasedOn": {
+        "@type": "CreativeWork",
+        "name": "Hagiography"
+      },
+      "keywords": [
+        "Isidore the Laborer",
+        "Biography",
+        "Drama",
+        "Religious"
+      ],
+      "description": "Opening (Title) Sequence",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "lateTitle",
+          "value": false
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "color",
+          "value": "BW"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "sound",
+          "value": true
+        }
+      ]
+    }
+  ]
+}

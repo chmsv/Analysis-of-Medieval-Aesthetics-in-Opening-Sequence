@@ -1,0 +1,101 @@
+*,
+body,
+html {
+  /* Variables */
+  --main-bg-color: #f1e6d6;
+  --main-text-color: #242424;
+  --main-header-color: #550000;
+  --accent-color: #6e6e6e;
+
+  font-family: 'EB Garamond', serif;
+  background-color: var(--main-bg-color);
+  color: var(--main-text-color);
+  margin: 0;
+  padding: 0;
+  /* Remove overflow: hidden */
+}
+
+h3 {
+  font-family: 'Syne', serif;
+  color: var(--main-header-color);
+  font-size: 1.75rem;
+  font-weight: 700;
+  text-align: center;
+  margin: 20px;
+}
+
+/* Header */
+
+header {
+  padding: 1rem;
+  text-align: right;
+  border-bottom: 2px solid var(--accent-color);
+  font-size: 1rem;
+  text-transform: uppercase;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 2rem;
+}
+
+nav ul li a {
+  color: var(--main-text-color);
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  color: var(--main-header-color);
+}
+
+.nav_li_active {
+  text-decoration: line-through;
+  color: var(--accent-color);
+  font-weight: bold;
+}
+
+/* Timeline */
+
+.tooltip {
+  position: absolute;
+  text-align: left;
+  width: 200px;
+  padding: 10px;
+  font: 14px sans-serif;
+  background: var(--accent-color);
+  color: var(--main-bg-color);
+  border: 0;
+  border-radius: 4px;
+  pointer-events: none;
+  font-family: 'GB Garamont', serif;
+}
+
+.axis-label {
+  font-size: 12px;
+}
+
+.movie-circle {
+  cursor: pointer;
+}
+
+.poster {
+  width: 200px;
+}
+
+circle.movie-circle {
+  fill: #550000 !important;
+  opacity: 0.7;
+}
+
+.p_timeline {
+  color: var(--main-bg-color);
+  background-color: var(--accent-color);
+  padding: 0;
+  margin: 0;
+  font-weight: 700;
+}
