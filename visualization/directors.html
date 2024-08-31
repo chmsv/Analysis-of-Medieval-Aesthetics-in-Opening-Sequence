@@ -14,6 +14,31 @@
       rel="stylesheet"
       href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400..800&family=Syne:wght@700..800&display=swap"
     />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="../assets/images/favicons/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="../assets/images/favicons/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="../assets/images/favicons/favicon-16x16.png"
+    />
+    <link rel="manifest" href="../assets/images/favicons/site.webmanifest" />
+    <link
+      rel="mask-icon"
+      href="../assets/images/favicons/safari-pinned-tab.svg"
+      color="#5bbad5"
+    />
+    <meta name="msapplication-TileColor" content="#da532c" />
+    <meta name="theme-color" content="#ffffff" />
   </head>
   <body>
     <header>
@@ -44,13 +69,12 @@
     <div id="chart"></div>
 
     <script>
-      // Load the data
+
       d3.json(
         'https://raw.githubusercontent.com/chmsv/Analysis-of-Medieval-Aesthetics-in-Opening-Sequence/main/source/Medieval_Movies.jsonld'
       ).then(function (data) {
         const movies = data['@graph'];
 
-        // Process the data
         const nodes = new Set();
         const links = [];
         const directorNodes = new Set();
@@ -83,11 +107,9 @@
           group: directorNodes.has(node) ? 1 : 2,
         }));
 
-        // Set up dimensions
         let width = window.innerWidth;
-        let height = window.innerHeight - 50; // Subtracting 50px for the title
+        let height = window.innerHeight - 50;
 
-        // Create SVG
         const svg = d3
           .select('#chart')
           .append('svg')
@@ -100,7 +122,6 @@
           )
           .append('g');
 
-        // Create force simulation
         const simulation = d3
           .forceSimulation(nodesArray)
           .force(
@@ -108,13 +129,12 @@
             d3
               .forceLink(links)
               .id((d) => d.id)
-              .distance(50) // Increase the distance for better spacing
+              .distance(50)
           )
-          .force('charge', d3.forceManyBody().strength(-100)) // Increase repulsion
+          .force('charge', d3.forceManyBody().strength(-100))
           .force('center', d3.forceCenter(width / 2, height / 2))
-          .force('collision', d3.forceCollide().radius(20)); // Add collision force
+          .force('collision', d3.forceCollide().radius(20));
 
-        // Create links
         const link = svg
           .append('g')
           .attr('class', 'links')
@@ -124,7 +144,6 @@
           .append('line')
           .attr('stroke-width', 1);
 
-        // Create nodes
         const node = svg
           .append('g')
           .attr('class', 'nodes')
@@ -142,7 +161,6 @@
               .on('end', dragended)
           );
 
-        // Add labels
         const label = svg
           .append('g')
           .attr('class', 'labels')
@@ -155,10 +173,8 @@
           .attr('x', 3)
           .attr('y', 3);
 
-        // Add title on hover
         node.append('title').text((d) => d.id);
 
-        // Update positions
         simulation.on('tick', () => {
           link
             .attr('x1', (d) => d.source.x)
@@ -171,7 +187,6 @@
           label.attr('x', (d) => d.x).attr('y', (d) => d.y);
         });
 
-        // Drag functions
         function dragstarted(event, d) {
           if (!event.active) simulation.alphaTarget(0.3).restart();
           d.fx = d.x;
@@ -189,7 +204,6 @@
           d.fy = null;
         }
 
-        // Make it responsive
         function resize() {
           width = window.innerWidth;
           height = window.innerHeight - 50;
@@ -201,7 +215,6 @@
 
         window.addEventListener('resize', resize);
 
-        // Fit the graph to the initial screen size
         const zoom = d3
           .zoom()
           .scaleExtent([0.1, 4])
@@ -211,7 +224,6 @@
 
         d3.select('svg').call(zoom);
 
-        // Calculate initial fit
         const bounds = svg.node().getBBox();
         const fullWidth = bounds.width;
         const fullHeight = bounds.height;

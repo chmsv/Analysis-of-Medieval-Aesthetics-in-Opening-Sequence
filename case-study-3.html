@@ -1,0 +1,921 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Arthurian Cinema</title>
+    <link rel="stylesheet" href="./assets/styles/styles_chapters.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400..800&family=Syne:wght@700&display=swap"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="../assets/images/favicons/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="../assets/images/favicons/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="../assets/images/favicons/favicon-16x16.png"
+    />
+    <link rel="manifest" href="../assets/images/favicons/site.webmanifest" />
+    <link
+      rel="mask-icon"
+      href="../assets/images/favicons/safari-pinned-tab.svg"
+      color="#5bbad5"
+    />
+    <meta name="msapplication-TileColor" content="#da532c" />
+    <meta name="theme-color" content="#ffffff" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li>
+            <a class="nav_li_active" href="case-studies.html">Case studies</a>
+          </li>
+          <li><a href="./gallery/gallery.html">Gallery</a></li>
+          <li>
+            <a href="./visualization/visualization.html">Data visualization</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <div class="main_container">
+      <h2 class="header_chapters">Case study:<br />Arthurian Cinema</h2>
+      <div class="content_chapters">
+        <p><a class="content_anchors" href="#introduction">Introduction</a></p>
+        <p>
+          <a class="content_anchors" href="#data-analyzed">Data analyzed</a>
+        </p>
+        <p><a class="content_anchors" href="#analysis">Analysis</a></p>
+        <p>
+          <a class="content_anchors" href="#classification">Classification</a>
+        </p>
+        <p>
+          <a class="content_anchors" href="#script-examples">Script Examples</a>
+        </p>
+      </div>
+      <section>
+        <h3 id="introduction">Introduction</h3>
+        <p>
+          The second most popular plot referred to by filmmakers in the database
+          is the Arthurian legends. What they have in common with the story of
+          the Robin Hood character is the lack of a solid primary source. John
+          Aberth echoes this, noting that, like Robin Hood, King Arthur is “the
+          one historical figure about whom we know the least in terms of cold,
+          hard facts”<a
+            href="#fn1"
+            class="footnote-ref"
+            id="fnref1"
+            role="doc-noteref"
+            ><sup>1</sup></a
+          >. The first “biography” of Arthur, which served as the basis for the
+          legendary narrative, was incorporated into “Historia Regum Britanniae”
+          (c. 1135-1138) written by the Breton bishop Geoffrey of Monmouth.
+          During the 12th and 13th centuries, Arthurian legends, including those
+          of Sir Lancelot, became common in France<a
+            href="#fn2"
+            class="footnote-ref"
+            id="fnref2"
+            role="doc-noteref"
+            ><sup>2</sup></a
+          >. The most studied source among scholars for the legend of King
+          Arthur is the already mentioned 1470 novel “Le Morte D’Arthur”<a
+            href="#fn3"
+            class="footnote-ref"
+            id="fnref3"
+            role="doc-noteref"
+            ><sup>3</sup></a
+          >. It is a cycle of adventures, a kind of anthology of French and
+          English legends, centered on the key figure of Lancelot. According to
+          Leitch<a
+            href="#fn4"
+            class="footnote-ref"
+            id="fnref4"
+            role="doc-noteref"
+            ><sup>4</sup></a
+          >
+          the influence of this literary source material amongst general readers
+          is rather negligible. Aberth, on the contrary, makes a strong case
+          that this work, published in the midst of a political crisis, both
+          tapped into the nostalgic mood of Englishmen, and gained popularity on
+          both sides of the Channel. It was the legends as retold by Thomas
+          Malory that formed the basis for most interpretations of the figure of
+          Arthur and his entourage<a
+            href="#fn5"
+            class="footnote-ref"
+            id="fnref5"
+            role="doc-noteref"
+            ><sup>5</sup></a
+          >.
+        </p>
+        <p>
+          Despite, or perhaps because of, a lack of historically accurate
+          evidence, this character is the leader in the total number of film
+          incarnations among other medieval figures. King Arthur and the Knights
+          of the Round Table have become such a pervasive trope in pop culture
+          and movies that it is neither meaningless nor accurate to attribute
+          their origins to one particular literary source (unless the exact
+          source is explicitly specified). This state of affairs, according to
+          Haydock, has resulted in an attitude that “Arthur is capable of
+          embodying almost any desire – romantic, rationalist, or racist;
+          nationalistic, nostalgic, or New Age; fundamentalist, fascist, or
+          futuristic; postcolonial, post ideological, or even post-Twin
+          Towers”<a
+            href="#fn6"
+            class="footnote-ref"
+            id="fnref6"
+            role="doc-noteref"
+            ><sup>6</sup></a
+          >. Legends have become so ephemeral, and meanings so blurred and
+          malleable, that it is easy to tweak the Arthurian narrative to fit any
+          political and cultural agenda. Yet bear in mind that King Arthur was a
+          real-life person who lived in the late 5th and early 6th centuries.
+          Legends about him, however, beginning in the high Middle Ages, tended
+          to overshadow the actual biography.
+        </p>
+        <p>
+          How all these twists and turns of the biographies of the real and
+          fictional King Arthur are reflected on the title cards; how and with
+          what techniques they help to construct or debunk myths, is discussed
+          in this chapter.
+        </p>
+        <h3 id="data-analyzed">Data analyzed</h3>
+        <p>
+          Arthurian cinema is often the subject of study<a
+            href="#fn7"
+            class="footnote-ref"
+            id="fnref7"
+            role="doc-noteref"
+            ><sup>7</sup></a
+          >. Researchers are attracted both by the portrayal of the legendary
+          king and his cronies and by the use of the film as a propaganda tool
+          to promote certain platforms and narratives<a
+            href="#fn8"
+            class="footnote-ref"
+            id="fnref8"
+            role="doc-noteref"
+            ><sup>8</sup></a
+          >. The most inventive film,
+          <em>Monty Python and the Holy Grail</em> (1975) which was not included
+          in the selection due to chronological constraints has not been
+          overlooked by academia. The database contains eight examples of
+          Arthurian films.
+        </p>
+        <ul class="film_list">
+          <li>
+            <em>The Adventures of Sir Galahad</em>, dir. Spencer Gordon Bennet
+            (1949)
+          </li>
+          <li>
+            <em>A Connecticut Yankee in King Arthur’s Court</em>, dir. Tay
+            Garnett (1949)
+          </li>
+          <li>
+            <em>Knights of the Round Table</em>, dir. Richard Thorpe (1953)
+          </li>
+          <li><em>Prince Valiant</em>, dir. Henry Hathaway (1954)</li>
+          <li><em>The Black Knight</em>, dir. Tay Garnett (1954)</li>
+          <li><em>Siege of the Saxons</em>, dir. Nathan H. Juran (1963)</li>
+          <li><em>Sword of Lancelot</em>, dir. Cornel Wilde (1963)</li>
+          <li>
+            <em>The Sword in the Stone</em>, dir. Wolfgang Reitherman (1963)
+          </li>
+        </ul>
+        <p>
+          Six of them were produced in the United States (including two in
+          co-production with the UK), the rest in the United Kingdom solely. The
+          major Hollywood studios of the time – MGM, 20th Century Fox, Columbia
+          Pictures, Walt Disney Productions, and Paramount Pictures – were
+          responsible for the production. The legends of King Arthur and the
+          Knights of the Round Table seemed ideally suited for large-scale
+          screen adaptations. Could the reason for such fascination lie in the
+          desire of American filmmakers to construct for themselves the very
+          European medieval past they did not have, their own national myths?
+          And legendary plots about chivalry, valor, noble quests, the
+          storylines of which can be unfolded in clichéd medieval castles, look
+          like a perfect set-up. Another interesting feature is the chronology
+          of the films: the first of them were released after World War II, the
+          next one (recognized by all researchers as the worst on the historical
+          part, and the most propagandistic) was released at the height of the
+          Second Red Scare, and the last three – during the presidency of John
+          F. Kennedy.
+        </p>
+        <p>
+          Films on this subject represent a curious phenomenon that can be
+          categorized as a special case of medievalism<a
+            href="#fn9"
+            class="footnote-ref"
+            id="fnref9"
+            role="doc-noteref"
+            ><sup>9</sup></a
+          >. As discussed above, King Arthur lived in the early Middle Ages, and
+          biographical information and legends about him began to appear
+          actively in the 11th and 12th centuries. All the films depict the High
+          Medieval Period, which confirms their reference to the works of Thomas
+          Malory and T. H. White, which are both characterized by the same
+          anachronistic deviations<a
+            href="#fn10"
+            class="footnote-ref"
+            id="fnref10"
+            role="doc-noteref"
+            ><sup>10</sup></a
+          >. Is there a similar problem in the title cards of these films?
+        </p>
+        <h3 id="analysis"><strong>Analysis</strong></h3>
+        <p>
+          While there is a certain degree of creative freedom that comes from
+          the chronological framework of the real Arthur’s life and myths about
+          him, this advantage is not exploited in the film title cards.
+          Moreover, the opening sequences of
+          <em>A Connecticut Yankee in King Arthur’s Court</em> (1949),
+          <em>Knights of the Round Table</em> (1953),
+          <em>Prince Valiant</em> (1954), and
+          <em>Siege of the Saxons</em> (1963) are examples of the previously
+          encountered phenomenon of standardization and templating of studio
+          films. By adopting the most straightforward techniques of vernacular
+          Hollywood language, the creators managed to make completely
+          inexpressive credits. They incorporated the most generic and
+          inexpressive templates. Summarizing, frames with typical elements of
+          the Middle Ages (as it is imagined by the creators and as spectators
+          are mostly accustomed to associate with this period) change on screen.
+          A safe scenario includes swords, furs, cups, coats of arms and shields
+          in the interiors of the castle.
+        </p>
+        <div class="chapter_gallery_wrap">
+          <article>
+            <figure>
+              <img
+                src="https://www.dropbox.com/scl/fi/42epf3ch5pzu96hbei73w/1949_A-Connecticut-Yankee-in-King-Arthur-s-Court.png?rlkey=bjsbzxvse7fspj75bl0somsvz&raw=1"
+                loading="lazy"
+                class="chapter_img"
+                alt="A Connecticut Yankee in King Arthur’s Court"
+              />
+              <figcaption>
+                A Connecticut Yankee in King Arthur’s Court, 1949.
+              </figcaption>
+            </figure>
+          </article>
+          <article>
+            <figure>
+              <img
+                src="https://www.dropbox.com/scl/fi/6rfvuewss7z85pjp7l64e/1953_Knights-of-the-Round-Table.png?rlkey=sb55gnj2mggrv1bivv5126qij&raw=1"
+                loading="lazy"
+                class="chapter_img"
+                alt="Knights of the Round Table"
+              />
+              <figcaption>Knights of the Round Table, 1953.</figcaption>
+            </figure>
+          </article>
+          <article>
+            <figure>
+              <img
+                src="https://www.dropbox.com/scl/fi/cnpjgk5serxw7bb0ges2f/1954_Prince-Valiant.png?rlkey=m4ndaxw0jpcy0sagrvi4vgq4u&raw=1"
+                loading="lazy"
+                class="chapter_img"
+                alt="Prince Valiant"
+              />
+              <figcaption>Prince Valiant, 1954.</figcaption>
+            </figure>
+          </article>
+          <article>
+            <figure>
+              <img
+                src="https://www.dropbox.com/scl/fi/wn8p859e8cj5n95heyiiq/1963_Siege-of-the-Saxons.png?rlkey=s7361jpvys4moccgi2kx6simy&raw=1"
+                loading="lazy"
+                class="chapter_img"
+                alt="Siege of the Saxons"
+              />
+              <figcaption>Siege of the Saxons, 1963.</figcaption>
+            </figure>
+          </article>
+        </div>
+        <p>
+          Regarding the letterforms of the title cards,
+          <em>A Connecticut Yankee in King Arthur’s Court</em> (1949) and
+          <em>Knights of the Round Table</em> (1953) present the most modern
+          visuals. The lettering in the title cards of the other films refers to
+          Gothic script gravitating towards formal grades of the 13th–14th
+          century<a
+            href="#fn11"
+            class="footnote-ref"
+            id="fnref11"
+            role="doc-noteref"
+            ><sup>11</sup></a
+          >.
+        </p>
+        <figure>
+          <img
+            src="./assets/images/case_study_3/footnote_11_1.png"
+            loading="lazy"
+            class="chapter_img clickable-image"
+            alt=""
+          />
+          <figcaption>
+            Fragments of manuscript pages with miniatures from 13th century:
+            Roman de Lancelot du Lac, Quête du S. Graal et Mort d’Artus. “BnF
+            Catalogue général”, Français 12573, fol. 96r (on the left);<br />
+            Le Roman de Tristan.. “BnF Catalogue général”, Français 776, fol.
+            10v (on the right).
+          </figcaption>
+        </figure>
+        <figure>
+          <img
+            src="./assets/images/case_study_3/footnote_11_2.png"
+            loading="lazy"
+            class="chapter_img clickable-image"
+            alt=""
+          />
+          <figcaption>
+            Decorated initials in: Le Roman de Lancelot du Lac [de GAUTIER MAP],
+            première partie. “BnF Catalogue général”, Français 773, fol. 93 (on
+            the left);<br />
+            Plain page in Gothic script (fragment): Lancelot du Lac [de GAUTIER
+            MAP]. “BnF Catalogue général”, Français 752, fol. 221r (on the
+            right).
+          </figcaption>
+        </figure>
+        <figure>
+          <img
+            src="./assets/images/case_study_3/footnote_11_3.png"
+            loading="lazy"
+            class="chapter_img clickable-image"
+            alt=""
+          />
+          <figcaption>
+            Fragments of pages from the 14th century with miniatures: Ystoire du
+            Saint-Greal, qui est le fondement de la Table reonde, que on dit de
+            Lancelot du Lac, et du roy Artus et des chevaliers de la Table
+            reonde. “BnF Catalogue général”, Français 9123, fol. 32r;<br />
+            Lancelot du Lac, deuxième partie, de “mestre GAUTIER MAP”. “BnF
+            Catalogue général”, Français 333, fol. 21v.
+          </figcaption>
+        </figure>
+        <p>
+          It is characterized by sharp, vertical, repeating strokes, all letters
+          have little angular feet, while ascenders and descenders tend to be
+          short to fit into lines. Examples of such script, for instance, are
+          found in manuscripts including stories about Lancelot written in the
+          13th–14th centuries. Most of such manuscripts I have encountered are
+          richly decorated with ornamental initials as well as skillful
+          miniatures, and represent a common example of medieval book art.
+        </p>
+        <p>
+          Two examples deserve attention. <em>Sword of Lancelot</em>’s (1963)
+          title card is designed with an eye to majuscule letterforms<a
+            href="#fn12"
+            class="footnote-ref"
+            id="fnref12"
+            role="doc-noteref"
+            ><sup>12</sup></a
+          >, with the exception of the modern letter “W”. The animated movie
+          <em>The Sword in the Stone</em> (1963) is the only example of the use
+          of references to magic and sorcery found in literary sources, namely
+          King Arthur’s sword. This artistic decision echoes the plot of the
+          movie and sets the audience’s focus on the fantasy side of the story.
+          The use of shades of green also contributes to this effect. In
+          manuscripts, this color, like yellow, was often used to mark the
+          beginning of sentences and to highlight majuscules, as well as for
+          writing titles<a
+            href="#fn13"
+            class="footnote-ref"
+            id="fnref13"
+            role="doc-noteref"
+            ><sup>13</sup></a
+          >.
+        </p>
+        <figure>
+          <img
+            src="https://www.dropbox.com/scl/fi/ct5uqplh7lhxa6h59on56/1963_Sword-of-Lancelot.png?rlkey=lfe0dzbtnva0rfng7wpwkrhop&raw=1"
+            loading="lazy"
+            class="chapter_img"
+            alt="Sword of Lancelot"
+          />
+          <figcaption>Sword of Lancelot, 1963.</figcaption>
+        </figure>
+        <figure>
+          <img
+            src="./assets/images/case_study_3/footnote_12.png"
+            loading="lazy"
+            class="chapter_img clickable-image"
+            alt=""
+          />
+          <figcaption>
+            Examples from the 11th century: Quoduultdeus, Adversus quinque
+            haereses ― Augustinus Hipponensis, De Genesi contra Manichaeos ; De
+            fide et symbolo ; De fide contra Manicheos ; Collatio cum Maximino ;
+            Contra Maximinum ― Augustinus Hipponensis (ps.), Collatio cum
+            Pascentio. “BnF Catalogue général”, Latin 12219, fol. Bv (on the
+            left);<br />Vita sancti Mauri ; Vita metrica sancti Mauri ; Vita
+            sancti Placidi ; Vita sancti Hilarii – Vita sancti Nicolai. “BnF
+            Catalogue général”, Latin 5344, fol. 30v (on the right).
+          </figcaption>
+        </figure>
+        <figure>
+          <img
+            src="https://www.dropbox.com/scl/fi/5u9y0krboschqhjjr3f9x/1963_The-Sword-in-the-Stone.png?rlkey=2yfby4ea6c7whb3rn4g0yu70r&raw=1"
+            loading="lazy"
+            class="chapter_img"
+            alt="The Sword in the Stone"
+          />
+          <figcaption>The Sword in the Stone, 1963.</figcaption>
+        </figure>
+        <figure>
+          <img
+            src="./assets/images/case_study_3/footnote_13_1.png"
+            loading="lazy"
+            class="chapter_img clickable-image"
+            alt=""
+          />
+          <figcaption>
+            Majuscules in green ink: Graduel de Saint-Évroul. “BnF Catalogue
+            général”, Latin 10508, fol. 14v (on the left)<br />
+            and Bréviaire de Corbie. “BnF Catalogue général”, Latin 13221, fol.
+            98r (on the right).
+          </figcaption>
+        </figure>
+        <figure>
+          <img
+            src="./assets/images/case_study_3/footnote_13_2.png"
+            loading="lazy"
+            class="chapter_img clickable-image"
+            alt=""
+          />
+          <figcaption>
+            Heading examples in green ink (on the left). S. Hieronymus. “BnF
+            Catalogue général”, Latin 1850, fol. 3v;<br />
+            and an example with initials (on the right). Commentaire sur S.
+            Marc. “BnF Catalogue général”, Latin 12020, fol. 14v.
+          </figcaption>
+        </figure>
+        <h3 id="classification"><strong>Classification</strong></h3>
+        <p>
+          The opening credits typology is predominated by a template opening
+          sequence variant with a painted background on which stereotype
+          Medieval attributes are placed. However, three motion pictures precede
+          the intro. In <em>Adventures of Sir Galahad</em> (1949), a TV show of
+          15 short episodes, title cards appear against a background of short
+          excerpts from different scenes. Hence, the title cards tie together a
+          throughline plot. Although researchers unanimously call
+          <em>The Black Knight</em> (1954) a bad movie, the opening sequence,
+          unfolding against the background of a cavalry march, looks organic<a
+            href="#fn14"
+            class="footnote-ref"
+            id="fnref14"
+            role="doc-noteref"
+            ><sup>14</sup></a
+          >. The serene landscape with the group of knights creates an immersion
+          into the world of the movie before it even begins. The arrangement of
+          the credits is also an interesting decision. This sequence appears
+          only after the opening scene with a troubadour singing a ballad about
+          a fearless knight. <em>Sword of Lancelot</em> (1963) opens with
+          several black-and-white and sepia-toned freeze frames depicting the
+          main plot lines. The choice of such a presentation for a Technicolor
+          film engages with the perception in an intriguing way – it feels like
+          watching a documentary.
+        </p>
+        <p>
+          The creators of the credits adapted the written tradition of
+          letterforms from the times of circulation of recorded legends, rather
+          than using scripts common in the 6th century as a reference point.
+          Thus, the credits, like the films that follow them, draw on the
+          archetype of the Middle Ages without attempting a slightly deeper
+          immersion in historical context. The commercialization of filmmaking
+          along with mass production (i.e., three films on the same theme were
+          released in 1963 alone) did not encourage the expansion of the
+          artistic apparatus and the incorporation of more specific features to
+          the opening sequences. Notably, almost no magical features appear in
+          the credits (except for the animated example), although such a plot is
+          present in legends. All in all, just as American cinema appropriated
+          the Arthurian myths, with the same insistence it has enshrined a
+          certain image of the Middle Ages in the opening credits.
+        </p>
+        <div id="imageModal" class="modal">
+          <span class="close">&times;</span>
+          <img class="modal-content" id="modalImage" />
+        </div>
+      </section>
+      <section id="script-examples">
+        <h3>Script Examples</h3>
+        <ol type="1">
+          <li>
+            <p>
+              Bréviaire de Corbie. “BnF Catalogue général”, Latin 13221:
+              <a href="https://gallica.bnf.fr/ark:/12148/btv1b8427451g/"
+                ><u>https://gallica.bnf.fr/ark:/12148/btv1b8427451g/</u></a
+              >
+            </p>
+          </li>
+          <li>
+            <p>
+              Commentaire sur S. Marc. “BnF Catalogue général”, Latin 12020:
+              <a href="https://gallica.bnf.fr/ark:/12148/btv1b52517112r/"
+                ><u>https://gallica.bnf.fr/ark:/12148/btv1b52517112r/</u></a
+              >
+            </p>
+          </li>
+          <li>
+            <p>
+              Graduel de Saint-Évroul. “BnF Catalogue général”, Latin 10508:
+              <a href="https://gallica.bnf.fr/ark:/12148/btv1b8422969b/"
+                ><u>https://gallica.bnf.fr/ark:/12148/btv1b8422969b/</u></a
+              >
+            </p>
+          </li>
+          <li>
+            <p>
+              Lancelot du Lac, deuxième partie, de “mestre GAUTIER MAP”. “BnF
+              Catalogue général”, Français 333:
+              <a href="https://gallica.bnf.fr/ark:/12148/btv1b10537237/"
+                ><u>https://gallica.bnf.fr/ark:/12148/btv1b10537237/</u></a
+              >
+            </p>
+          </li>
+          <li>
+            <p>
+              Lancelot du Lac [par GAUTIER MAP]. “BnF Catalogue général”,
+              Français 752:
+              <a href="https://gallica.bnf.fr/ark:/12148/btv1b52511544b/"
+                ><u>https://gallica.bnf.fr/ark:/12148/btv1b52511544b/</u></a
+              >
+            </p>
+          </li>
+          <li>
+            <p>
+              Le Roman de Lancelot du Lac [de GAUTIER MAP], première partie.
+              “BnF Catalogue général”, Français 773:
+              <a href="https://gallica.bnf.fr/ark:/12148/btv1b104636824/"
+                ><u>https://gallica.bnf.fr/ark:/12148/btv1b104636824/</u></a
+              >
+            </p>
+          </li>
+          <li>
+            <p>
+              Le Roman de Tristan. “BnF Catalogue général”, Français 776:
+              <a href="https://gallica.bnf.fr/ark:/12148/btv1b6000110d/"
+                ><u>https://gallica.bnf.fr/ark:/12148/btv1b6000110d/</u></a
+              >
+            </p>
+          </li>
+          <li>
+            <p>
+              Quoduultdeus, Adversus quinque haereses ― Augustinus Hipponensis,
+              De Genesi contra Manichaeos ; De fide et symbolo ; De fide contra
+              Manicheos ; Collatio cum Maximino ; Contra Maximinum ― Augustinus
+              Hipponensis (ps.), Collatio cum Pascentio. “BnF Catalogue
+              général”, Latin 12219:
+              <a href="https://gallica.bnf.fr/ark:/12148/btv1b10551092j/"
+                ><u>https://gallica.bnf.fr/ark:/12148/btv1b10551092j/</u></a
+              >
+            </p>
+          </li>
+          <li>
+            <p>
+              Roman de Lancelot du Lac, Quête du S. Graal et Mort d’Artus. “BnF
+              Catalogue général”, Français 12573:
+              <a href="https://gallica.bnf.fr/ark:/12148/btv1b52505724b/"
+                ><u>https://gallica.bnf.fr/ark:/12148/btv1b52505724b/</u></a
+              >
+            </p>
+          </li>
+          <li>
+            <p>
+              S. Hieronymus. “BnF Catalogue général”, Latin 1850:
+              <a href="https://gallica.bnf.fr/ark:/12148/btv1b85301860/"
+                ><u>https://gallica.bnf.fr/ark:/12148/btv1b85301860/</u></a
+              >
+            </p>
+          </li>
+          <li>
+            <p>
+              Vita sancti Mauri ; Vita metrica sancti Mauri ; Vita sancti
+              Placidi ; Vita sancti Hilarii – Vita sancti Nicolai. “BnF
+              Catalogue général”, Latin 5344:
+              <a href="https://gallica.bnf.fr/ark:/12148/btv1b10542002v"
+                ><u>https://gallica.bnf.fr/ark:/12148/btv1b10542002v</u></a
+              >
+            </p>
+          </li>
+          <li>
+            <p>
+              Ystoire du Saint-Greal, qui est le fondement de la Table reonde,
+              que on dit de Lancelot du Lac, et du roy Artus et des chevaliers
+              de la Table reonde. “BnF Catalogue général”, Français 9123:
+              <a href="https://gallica.bnf.fr/ark:/12148/btv1b10029508v/"
+                ><u>https://gallica.bnf.fr/ark:/12148/btv1b10029508v/</u></a
+              >
+            </p>
+          </li>
+        </ol>
+      </section>
+      <section
+        id="footnotes"
+        class="footnotes footnotes-end-of-document"
+        role="doc-endnotes"
+      >
+        <p class="chapter_end">***</p>
+        <hr />
+        <ol>
+          <li id="fn1">
+            <p>
+              John Aberth,
+              <em>A Knight at the Movies: Medieval History on Film</em> (New
+              York, NY: Routledge, 2003), p. 13.<a
+                href="#fnref1"
+                class="footnote-back"
+                role="doc-backlink"
+                >↩︎</a
+              >
+            </p>
+          </li>
+          <li id="fn2">
+            <p>
+              An overview of a rich and intricate literary tradition is
+              available in: Susan Lynn Aronstein,
+              <em
+                >Hollywood Knights: Arthurian Cinema and the Politics of
+                Nostalgia</em
+              >
+              (New York: Palgrave Macmillan, 2005), pp. 29–54.<a
+                href="#fnref2"
+                class="footnote-back"
+                role="doc-backlink"
+                >↩︎</a
+              >
+            </p>
+          </li>
+          <li id="fn3">
+            <p>
+              John Aberth,
+              <em>A Knight at the Movies: Medieval History on Film</em> (New
+              York, NY: Routledge, 2003), p. 14.<a
+                href="#fnref3"
+                class="footnote-back"
+                role="doc-backlink"
+                >↩︎</a
+              >
+            </p>
+          </li>
+          <li id="fn4">
+            <p>
+              Thomas Leitch. “Adaptations without sources: the Adventures of
+              Robin Hood”, <em>Literature-Film Quarterly</em> 36, no. 1 (2008),
+              p. 27.<a href="#fnref4" class="footnote-back" role="doc-backlink"
+                >↩︎</a
+              >
+            </p>
+          </li>
+          <li id="fn5">
+            <p>
+              John Aberth,
+              <em>A Knight at the Movies: Medieval History on Film</em> (New
+              York, NY: Routledge, 2003), p. 21.<a
+                href="#fnref5"
+                class="footnote-back"
+                role="doc-backlink"
+                >↩︎</a
+              >
+            </p>
+          </li>
+          <li id="fn6">
+            <p>
+              Nickolas Haydock,
+              <em>Movie Medievalism: The Imaginary Middle Ages</em> (Jefferson,
+              N.C: McFarland, 2008), p. 165.<a
+                href="#fnref6"
+                class="footnote-back"
+                role="doc-backlink"
+                >↩︎</a
+              >
+            </p>
+          </li>
+          <li id="fn7">
+            <p>
+              There are corresponding chapters and reflections in every book and
+              academic article dealing with cinematic medievalism and depicting
+              the Middle Ages on film.<a
+                href="#fnref7"
+                class="footnote-back"
+                role="doc-backlink"
+                >↩︎</a
+              >
+            </p>
+          </li>
+          <li id="fn8">
+            <p>
+              The most striking example is <em>The Black Knight</em>’s (1954)
+              blatant anti-Communist and pro-American agenda. Also the most
+              inventive film, <em>Monty Python and the Holy Grail</em> (1975)
+              which was not included in the selection due to chronological
+              constraints has not been overlooked by academia. A thorough
+              examination of the use of humor and satire, and of deliberate
+              historical inaccuracy, exemplified by this film is found in many
+              studies examining filmic incarnations of chivalry and Arthurian
+              legends. See, for example: Andrew B. R. Elliott,
+              <em
+                >Remaking the Middle Ages: The Methods of Cinema and History in
+                Portraying the Medieval World</em
+              >
+              (Jefferson, N.C: McFarland &amp; Company, Inc., Publishers, 2011);
+              Laurie Finke and Martin B. Shichtman,
+              <em>Cinematic Illuminations: The Middle Ages on Film</em>
+              (Baltimore: Johns Hopkins University Press, 2010); Susan Lynn
+              Aronstein,
+              <em
+                >Hollywood Knights: Arthurian Cinema and the Politics of
+                Nostalgia</em
+              >
+              (New York: Palgrave Macmillan, 2005); and many more.<a
+                href="#fnref8"
+                class="footnote-back"
+                role="doc-backlink"
+                >↩︎</a
+              >
+            </p>
+          </li>
+          <li id="fn9">
+            <p>
+              “Arthurianism, lacking a secure historical location, is a special
+              category of medievalism. The legend has always been adapted to
+              contemporary concerns: anachronism is its very essence.
+              &lt;...&gt; Arthurian texts regularly gesture towards history, but
+              the era is not located in history: it is – and always has been – a
+              multi-temporal, or extra-temporal, zone of fantasy”. Anke Bernau
+              and Bettina Bildhauer, eds., Medieval Film (Manchester ; New
+              York : New York: Manchester University Press ; Distributed in the
+              United States exclusively by Palgrave Macmillan, 2009), pp.
+              30–31.<a href="#fnref9" class="footnote-back" role="doc-backlink"
+                >↩︎</a
+              >
+            </p>
+          </li>
+          <li id="fn10">
+            <p>
+              Ibid.<a href="#fnref10" class="footnote-back" role="doc-backlink"
+                >↩︎</a
+              >
+            </p>
+          </li>
+          <li id="fn11">
+            <p>
+              See examples with miniatures from 13th century: Roman de Lancelot
+              du Lac, Quête du S. Graal et Mort d’Artus. “BnF Catalogue
+              général”, Français 12573:
+              <a href="https://gallica.bnf.fr/ark:/12148/btv1b52505724b/"
+                ><u>https://gallica.bnf.fr/ark:/12148/btv1b52505724b/</u></a
+              >, fol. 96r; Le Roman de Tristan. “BnF Catalogue général”,
+              Français 776:
+              <a href="https://gallica.bnf.fr/ark:/12148/btv1b6000110d/"
+                ><u>https://gallica.bnf.fr/ark:/12148/btv1b6000110d/</u></a
+              >, fol. 37r; or example with decorated initials: Le Roman de
+              Lancelot du Lac [de GAUTIER MAP], première partie. “BnF Catalogue
+              général”, Français 773:
+              <a href="https://gallica.bnf.fr/ark:/12148/btv1b104636824"
+                ><u>https://gallica.bnf.fr/ark:/12148/btv1b104636824</u></a
+              >, fol. 93; or plain text as in: Fragment de Lancelot du Lac [par
+              GAUTIER MAP]. “BnF Catalogue général”, Français 752:
+              <a href="https://gallica.bnf.fr/ark:/12148/btv1b52511544b"
+                ><u>https://gallica.bnf.fr/ark:/12148/btv1b52511544b</u></a
+              >, fol. 221r. Manuscript pages with miniatures from the 14th
+              century: Ystoire du Saint-Greal, qui est le fondement de la Table
+              reonde, que on dit de Lancelot du Lac, et du roy Artus et des
+              chevaliers de la Table reonde. “BnF Catalogue général”, Français
+              9123:
+              <a href="https://gallica.bnf.fr/ark:/12148/btv1b10029508v"
+                ><u>https://gallica.bnf.fr/ark:/12148/btv1b10029508v</u></a
+              >, fol. 32r; Lancelot du Lac, deuxième partie, de “mestre GAUTIER
+              MAP”. “BnF Catalogue général”, Français 333:
+              <a href="https://gallica.bnf.fr/ark:/12148/btv1b10537237h"
+                ><u>https://gallica.bnf.fr/ark:/12148/btv1b10537237h</u></a
+              >, fol. 21v.<a
+                href="#fnref11"
+                class="footnote-back"
+                role="doc-backlink"
+                >↩︎</a
+              >
+            </p>
+          </li>
+          <li id="fn12">
+            <p>
+              I.e., examples from the 11th century: Quoduultdeus, Adversus
+              quinque haereses ― Augustinus Hipponensis, De Genesi contra
+              Manichaeos ; De fide et symbolo ; De fide contra Manicheos ;
+              Collatio cum Maximino ; Contra Maximinum ― Augustinus Hipponensis
+              (ps.), Collatio cum Pascentio. “BnF Catalogue général”, Latin
+              12219:
+              <a href="https://gallica.bnf.fr/ark:/12148/btv1b10551092j/"
+                ><u>https://gallica.bnf.fr/ark:/12148/btv1b10551092j/</u></a
+              >, fol. Bv; Vita sancti Mauri ; Vita metrica sancti Mauri ; Vita
+              sancti Placidi ; Vita sancti Hilarii – Vita sancti Nicolai. “BnF
+              Catalogue général”, Latin 5344:
+              <a href="https://gallica.bnf.fr/ark:/12148/btv1b10542002v/"
+                ><u>https://gallica.bnf.fr/ark:/12148/btv1b10542002v/</u></a
+              >, fol. 30v.<a
+                href="#fnref12"
+                class="footnote-back"
+                role="doc-backlink"
+                >↩︎</a
+              >
+            </p>
+          </li>
+          <li id="fn13">
+            <p>
+              For instance, heading in green ink: S. Hieronymus. “BnF Catalogue
+              général”, Latin 1850:
+              <a href="https://gallica.bnf.fr/ark:/12148/btv1b85301860/"
+                ><u>https://gallica.bnf.fr/ark:/12148/btv1b85301860/</u></a
+              >, fol. 3v; green majuscules: Graduel de Saint-Évroul. “BnF
+              Catalogue général”, Latin 10508:
+              <a href="https://gallica.bnf.fr/ark:/12148/btv1b8422969b/"
+                ><u>https://gallica.bnf.fr/ark:/12148/btv1b8422969b/</u></a
+              >, fol. 14v; Bréviaire de Corbie. “BnF Catalogue général”, Latin
+              13221:
+              <a href="https://gallica.bnf.fr/ark:/12148/btv1b8427451g/"
+                ><u>https://gallica.bnf.fr/ark:/12148/btv1b8427451g/</u></a
+              >, fol. 98r; and an example with initials: Commentaire sur S.
+              Marc. “BnF Catalogue général”, Latin 12020:
+              <a href="https://gallica.bnf.fr/ark:/12148/btv1b52517112r/"
+                ><u>https://gallica.bnf.fr/ark:/12148/btv1b52517112r/</u></a
+              >, fol. 14v.<a
+                href="#fnref13"
+                class="footnote-back"
+                role="doc-backlink"
+                >↩︎</a
+              >
+            </p>
+          </li>
+          <li id="fn14">
+            <p>
+              In the chapter on Robin Hood films, I elaborate on the idea of
+              choosing yellow as the primary color.<a
+                href="#fnref14"
+                class="footnote-back"
+                role="doc-backlink"
+                >↩︎</a
+              >
+            </p>
+          </li>
+        </ol>
+      </section>
+      <footer>
+        <div class="footer-container">
+          <div class="footer-logo">
+            <a
+              href="https://rare-book-and-digital-humanities.ubfc.fr/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img
+                src="./assets/rbdh_logo.png"
+                alt="Rare Book and Digital Humanities UBFC"
+              />
+            </a>
+          </div>
+          <div class="footer-logo" id="ubfc_logo">
+            <a
+              href="https://ubfc.fr/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img
+                src="./assets/ubfc_logo.png"
+                alt="Université Bourgogne Franche-Comté (UBFC)"
+              />
+            </a>
+          </div>
+          <div class="footer-content">
+            <p>
+              The digital project is part of a master's thesis in the
+              <em>Rare Book and Digital Humanities</em> program at
+              <a
+                href="https://rare-book-and-digital-humanities.ubfc.fr/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                the University of France-Comté </a
+              >.
+            </p>
+            <p>
+              For the best visual experience, use the desktop version of this
+              website.
+            </p>
+            <p>All images used on the site belong to their rightful owners.</p>
+          </div>
+        </div>
+      </footer>
+    </div>
+    <script src="./assets/scripts/scripts_chapters_fig.js"></script>
+  </body>
+</html>

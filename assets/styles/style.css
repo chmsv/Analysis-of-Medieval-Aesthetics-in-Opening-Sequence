@@ -222,4 +222,16 @@ footer {
   opacity: 0.6;
 }
 
+@media (max-width: 700px) {
+  .cases_gallery_wrap {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 3rem;
+    align-items: center;
+    justify-content: center;
+  }
 
+  .cases_gallery_wrap > article {
+    width: 70%;
+  }
+}

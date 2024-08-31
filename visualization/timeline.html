@@ -5,7 +5,35 @@
     <title>Interactive Movie Timeline</title>
     <link rel="stylesheet" href="../assets/styles/styles_timeline.css" />
     <script src="https://d3js.org/d3.v6.min.js"></script>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400..800&family=Syne:wght@700..800&display=swap" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400..800&family=Syne:wght@700..800&display=swap"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="../assets/images/favicons/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="../assets/images/favicons/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="../assets/images/favicons/favicon-16x16.png"
+    />
+    <link rel="manifest" href="../assets/images/favicons/site.webmanifest" />
+    <link
+      rel="mask-icon"
+      href="../assets/images/favicons/safari-pinned-tab.svg"
+      color="#5bbad5"
+    />
+    <meta name="msapplication-TileColor" content="#da532c" />
+    <meta name="theme-color" content="#ffffff" />
   </head>
   <body>
     <header>
@@ -25,9 +53,13 @@
     <script>
       const margin = { top: 20, right: 30, bottom: 100, left: 50 };
 
-      // Adjust height to account for header and h3 element
       let width = window.innerWidth - margin.left - margin.right;
-      let height = window.innerHeight - margin.top - margin.bottom - document.querySelector('header').offsetHeight - document.querySelector('h3').offsetHeight;
+      let height =
+        window.innerHeight -
+        margin.top -
+        margin.bottom -
+        document.querySelector('header').offsetHeight -
+        document.querySelector('h3').offsetHeight;
 
       const svg = d3
         .select('#timeline')
@@ -50,13 +82,12 @@
           .domain(d3.extent(data, (d) => d.datePublished))
           .range([0, width]);
 
-        // Calculate the spacing between dots to avoid overlap
         const ySpacing = height / data.length;
 
         const y = d3
           .scaleLinear()
           .domain([0, data.length])
-          .range([height - ySpacing, 0 + ySpacing]); // Adjusted range to add spacing
+          .range([height - ySpacing, 0 + ySpacing]);
 
         const xAxis = svg
           .append('g')
@@ -81,14 +112,18 @@
           .enter()
           .append('circle')
           .attr('cx', (d) => x(d.datePublished))
-          .attr('cy', (d, i) => y(i)) // Distribute along the y-axis stretching upwards with spacing
-          .attr('r', 6) // Smaller radius for smaller dots
+          .attr('cy', (d, i) => y(i))
+          .attr('r', 6)
           .attr('class', 'movie-circle')
           .on('mouseover', function (event, d) {
             tooltip.transition().duration(200).style('opacity', 0.9);
             tooltip
               .html(
-                `<p class="p_timeline">${d.name}</p>${d3.timeFormat('%Y')(d.datePublished)}<br/><img class="poster" src="${d.image ? d.image : 'No Image Available'}" alt="No Image Available"/>`
+                `<p class="p_timeline">${d.name}</p>${d3.timeFormat('%Y')(
+                  d.datePublished
+                )}<br/><img class="poster" src="${
+                  d.image ? d.image : 'No Image Available'
+                }" alt="No Image Available"/>`
               )
               .style('left', event.pageX + 15 + 'px')
               .style('top', event.pageY - 28 + 'px');
@@ -101,14 +136,19 @@
 
         function resize() {
           width = window.innerWidth - margin.left - margin.right;
-          height = window.innerHeight - margin.top - margin.bottom - document.querySelector('header').offsetHeight - document.querySelector('h3').offsetHeight;
+          height =
+            window.innerHeight -
+            margin.top -
+            margin.bottom -
+            document.querySelector('header').offsetHeight -
+            document.querySelector('h3').offsetHeight;
 
           svg
             .attr('width', width + margin.left + margin.right)
             .attr('height', height + margin.top + margin.bottom);
 
           x.range([0, width]);
-          y.range([height - ySpacing, 0 + ySpacing]); // Adjusted range to add spacing
+          y.range([height - ySpacing, 0 + ySpacing]);
 
           svg
             .select('.x.axis')
@@ -122,7 +162,7 @@
 
           circles
             .attr('cx', (d) => x(d.datePublished))
-            .attr('cy', (d, i) => y(i)); // Distribute along the y-axis stretching upwards with spacing
+            .attr('cy', (d, i) => y(i));
         }
       });
     </script>
